@@ -1,4 +1,4 @@
-/* build v4 - Beautiful, Light & Minimal Dashboard */
+/* build v5 - Fluent Oman™ with Copyright */
 
 :root {
   --primary: #6366f1;
@@ -30,6 +30,24 @@ body {
   margin: 0; 
   color: var(--text);
   min-height: 100vh;
+  padding-top: 35px; /* Space for copyright header */
+}
+
+/* Copyright Header */
+.copyright-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 0.85em;
+  font-weight: 500;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  letter-spacing: 0.3px;
 }
 
 /* Header */
@@ -42,7 +60,7 @@ body {
   padding: 16px 32px; 
   min-height: 80px;
   position: sticky;
-  top: 0;
+  top: 35px; /* Below copyright header */
   z-index: 100;
   backdrop-filter: blur(10px);
 }
@@ -332,6 +350,7 @@ body {
   gap: 16px; 
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 24px;
 }
 
 .below-btn { 
@@ -354,6 +373,24 @@ body {
   box-shadow: var(--shadow-lg);
   border-color: var(--primary);
   color: var(--primary);
+}
+
+/* Enlarged E-books Button */
+.ebooks-btn-large {
+  padding: 24px 48px;
+  font-size: 1.3em;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  border: none;
+  box-shadow: 0 6px 20px rgba(16, 185, 129, 0.3);
+  min-width: 300px;
+}
+
+.ebooks-btn-large:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+  color: white;
 }
 
 /* Beautiful Modals */

@@ -114,11 +114,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const globalStars = localStorage.getItem('globalStars') || '0';
   document.getElementById('star-count').textContent = globalStars;
   
-  // Practice Speaking button
-  document.getElementById('practice-speaking-btn').addEventListener('click', () => {
-    window.location.href = 'speaking.html';
-  });
-
   // E-books button — redirect to Ministry e-books in a new tab
   document.getElementById('ebooks-btn').addEventListener('click', () => {
     window.open('https://ict.moe.gov.om/book/', '_blank');

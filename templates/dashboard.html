@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<!DOCTYPE html>
-<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Fluent Edge Dashboard</title>
+  <title>Fluent Oman™ Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Cache-bust v=4 to force reload -->
-  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}?v=4" />
+  <!-- Cache-bust v=5 to force reload -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}?v=5" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
 </head>
-<body data-build="v3">
-  <!-- Loading Overlay -->
+<body data-build="v4">
+  <!-- Loading Overlay (removed text) -->
   <div class="page-loader" id="pageLoader">
     <div class="loader-icon">🎓</div>
     <div class="loader-spinner"></div>
-    <div class="loader-text">Loading Dashboard...</div>
   </div>
+  
+  <!-- Copyright Header -->
+  <div class="copyright-header">
+    © 2025 Programmed & Designed by Aisha Al Rushaidi
+  </div>
+  
   <header class="dashboard-header">
     <div class="logo-area">
-  <img src="{{ url_for('static', filename='images/fluent-oman-logo.png') }}" alt="Fluent Edge" class="big-logo" />
-      <span class="logo-text">Fluent Edge</span>
+      <img src="{{ url_for('static', filename='images/fluent-oman-logo.png') }}" alt="Fluent Oman" class="big-logo" />
+      <span class="logo-text">Fluent Oman™</span>
     </div>
     <div class="header-controls">
       <button class="set-weekly-goals-btn" id="weekly-goals-btn">Set Weekly Goals</button>
@@ -29,13 +32,13 @@
         <span class="star-count" id="star-count">102</span>
       </button>
       <div class="avatar-wrap">
-  <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" alt="Avatar" class="avatar" id="avatar-btn" />
+        <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" alt="Avatar" class="avatar" id="avatar-btn" />
       </div>
     </div>
   </header>
 
   <div class="dashboard-greeting">
-  <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" class="greet-avatar" id="greet-avatar" alt="Avatar" />
+    <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" class="greet-avatar" id="greet-avatar" alt="Avatar" />
     <div class="greet-name-wrapper">
       <span class="greet" id="greet-name">Hi there! 👋</span>
       <button class="edit-name-btn" id="edit-name-btn" title="Change Name">✏️</button>
@@ -44,24 +47,22 @@
 
   <main class="dashboard-main">
     <nav class="dashboard-grades">
-      <!-- Plain links, relative paths -->
-  <a href="/grades/grade5" class="grade-box grade5">
+      <a href="/grades/grade5" class="grade-box grade5">
         <div class="grade-content"><span class="grade-num">5</span><span class="grade-label">Grade 5<br />Curriculum</span></div>
       </a>
-  <a href="/grades/grade6" class="grade-box grade6">
+      <a href="/grades/grade6" class="grade-box grade6">
         <div class="grade-content"><span class="grade-num">6</span><span class="grade-label">Grade 6<br />Curriculum</span></div>
       </a>
-  <a href="/grades/grade7" class="grade-box grade7">
+      <a href="/grades/grade7" class="grade-box grade7">
         <div class="grade-content"><span class="grade-num">7</span><span class="grade-label">Grade 7<br />Curriculum</span></div>
       </a>
-  <a href="/grades/grade8" class="grade-box grade8">
+      <a href="/grades/grade8" class="grade-box grade8">
         <div class="grade-content"><span class="grade-num">8</span><span class="grade-label">Grade 8<br />Curriculum</span></div>
       </a>
     </nav>
 
     <div class="dashboard-below-grades">
-      <button class="below-btn" id="practice-speaking-btn">🎤 Practice Speaking</button>
-      <button class="below-btn" id="ebooks-btn">📚 E-books</button>
+      <button class="below-btn ebooks-btn-large" id="ebooks-btn">📚 E-books</button>
     </div>
   </main>
 
