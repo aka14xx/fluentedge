@@ -119,6 +119,11 @@ document.addEventListener('DOMContentLoaded', () => {
     window.open('https://ict.moe.gov.om/book/', '_blank');
   });
 
+  // Pronunciation button — navigate to pronunciation practice page
+  document.getElementById('pronunciation-btn').addEventListener('click', () => {
+    window.location.href = '/pronunciation';
+  });
+
   // Toast notification function
   function showToast(message) {
     const toast = document.createElement('div');

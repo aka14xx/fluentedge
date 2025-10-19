@@ -166,6 +166,10 @@ def speaking_beautiful():
 def dashboard():
     return render_template('dashboard.html')
 
+@app.route('/pronunciation')
+def pronunciation():
+    return render_template('pronunciation.html')
+
 # Convenience routes for legacy links
 @app.route('/dashboard.html')
 def dashboard_legacy():
