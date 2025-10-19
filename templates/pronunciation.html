@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Pronunciation Practice - Fluent Oman™</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='dashboard.css') }}?v=5" />
+</head>
+<body>
+  <main style="padding: 24px; max-width:720px; margin:0 auto;">
+    <h1>Pronunciation Practice</h1>
+    <p>Record yourself reading the phrase and click <strong>Evaluate</strong>.</p>
+
+    <div>
+      <label for="target">Target text</label>
+      <input id="target" type="text" value="Hello, how are you?" style="width:100%; padding:8px; margin-bottom:8px;" />
+    </div>
+
+    <div>
+      <button id="recordBtn">Start Recording</button>
+      <button id="stopBtn" disabled>Stop</button>
+      <button id="uploadBtn" disabled>Evaluate</button>
+    </div>
+
+    <div id="status" style="margin-top:12px; color:#333;"></div>
+    <div id="result" style="margin-top:12px; font-weight:600;"></div>
+  </main>
+
+  <script src="{{ url_for('static', filename='pronunciation.js') }}"></script>
+</body>
+</html>
