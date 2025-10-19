@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
+import os
+import shutil
 
 # Try to register API blueprint if present
 try:
@@ -8,6 +10,24 @@ try:
     app.register_blueprint(api_bp, url_prefix='/api')
 except Exception as e:
     print('API blueprint not registered:', e)
+
+
+# Ensure static/images contains required images (copy from repo root images/ when present)
+def _ensure_static_images():
+    src_dir = os.path.join(os.path.dirname(__file__), 'images')
+    dst_dir = os.path.join(os.path.dirname(__file__), 'static', 'images')
+    if not os.path.isdir(src_dir):
+        return
+    os.makedirs(dst_dir, exist_ok=True)
+    # Only copy if missing to avoid overwriting
+    for name in os.listdir(src_dir):
+        src = os.path.join(src_dir, name)
+        dst = os.path.join(dst_dir, name)
+        if not os.path.exists(dst) and os.path.isfile(src):
+            try:
+                shutil.copy2(src, dst)
+            except Exception:
+                pass
 
 
 # Page routes
@@ -62,4 +82,7 @@ def dashboard():
 
 
 if __name__ == '__main__':
+    _ensure_static_images()
     app.run(host='0.0.0.0', port=5000, debug=True)
+
+
