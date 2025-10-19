@@ -65,6 +65,49 @@
     </div>
   </main>
 
+  <!-- Name Edit Modal -->
+  <div id="name-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h2>What's Your Name?</h2>
+      <div class="name-input-wrap">
+        <input type="text" id="name-input" placeholder="Enter your name" maxlength="20" />
+      </div>
+      <button class="save-name-btn">Save</button>
+      <button class="close-modal-btn" data-close="name-modal">Cancel</button>
+    </div>
+  </div>
+
+  <!-- Avatar Selection Modal -->
+  <div id="avatar-modal" class="modal" style="display: none;">
+    <div class="modal-content avatar-modal-content">
+      <h2>Choose Your Avatar</h2>
+      <div class="avatar-options">
+        <img src="{{ url_for('static', filename='images/boys_avatar1.JPG') }}" class="avatar-select" alt="Boy Avatar 1" />
+        <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" class="avatar-select" alt="Boy Avatar 2" />
+        <img src="{{ url_for('static', filename='images/boys_avatar3.jpg') }}" class="avatar-select" alt="Boy Avatar 3" />
+        <img src="{{ url_for('static', filename='images/boys_avatar4.jpg') }}" class="avatar-select" alt="Boy Avatar 4" />
+        <img src="{{ url_for('static', filename='images/girls_avatar1.jpg') }}" class="avatar-select" alt="Girl Avatar 1" />
+        <img src="{{ url_for('static', filename='images/girls_avatar2.jpg') }}" class="avatar-select" alt="Girl Avatar 2" />
+        <img src="{{ url_for('static', filename='images/girls_avatar3.jpg') }}" class="avatar-select" alt="Girl Avatar 3" />
+        <img src="{{ url_for('static', filename='images/girls_avatar4.jpg') }}" class="avatar-select" alt="Girl Avatar 4" />
+      </div>
+      <button class="close-modal-btn" data-close="avatar-modal">Close</button>
+    </div>
+  </div>
+
+  <!-- Weekly Goals Modal -->
+  <div id="goals-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <h2>Set Weekly Goal</h2>
+      <p class="modal-subtitle">How many lessons do you want to complete this week?</p>
+      <div class="goal-input-wrap">
+        <input type="number" id="goal-input" min="1" max="50" value="5" />
+      </div>
+      <button class="save-goal-btn">Save Goal</button>
+      <button class="close-modal-btn" data-close="goals-modal">Cancel</button>
+    </div>
+  </div>
+
   <script src="{{ url_for('static', filename='dashboard.js') }}?v=4"></script>
   <script>
     // Hide loader when page is fully loaded
