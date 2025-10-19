@@ -5,7 +5,7 @@
   <title>Lesson | Fluent Edge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/static/lessons.css?v=2" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='lessons.css') }}?v=2" />
 </head>
 <body>
   <!-- Loading Overlay -->
@@ -17,7 +17,7 @@
   <header class="lesson-header">
     <a id="backLink" class="back-btn" href="/dashboard">← Back</a>
     <div class="lesson-meta">
-      <img id="headerAvatar" class="header-avatar" alt="Avatar" src="/static/images/boys_avatar2.jpg" />
+  <img id="headerAvatar" class="header-avatar" alt="Avatar" src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" />
       <h1 id="lessonTitle" class="lesson-title">Loading lesson…</h1>
     </div>
     <div class="stars-box">⭐ <span id="starsEarned">0</span></div>
@@ -43,7 +43,7 @@
 
   <div class="snackbar" id="snackbar"></div>
 
-  <script src="/static/lessons.js?v=1"></script>
+  <script src="{{ url_for('static', filename='lessons.js') }}?v=1"></script>
   <script>
     // Hide loader when page is fully loaded
     window.addEventListener('load', () => {

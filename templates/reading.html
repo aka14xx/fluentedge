@@ -4,7 +4,7 @@
 n    <meta charset="UTF-8">
 n    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 n    <title>Reading Practice - Fluent Edge</title>
-n    <link rel="stylesheet" href="/static/style.css">
+n    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 n</head>
 <body>
 n    <div class="container">
@@ -16,6 +16,6 @@ n        <button class="grade-btn reading-btn" onclick="checkGrammar()">Check Gr
 n        <div id="result" style="margin-top:20px;"></div>
 n        <a href="/" class="grade-btn">Back Home</a>
 n    </div>
-n    <script src="/static/reading.js"></script>
+n    <script src="{{ url_for('static', filename='reading.js') }}"></script>
 n</body>
 n</html>

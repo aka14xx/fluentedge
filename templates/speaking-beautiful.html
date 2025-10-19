@@ -7,7 +7,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Beautiful CSS -->
-    <link rel="stylesheet" href="/static/css/speaking-beautiful.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/speaking-beautiful.css') }}">
 </head>
 <body>
     <!-- Header Section -->
@@ -95,6 +95,6 @@
     </div>
 
     <!-- JavaScript -->
-    <script src="/static/speaking-beautiful.js"></script>
+    <script src="{{ url_for('static', filename='speaking-beautiful.js') }}"></script>
 </body>
 </html>
