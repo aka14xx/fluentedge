@@ -7,9 +7,22 @@
   const savedUsername = localStorage.getItem('username');
   const weeklyGoal = localStorage.getItem('weeklyGoal') || 40;
   
-  if (savedAvatar) document.getElementById('userAvatar').src = savedAvatar;
-  if (savedUsername) document.getElementById('userName').textContent = savedUsername;
-  document.getElementById('weeklyGoal').textContent = weeklyGoal;
+  const userAvatarEl = document.getElementById('userAvatar');
+  const userNameEl = document.getElementById('userName');
+  const weeklyGoalEl = document.getElementById('weeklyGoal');
+  
+  if (savedAvatar && userAvatarEl) userAvatarEl.src = savedAvatar;
+  if (savedUsername && userNameEl) userNameEl.textContent = savedUsername;
+  if (weeklyGoalEl) weeklyGoalEl.textContent = weeklyGoal;
+  
+  // Add click to change avatar (redirects to dashboard)
+  if (userAvatarEl) {
+    userAvatarEl.style.cursor = 'pointer';
+    userAvatarEl.title = 'Click to change avatar on Dashboard';
+    userAvatarEl.addEventListener('click', () => {
+      window.location.href = '/dashboard';
+    });
+  }
 
   // Calculate lesson progress and stars
   function getLessonProgress(lessonId) {
@@ -30,8 +43,11 @@
     return Math.round((completed / totalSections) * 100);
   }
 
-  fetch(`../${gradeJsonPath}`)
-    .then(r => r.json())
+  fetch(`/lessons/grade5.json`)
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP error! status: ${r.status}`);
+      return r.json();
+    })
     .then(data => {
       const unitsContainer = document.getElementById('unitsContainer');
       const unitNav = document.getElementById('unitNav');

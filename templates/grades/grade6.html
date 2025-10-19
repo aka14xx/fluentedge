@@ -8,26 +8,59 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='grade-styles.css') }}?v=1" />
 </head>
 <body>
+  <!-- Loading Overlay -->
   <div class="page-loader" id="pageLoader">
-    <div class="loader-icon">✏️</div>
+    <div class="loader-icon">📚</div>
     <div class="loader-spinner"></div>
     <div class="loader-text">Loading Grade 6...</div>
   </div>
 
-  <header class="lesson-header">
-    <a href="/dashboard" class="back-btn">← Back to Dashboard</a>
-    <div class="lesson-meta">
-      <img id="headerAvatar" class="header-avatar" src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" alt="Avatar" />
-      <h1 class="lesson-title">Grade 6 Curriculum</h1>
+  <!-- Sidebar + Main Content -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2>Grade 6</h2>
+      <p>English Learning Journey</p>
     </div>
-    <div></div>
-  </header>
 
-  <main class="lesson-main">
+    <div class="goal-card">
+      <h3>⭐ Weekly Goal</h3>
+      <div class="goal-display">
+        <span class="goal-icon">⭐</span>
+        <span class="goal-number" id="weeklyGoal">40</span>
+      </div>
+      <button onclick="setWeeklyGoal()" class="goal-btn">Change Goal</button>
+    </div>
+
+    <div class="unit-list">
+      <h3>Units</h3>
+      <ul class="unit-nav" id="unitNav"></ul>
+    </div>
+
+    <div class="stats-card">
+      <h4>TOTAL STARS EARNED</h4>
+      <div class="total-stars">⭐ <span id="totalStars">0</span></div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <a href="/dashboard" class="back-btn">←</a>
+        <div class="grade-badge">Grade 6</div>
+      </div>
+      <div class="top-bar-right">
+        <div class="user-info">
+          <div class="user-greeting">Welcome back!</div>
+          <div class="user-name" id="userName">Student</div>
+        </div>
+        <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" class="user-avatar" id="userAvatar" alt="Avatar" />
+      </div>
+    </div>
+
     <div id="unitsContainer"></div>
-  </main>
+  </div>
 
-  <script src="{{ url_for('static', filename='grade6-lessons.js') }}?v=2"></script>
+  <script src="{{ url_for('static', filename='grade6-lessons.js') }}?v=5"></script>
   <script>
     window.addEventListener('load', () => {
       setTimeout(() => {
@@ -35,6 +68,10 @@
         if (el) el.classList.add('hidden');
       }, 500);
     });
+    setTimeout(() => {
+      const el = document.getElementById('pageLoader');
+      if (el) el.classList.add('hidden');
+    }, 3000);
   </script>
 </body>
 </html>
