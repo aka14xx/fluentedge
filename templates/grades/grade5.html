@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Grade 5 - Fluent Edge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='lessons.css') }}?v=1" />
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon">📚</div>
+    <div class="loader-spinner"></div>
+    <div class="loader-text">Loading Grade 5...</div>
+  </div>
+
+  <!-- Sidebar + Main Content (structure kept from original) -->
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <h2>Grade 5</h2>
+      <p>English Learning Journey</p>
+    </div>
+
+    <div class="goal-card">
+      <h3>⭐ Weekly Goal</h3>
+      <div class="goal-display">
+        <span class="goal-icon">⭐</span>
+        <span class="goal-number" id="weeklyGoal">40</span>
+      </div>
+      <button onclick="setWeeklyGoal()" class="goal-btn">Change Goal</button>
+    </div>
+
+    <div class="unit-list">
+      <h3>Units</h3>
+      <ul class="unit-nav" id="unitNav"></ul>
+    </div>
+
+    <div class="stats-card">
+      <h4>TOTAL STARS EARNED</h4>
+      <div class="total-stars">⭐ <span id="totalStars">0</span></div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <a href="/dashboard" class="back-btn">←</a>
+        <div class="grade-badge">Grade 5</div>
+      </div>
+      <div class="top-bar-right">
+        <div class="user-info">
+          <div class="user-greeting">Welcome back!</div>
+          <div class="user-name" id="userName">Student</div>
+        </div>
+        <img src="{{ url_for('static', filename='images/boys_avatar2.jpg') }}" class="user-avatar" id="userAvatar" alt="Avatar" />
+      </div>
+    </div>
+
+    <div id="unitsContainer"></div>
+  </div>
+
+  <script src="{{ url_for('static', filename='grade5-lessons.js') }}?v=5"></script>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const el = document.getElementById('pageLoader');
+        if (el) el.classList.add('hidden');
+      }, 500);
+    });
+    setTimeout(() => {
+      const el = document.getElementById('pageLoader');
+      if (el) el.classList.add('hidden');
+    }, 3000);
+  </script>
+</body>
+</html>

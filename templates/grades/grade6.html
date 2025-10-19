@@ -4,9 +4,16 @@
   <meta charset="UTF-8" />
   <title>Grade 6 - Fluent Edge</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ url_for('static', filename='lessons.css') }}?v=1" />
 </head>
 <body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon">✏️</div>
+    <div class="loader-spinner"></div>
+    <div class="loader-text">Loading Grade 6...</div>
+  </div>
+
   <header class="lesson-header">
     <a href="/dashboard" class="back-btn">← Back to Dashboard</a>
     <div class="lesson-meta">
@@ -17,9 +24,17 @@
   </header>
 
   <main class="lesson-main">
-    <div id="units-container"></div>
+    <div id="unitsContainer"></div>
   </main>
 
   <script src="{{ url_for('static', filename='grade6-lessons.js') }}?v=2"></script>
+  <script>
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        const el = document.getElementById('pageLoader');
+        if (el) el.classList.add('hidden');
+      }, 500);
+    });
+  </script>
 </body>
 </html>
