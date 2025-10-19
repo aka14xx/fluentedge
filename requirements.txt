@@ -1,12 +1,5 @@
-# Minimal requirements for Render deployment (without heavy AI libraries)
+# Minimal requirements for Render deployment
 flask==3.0.0
 flask-cors==4.0.0
 gunicorn==21.2.0
 requests==2.31.0
-
-# Light AI features (optional, can be removed if not needed)
-SpeechRecognition==3.10.0
-gtts==2.5.0
-
-# Note: Heavy ML libraries (torch, torchaudio, transformers) removed to prevent timeout
-# If you need AI pronunciation features, use a separate AI service or lighter alternatives

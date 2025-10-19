@@ -1,3 +1,534 @@
-/* copied speaking-minimal.css */
-body{background:#fff}
-/* ... */
+/* BEAUTIFUL MINIMAL DESIGN - Inspired by Alef */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #ffffff; /* keep background white per user request */
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    color: #2c3e50;
+}
+
+/* decorative pseudo-layer removed to keep a clean white background */
+body::before {
+    display: none;
+}
+
+/* Header - Beautiful and Clean */
+.header {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 24px 48px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.home-btn {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+.home-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.4);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    background: linear-gradient(135deg, #2c3e50 0%, #4CAF50 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.score {
+    font-size: 20px;
+    color: #2c3e50;
+    font-weight: 600;
+    background: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Controls - Beautiful Dropdowns */
+.controls {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 24px 48px;
+    margin-top: 2px;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    border-bottom: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.control-group label {
+    font-size: 15px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Dropdown - Beautiful and Modern */
+select {
+    padding: 12px 20px;
+    font-size: 15px;
+    border: 2px solid #e8f5e9;
+    border-radius: 12px;
+    background: white;
+    color: #2c3e50;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    min-width: 160px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+select:hover {
+    border-color: #4CAF50;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.15);
+}
+
+select:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 48px auto;
+    padding: 0 48px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Practice Card - Beautiful Glass Morphism */
+.practice-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    padding: 48px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.practice-card:hover {
+    box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+    transform: translateY(-2px);
+}
+
+/* Text Display - Beautiful Typography */
+.text-display {
+    margin-bottom: 36px;
+}
+
+#current-phrase,
+#currentText {
+    font-size: 32px;
+    line-height: 1.7;
+    color: #2c3e50;
+    font-weight: 400;
+    margin-bottom: 24px;
+    padding: 36px;
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8f4 100%);
+    border-radius: 16px;
+    border-left: 5px solid #4CAF50;
+    min-height: 120px;
+    word-wrap: break-word;
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.03);
+    transition: all 0.3s ease;
+}
+
+#current-phrase:hover,
+#currentText:hover {
+    box-shadow: inset 0 2px 12px rgba(0,0,0,0.05);
+}
+
+#transcription {
+    font-size: 16px;
+    color: #666;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    margin-top: 12px;
+    border: 1px solid rgba(76, 175, 80, 0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+/* Word highlighting styles - More Beautiful */
+.correct-word {
+    color: #4CAF50;
+    font-weight: 600;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.wrong-word {
+    color: #f44336;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-weight: 600;
+    background: rgba(244, 67, 54, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Action Buttons - Beautiful Modern Style */
+.actions {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+
+button {
+    padding: 14px 28px;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: white;
+    color: #2c3e50;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+button:hover:not(:disabled) {
+    border-color: #4CAF50;
+    color: #4CAF50;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(76, 175, 80, 0.2);
+}
+
+button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+button.primary {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.3);
+}
+
+button.primary:hover:not(:disabled) {
+    background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(76, 175, 80, 0.4);
+}
+
+/* Score Display - Beautiful */
+.score-display {
+    text-align: center;
+    padding: 28px;
+    margin-bottom: 24px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 16px;
+    border: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+.score-label {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.score-value {
+    font-size: 56px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.score-value.good {
+    color: #4CAF50;
+    text-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.score-value.medium {
+    color: #FF9800;
+    text-shadow: 0 2px 8px rgba(255, 152, 0, 0.3);
+}
+
+.score-value.bad {
+    color: #f44336;
+    text-shadow: 0 2px 8px rgba(244, 67, 54, 0.3);
+}
+
+/* Next Button - Beautiful Green Arrow on Right */
+#nextBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 90px;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    border: none;
+    border-radius: 0 24px 24px 0;
+    color: white;
+    font-size: 44px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -4px 0 16px rgba(76, 175, 80, 0.2);
+}
+
+#nextBtn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #45a049 0%, #3d8b40 100%);
+    width: 100px;
+    box-shadow: -6px 0 24px rgba(76, 175, 80, 0.3);
+}
+
+#nextBtn::before {
+    content: '→';
+    font-size: 52px;
+    font-weight: 300;
+}
+
+#nextBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* Mic Button - Beautiful Large Circle */
+.mic-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+#micBtn {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    border: none;
+    color: white;
+    font-size: 38px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 8px 24px rgba(76, 175, 80, 0.35);
+    position: relative;
+}
+
+#micBtn:hover:not(:disabled) {
+    transform: scale(1.08);
+    box-shadow: 0 12px 32px rgba(76, 175, 80, 0.45);
+}
+
+#micBtn:active:not(:disabled) {
+    transform: scale(1.02);
+}
+
+#micBtn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+#micBtn.recording {
+    background: linear-gradient(135deg, #f44336 0%, #e53935 100%);
+    animation: pulse 1.2s infinite;
+    box-shadow: 0 8px 24px rgba(244, 67, 54, 0.4);
+}
+
+@keyframes pulse {
+    0%, 100% { 
+        transform: scale(1);
+        box-shadow: 0 8px 24px rgba(244, 67, 54, 0.4);
+    }
+    50% { 
+        transform: scale(1.08);
+        box-shadow: 0 12px 32px rgba(244, 67, 54, 0.5);
+    }
+}
+
+/* Status Message - Beautiful */
+.status {
+    text-align: center;
+    margin-top: 24px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9);
+    color: #2c3e50;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    border: 1px solid rgba(76, 175, 80, 0.1);
+}
+
+/* Hide status message classes that might show debug info */
+.status-message {
+    display: none !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header, .controls, .container {
+        padding: 16px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    /* Stack controls vertically */
+    .controls {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch;
+    }
+
+    select {
+        width: 100%;
+    }
+
+    #current-phrase, #currentText {
+        font-size: 22px;
+        padding: 18px;
+        min-height: 88px;
+    }
+
+    .practice-card {
+        padding: 24px;
+    }
+
+    .actions {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    #nextBtn {
+        width: 56px;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-radius: 12px;
+    }
+
+    /* Smaller mic on mobile */
+    #micBtn {
+        width: 68px;
+        height: 68px;
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px;
+    }
+
+    .controls {
+        padding: 12px 0;
+    }
+
+    .control-group {
+        width: 100%;
+    }
+
+    .actions {
+        gap: 10px;
+    }
+
+    #current-phrase, #currentText {
+        font-size: 18px;
+        padding: 12px;
+        min-height: 64px;
+    }
+
+    .practice-card {
+        padding: 16px;
+    }
+
+    #micBtn {
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    #nextBtn {
+        display: flex;
+        position: fixed;
+        right: 14px;
+        bottom: 110px;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        box-shadow: 0 8px 28px rgba(76,175,80,0.25);
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+}

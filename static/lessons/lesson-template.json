@@ -1,0 +1,55 @@
+{
+  "grade": 0,
+  "units": [
+    {
+      "unit": 1,
+      "title": "Unit Title",
+      "lessons": [
+        {
+          "id": "g0u1l1",
+          "title": "Lesson Title",
+          "image": "images/lesson1.jpg",
+          "stars": 12,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn",
+              "intro": "Short, friendly explanation.",
+              "points": [
+                "Key point one",
+                "Key point two"
+              ],
+              "note": "Helpful memory tip.",
+              "image": "images/tech_learning.jpg"
+            },
+            "read": {
+              "title": "Read",
+              "passage": "Your reading passage goes here. Add a friendly story, dialogue, or facts.",
+              "image": "images/friends.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which word means 'hello'?",
+                "options": ["Marhaba", "Shukran", "Ma'assalama", "Sabah al-khayr"],
+                "answer": "Marhaba"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match the words to the pictures (drag & drop).",
+                "pairs": [
+                  { "word": "Falcon", "image": "images/falcon.jpg" },
+                  { "word": "Camel",  "image": "images/camel.jpg" }
+                ]
+              }
+            ],
+            "review": {
+              "title": "Review",
+              "tip": "Remember: start with a greeting before asking a question."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

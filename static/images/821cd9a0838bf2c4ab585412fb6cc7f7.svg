@@ -1,0 +1,7 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <mask id="circle-mask">
+    <rect x="0" y="0" width="500" height="500" fill="white"/>
+    <circle cx="250" cy="250" r="250" fill="black"/>
+  </mask>
+  <rect x="0" y="0" width="500" height="500" fill="#ffffff" opacity="0.4" mask="url(#circle-mask)"/>
+</svg>
