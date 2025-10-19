@@ -74,10 +74,30 @@ def _ensure_static_assets():
         'speaking.js',
         'speaking-new.js',
         'reading.js',
+        'dashboard.js',
+        'lessons.js',
+        'script.js',
     ]
     for js_name in root_js_files:
         src = os.path.join(base_dir, js_name)
         dst = os.path.join(base_dir, 'static', js_name)
+        if os.path.isfile(src) and not os.path.exists(dst):
+            try:
+                shutil.copy2(src, dst)
+            except Exception:
+                pass
+
+    # Root CSS files used by templates
+    root_css_files = [
+        'dashboard.css',
+        'lessons.css',
+        'style.css',
+        'speaking-minimal.css',
+        'grade-styles.css',
+    ]
+    for css_name in root_css_files:
+        src = os.path.join(base_dir, css_name)
+        dst = os.path.join(base_dir, 'static', css_name)
         if os.path.isfile(src) and not os.path.exists(dst):
             try:
                 shutil.copy2(src, dst)
