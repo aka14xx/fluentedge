@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Speaking - Omani English Tutor</title>
+  <link rel="stylesheet" href="speaking-minimal.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="header-left">
+      <button class="home-btn" onclick="window.location.href='dashboard.html'">←</button>
+      <h1>Practice Speaking</h1>
+    </div>
+    <div class="score">Total Score: <span id="total-score">0</span></div>
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <div class="control-group">
+      <label>Grade:</label>
+      <select id="grade-selector">
+        <option value="5">Grade 5</option>
+        <option value="6">Grade 6</option>
+        <option value="7">Grade 7</option>
+        <option value="8">Grade 8</option>
+      </select>
+    </div>
+    
+    <div class="control-group">
+      <label>Unit:</label>
+      <select id="unit-selector">
+        <option value="all">All Units</option>
+      </select>
+    </div>
+
+    <button class="primary" id="load-sentences-btn">Load Sentences</button>
+  </div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="practice-card">
+      
+      <!-- Text Display -->
+      <div class="text-display">
+        <div id="current-phrase">Click "Load Sentences" to start practicing!</div>
+        <div id="transcription"></div>
+      </div>
+
+      <!-- Score Display -->
+      <div class="score-display">
+        <div class="score-label">Pronunciation Accuracy</div>
+        <div class="score-value" id="accuracy-score">-</div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="actions">
+        <button id="listen-btn" disabled>🔊 Listen</button>
+        <button id="record-btn" disabled>🎙️ Record</button>
+        <button id="next-btn" disabled>Next →</button>
+      </div>
+
+      <!-- Next Button (Big Green Arrow) -->
+      <button id="nextBtn" onclick="loadNextSentence()"></button>
+    </div>
+
+    <!-- Mic Button -->
+    <div class="mic-section">
+      <button id="micBtn" onclick="toggleRecording()" disabled>🎙️</button>
+    </div>
+
+    <!-- Status -->
+    <div class="status" id="status-message">Ready to practice!</div>
+  </div>
+
+  <script src="speaking.js"></script>
+</body>
+</html>

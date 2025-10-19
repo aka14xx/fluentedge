@@ -1,0 +1,254 @@
+/* Override and fix styles for Omani English Tutor */
+
+/* Fix dropdowns - make them LIGHT and READABLE */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.dropbtn {
+    background-color: white !important;
+    color: #2563eb !important;
+    padding: 10px 24px;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: 2px solid #3b82f6;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-image: none !important;
+    -webkit-text-fill-color: #2563eb !important;
+    text-fill-color: #2563eb !important;
+    min-width: 120px;
+}
+
+.dropbtn:hover {
+    background-color: #3b82f6 !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    text-fill-color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 220px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    border-radius: 12px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.dropdown-content a {
+    color: #1f2937 !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-radius: 8px;
+    margin: 2px 0;
+    background-image: none !important;
+    -webkit-text-fill-color: #1f2937 !important;
+    text-fill-color: #1f2937 !important;
+}
+
+.dropdown-content a:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+    text-fill-color: white !important;
+    transform: translateX(5px);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Fix accuracy text - make it READABLE */
+.accuracy-text {
+    color: #1f2937 !important;
+    text-align: center;
+    font-size: 1.1em !important;
+    margin-left: 10px;
+    font-weight: 600;
+    background-image: none !important;
+    -webkit-text-fill-color: #1f2937 !important;
+    text-fill-color: #1f2937 !important;
+}
+
+/* Make sure "Grade:" and "Unit:" labels are visible */
+p.accuracy-text {
+    color: #4b5563 !important;
+    -webkit-text-fill-color: #4b5563 !important;
+}
+
+/* Fix score text */
+#section_accuracy {
+    color: #1f2937 !important;
+    -webkit-text-fill-color: #1f2937 !important;
+    font-weight: 700;
+}
+
+/* Fix the main container positioning */
+.container {
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 18%;
+    height: 59%;
+    width: 96%;
+    max-width: 96%;
+    background: #ffff;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+/* Make sure buttons are visible and styled properly */
+.round-button {
+    box-sizing: border-box;
+    display: block;
+    width: 3em;
+    height: 3em;
+    padding-top: 14px;
+    line-height: 0px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    background-color: #467387;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.round-button:hover {
+    background-color: #6383a1;
+    box-shadow: 0px 0px 15px #61a4d4;
+    transform: scale(1.1);
+}
+
+.round-button-mic {
+    box-sizing: border-box;
+    display: block;
+    width: 4.5em;
+    height: 4.5em;
+    padding-top: 14px;
+    line-height: 0px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    color: #f5f5f5;
+    text-align: center;
+    text-decoration: none;
+    background-color: #49d67d !important;
+    background: #49d67d !important;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(73, 214, 125, 0.4);
+}
+
+/* Force green mic button */
+#recordAudio {
+    background-color: #49d67d !important;
+    background: #49d67d !important;
+}
+
+.round-button-mic:hover {
+    background-color: #3ab863;
+    box-shadow: 0px 0px 20px #49d67d;
+    transform: scale(1.1);
+}
+
+.mic-button-div {
+    position: fixed;
+    left: 48%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+
+/* Ensure the next button is visible and GREEN */
+#nextButtonDiv {
+    position: absolute;
+    left: 90%;
+    top: 0%;
+    height: 100%;
+    width: 10%;
+}
+
+#buttonNext {
+    background-color: #49d67d !important;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(73, 214, 125, 0.3);
+}
+
+#buttonNext:hover {
+    background-color: #3ab863 !important;
+    box-shadow: 0 6px 20px rgba(73, 214, 125, 0.5);
+    transform: scale(1.02);
+}
+
+#buttonNext:before {
+    content: '→';
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* Style the home icon */
+.icon-text-home {
+    font-size: 3em !important;
+    color: #667eea;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.icon-text-home:hover {
+    color: #764ba2;
+    transform: scale(1.1);
+}
+
+/* Fix title */
+#main_title {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Make sure container-small is visible */
+.container-small {
+    position: fixed;
+    left: 68%;
+    top: 79%;
+    height: 7%;
+    width: 30%;
+    background: #ffff;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

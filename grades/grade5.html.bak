@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Grade 5 Curriculum - Fluent Edge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Reuse the lessons stylesheet for unit/lesson cards -->
+  <link rel="stylesheet" href="../lessons.css?v=1" />
+</head>
+<body>
+  <header class="lesson-header">
+    <a href="../dashboard.html" class="back-btn">← Back to Dashboard</a>
+    <div class="lesson-meta">
+      <img id="headerAvatar" class="header-avatar" src="../images/boys_avatar2.jpg" alt="Avatar" />
+      <h1 class="lesson-title">Grade 5 Curriculum</h1>
+    </div>
+    <div></div>
+  </header>
+
+  <main class="lesson-main">
+    <div id="units-container"></div>
+  </main>
+
+  <script src="../grade5-lessons.js?v=1"></script>
+</body>
+</html>

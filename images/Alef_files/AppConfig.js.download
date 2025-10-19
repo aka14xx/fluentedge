@@ -1,0 +1,114 @@
+window.AppConfig = {
+  APP: {
+    ID: 'alef-student-frontend',
+    VERSION: '269-16453-9fa27e3'
+  },
+  PUSHER: {
+    key: 'eac86f40759e6b777523',
+    cluster: 'eu',
+    forceTLS: true,
+    authEndpoint: '/notifications/api/v1/push-notifications/authenticate'
+  },
+  FEATURES: {
+    GLOBAL_NOTIFICATIONS_WITH_PUSHER: true,
+    TOGGLE_NEW_BREADCRUMB_BEHAVIOR_FOR_DOK_REPETITION: true,
+    ASSIGNMENTS: true,
+    STRIVE_CAST_SCHOOL_IDS: 'commaSeparatedSchoolIdsHere'
+  },
+  CONFIG: {
+    TIME_SPENT_IDLE_TIME: 30,
+    AWARD_STARS_SCORE_THRESHOLD: [100],
+    CONTENT_DOMAIN: '.alefed.com',
+    I18N_DOMAIN: '.alefed.com',
+    TEQ_FLOW_FOR_SA: false
+  },
+  DATADOG: {
+    clientToken: 'pubcc99605d4f63a43e3341e46ea52c5c3d',
+    applicationId: '7920a06a-85a0-4fbc-9203-e086c35b02e2',
+    env: 'moe',
+    version: '269-16453-9fa27e3',
+    service: 'alef-frontend',
+    enabled: true,
+    sessionSampleRate: 1,
+    sessionReplaySampleRate: 10,
+    traceSampleRate: 10
+  },
+  FRESHCHAT: {
+    token: 'dbe736eb-2b32-4217-90cc-3c77b357b985',
+    enabled: false
+  },
+  ASSIGNMENTS_NEW_ROUTES: {
+    enabled: true
+  },
+  WALKME: {
+      key: 'dcb0ef06eabe44b1ac97496479cda24d',
+      isProd: false,
+      enabled: false,
+  },
+  PENDO: {
+      key: '1ae02bb9-7580-4e75-7ed7-745ca2279d18',
+      enabled: false,
+  },
+  HEARTBEAT: {
+    heartbeatApiUrl: 'https://moe.alefed.com/http-event-receiver/v1/user/heartbeat',
+    heartbeatInterval: 15
+  },
+  HOMEPAGE_BANNER: {
+    organizationList: 'null,null'
+  },
+  FILE_SERVICE_CDN: {
+    fileServiceCdnUrl: 'https://file-delivery.alefed.com/marketplace/files',
+    fileServiceRootCdnUrl: 'https://file-delivery.alefed.com'
+  },
+  SURVICATE: {
+      workspaceId: 'SURVICATE_WORKSPACE_ID',
+      enabled: false,
+  },
+  LAUNCH_DARKLY: {
+      clientSideId: '663480c0415a001020c2d004',
+  },
+  SurveySparrow: {
+      spotAccount: 'alefprod.surveysparrow.com',
+      targetToken: 'tar-sok9nkEBA8vVoMM5zZfNNX',
+  },
+  AMPLITUDE: {
+      enabled: true,
+      apiKey: '4a96fb848c1900020fa60f91bb8e10e8',
+  },
+  TRANSLATIONS: {
+    path: 'https://static-content.alefed.com/translations',
+    project: 'alef-frontend',
+    enabled: true
+  },
+  STUDENT_TEST_TRANSLATIONS: {
+    path: 'https://static-content.alefed.com/translations',
+    project: 'alef-student-test-frontend',
+    enabled: true
+  },
+  MOROCCO: {
+    host: 'morocco.alefed.com',
+    contentHost: 'content.int.alefed.com',
+    enabled: false
+  },
+  CONTENT: {
+    host: 'content.alefed.com',
+  },
+  SECTION_PROGRESS: {
+    lpsHost: 'https://moe.alefed.com/lps'
+  }
+}
+
+if (AppConfig.MOROCCO.enabled && window.location.hostname === AppConfig.MOROCCO.host) {
+  window.AppConfig.PUSHER.useProxy = true;
+  window.AppConfig.LAUNCH_DARKLY.useProxy = true;
+  window.AppConfig.DATADOG.useProxy = true;
+  window.AppConfig.DATADOG.env = 'morocco';
+  window.AppConfig.DATADOG.sessionSampleRate = 100;
+  window.AppConfig.DATADOG.sessionReplaySampleRate = 30;
+
+  window.AppConfig.FILE_SERVICE_CDN.fileServiceCdnUrl = 'https://fileservice.nprd.alefed.com/marketplace/files';
+  window.AppConfig.TRANSLATIONS.path = 'https://alef-static-content.nprd.alefed.com/translations';
+  window.AppConfig.HEARTBEAT.heartbeatApiUrl = '';
+  window.AppConfig.DATADOG.url = '';
+  window.AppConfig.FRESHCHAT.enabled = false;
+}

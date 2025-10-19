@@ -1,0 +1,1159 @@
+{
+  "grade": 5,
+  "units": [
+    {
+      "unit": 1,
+      "title": "Welcome Back / Talent Show",
+      "lessons": [
+        {
+          "id": "g5u1l1",
+          "title": "Back to School!",
+          "image": "images/friends.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Describing People & \"Be good at\"",
+              "intro": "Describe appearance and personality, and say what someone is good at.",
+              "points": [
+                "Appearance – curly hair: Amal has curly hair.",
+                "Appearance – short hair: My brother has short hair.",
+                "Appearance – tall: Fahad is tall.",
+                "Personality – shy: Ahmed is shy in class.",
+                "Personality – confident: Huda is confident on stage.",
+                "Personality – friendly: My teacher is friendly.",
+                "Pattern: Subject + be + good at + verb(-ing)",
+                "Examples: I'm good at drawing. She's good at singing. They're good at playing football."
+              ],
+              "note": "Smile, greet, then introduce your name and talent.",
+              "image": "images/kids_doing_hobbies.jpg"
+            },
+            "read": {
+              "title": "Reading: Back to School!",
+              "passage": "It's the first day of school after the long holiday. Amal and Fahad meet their friends in class. Everyone looks a bit different! Amal has short curly hair now, and Fahad is taller than last year.\nTheir teacher, Miss Salma, smiles and says, \"Welcome back, everyone! This term we'll have a Talent Show, so start thinking about what you're good at!\"\nAmal says, \"I'm good at drawing.\"\nFahad laughs, \"I'm good at making people laugh — maybe I'll tell jokes on stage!\"",
+              "image": "images/friends.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What event will happen this term?", "options": ["Sports day", "Talent Show", "Book fair", "Art exhibition"], "answer": "Talent Show" },
+              { "type": "mcq", "prompt": "Amal now has _______.", "options": ["straight hair", "long hair", "short curly hair", "blonde hair"], "answer": "short curly hair" },
+              { "type": "mcq", "prompt": "Who says \"Welcome back, everyone\"?", "options": ["Amal", "Fahad", "Miss Salma", "The principal"], "answer": "Miss Salma" },
+              { "type": "mcq", "prompt": "Amal is good at _______.", "options": ["drawing", "dancing", "singing", "writing stories"], "answer": "drawing" },
+              { "type": "mcq", "prompt": "Fahad wants to _______.", "options": ["tell jokes", "play music", "draw pictures", "bake a cake"], "answer": "tell jokes" },
+              { "type": "mcq", "prompt": "\"Be good at\" means:", "options": ["to like something", "to do something well", "to try something new", "to learn something difficult"], "answer": "to do something well" },
+              { "type": "mcq", "prompt": "The opposite of \"confident\" is _______.", "options": ["kind", "shy", "rude", "tall"], "answer": "shy" },
+              { "type": "mcq", "prompt": "\"She's friendly\" — the adjective here is:", "options": ["she's", "friendly", "is", "none"], "answer": "friendly" },
+              { "type": "mcq", "prompt": "Which is correct?", "options": ["He's good in drawing.", "He good at draw.", "He's good at drawing.", "He's drawing good."], "answer": "He's good at drawing." },
+              { "type": "mcq", "prompt": "Amal and Fahad are _______.", "options": ["classmates", "teachers", "brothers", "shopkeepers"], "answer": "classmates" },
+              { "type": "fill", "prompt": "I brush my teeth _______ breakfast.", "answer": "before", "acceptableAnswers": ["before"] },
+              { "type": "fill", "prompt": "_______ I get home, I do my homework.", "answer": "when", "acceptableAnswers": ["when"] },
+              { "type": "fill", "prompt": "I play outside _______ I finish studying.", "answer": "after", "acceptableAnswers": ["after"] }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Describe yourself: 3 appearance, 2 personality, 1 talent. Example: \"I have short hair. I'm friendly and confident. I'm good at football.\""
+            }
+          }
+        },
+        {
+          "id": "g5u1l2",
+          "title": "The Big Talent Show",
+          "image": "images/talent_show.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Comparative and Superlative Adjectives",
+              "intro": "Compare people and things using adjectives like tall, short, funny, beautiful, good.",
+              "points": [
+                "Comparative (short adjectives): adjective + -er + than → Fahad is taller than Amal.",
+                "Comparative (long adjectives): more + adjective + than → This dance is more exciting than the other one.",
+                "Superlative (short adjectives): the + adjective + -est → Fahad is the funniest student.",
+                "Superlative (long adjectives): the most + adjective → That song is the most beautiful of all.",
+                "Irregular: good → better → best; bad → worse → worst"
+              ],
+              "note": "Use -er + than to compare two; use the + -est (or the most) for three or more.",
+              "image": "images/kids_doing_various_activities.JPG"
+            },
+            "read": {
+              "title": "Reading: The Big Talent Show",
+              "passage": "It’s Talent Show Day! The hall is full of students and teachers. Amal stands on the stage with her drawings. Everyone claps — her art is beautiful!\nNext, Fahad tells funny jokes. The audience laughs loudly. Then Salim dances — he’s faster than everyone else!\nAt the end, Miss Salma says, “All of you are winners! But Amal’s pictures are the most creative, and Fahad’s jokes are the funniest.”\nEveryone cheers, and the students feel proud of their hard work.",
+              "image": "images/talent_show.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "Where does the story take place?", "options": ["In a classroom", "In the hall", "In the library", "In the playground"], "answer": "In the hall" },
+              { "type": "mcq", "prompt": "What does Amal show on stage?", "options": ["A dance", "Drawings", "Jokes", "Songs"], "answer": "Drawings" },
+              { "type": "mcq", "prompt": "Who tells jokes?", "options": ["Amal", "Salim", "Fahad", "Miss Salma"], "answer": "Fahad" },
+              { "type": "mcq", "prompt": "Who dances?", "options": ["Amal", "Salim", "Fahad", "Rania"], "answer": "Salim" },
+              { "type": "mcq", "prompt": "The audience laughs because _______.", "options": ["the jokes are funny", "the music is loud", "Amal’s art is good", "Salim falls down"], "answer": "the jokes are funny" },
+              { "type": "mcq", "prompt": "What does Miss Salma say about Amal’s pictures?", "options": ["They are the funniest", "They are the most creative", "They are the biggest", "They are the loudest"], "answer": "They are the most creative" },
+              { "type": "mcq", "prompt": "Which sentence uses the superlative form?", "options": ["Fahad is funny.", "Salim is faster than Fahad.", "Amal is the best artist.", "The show is good."], "answer": "Amal is the best artist." },
+              { "type": "mcq", "prompt": "Which is the correct comparative sentence?", "options": ["Amal is more taller than Rania.", "Salim is faster than everyone.", "Fahad is funniest than Salim.", "Amal more creative."], "answer": "Salim is faster than everyone." },
+              { "type": "mcq", "prompt": "“Good → Better → Best” shows _______.", "options": ["normal adjectives", "irregular comparatives and superlatives", "verbs", "personality traits"], "answer": "irregular comparatives and superlatives" },
+              { "type": "mcq", "prompt": "The students feel _______ at the end.", "options": ["bored", "sleepy", "proud", "angry"], "answer": "proud" },
+              { "type": "fill", "prompt": "Amal is _______ (creative) than last year.", "answer": "more creative", "acceptableAnswers": ["more creative"] },
+              { "type": "fill", "prompt": "Fahad’s jokes are _______ (funny) than mine.", "answer": "funnier", "acceptableAnswers": ["funnier"] },
+              { "type": "fill", "prompt": "Salim is _______ (fast) dancer in the school.", "answer": "the fastest", "acceptableAnswers": ["the fastest", "fastest"] },
+              { "type": "fill", "prompt": "This drawing is _______ (beautiful) than that one.", "answer": "more beautiful", "acceptableAnswers": ["more beautiful"] }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Use -er + than for two; use the + -est (or the most) for three or more. Try: “My brother is taller than me. My sister is the kindest in our house.”"
+            }
+          }
+        },
+        {
+          "id": "g5u1l3",
+          "title": "Back in My Day",
+          "image": "images/lesson3.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: used to / didn’t use to",
+              "intro": "We use used to + verb to talk about things that were true in the past but are not true now.",
+              "points": [
+                "People used to write letters. (They don’t now.)",
+                "My grandfather used to walk to school. (Now students take the bus.)",
+                "Children used to play outside all day. (Now they play on tablets.)",
+                "Negative: didn’t use to → My dad didn’t use to have a mobile phone.",
+                "Question: Did you use to …? → Did you use to play football?",
+                "Tip: After “used to,” use the base verb. ✅ used to play ❌ used to playing"
+              ],
+              "image": "images/lesson3.jpg"
+            },
+            "read": {
+              "title": "Reading: Life Before Screens",
+              "passage": "My grandmother always tells me stories about her childhood.\n“We used to spend the whole afternoon outside,” she says.\n“We used to climb trees, play hide and seek, and help our parents in the garden. We didn’t use to have televisions or tablets, so we made our own fun.”\n\nI love hearing her stories. Life was slower but full of laughter.\nToday, we have so many screens—phones, computers, TVs—but sometimes I think her life used to be happier and more peaceful.",
+              "image": "images/lesson3.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What did the grandmother use to do after school?", "options": ["Watch TV", "Play outside", "Play video games", "Sleep"], "answer": "Play outside" },
+              { "type": "mcq", "prompt": "What didn’t they have in the past?", "options": ["Gardens", "Tablets", "Trees", "Friends"], "answer": "Tablets" },
+              { "type": "mcq", "prompt": "What does the writer think about the past?", "options": ["It was boring", "It was faster", "It was peaceful", "It was noisy"], "answer": "It was peaceful" },
+              { "type": "fill", "prompt": "People ____________ write letters to each other. (used to / didn’t use to)", "answer": "used to", "acceptableAnswers": ["used to"] },
+              { "type": "fill", "prompt": "Children ____________ play games on tablets. (used to / didn’t use to)", "answer": "didn’t use to", "acceptableAnswers": ["didn’t use to", "didn't use to"] },
+              { "type": "fill", "prompt": "My dad ____________ have a mobile phone when he was young. (used to / didn’t use to)", "answer": "didn’t use to", "acceptableAnswers": ["didn’t use to", "didn't use to"] },
+              { "type": "fill", "prompt": "My grandmother ____________ walk to school every day. (used to / didn’t use to)", "answer": "used to", "acceptableAnswers": ["used to"] },
+              {
+                "type": "drag",
+                "prompt": "Match the past activity with its modern version.",
+                "left": ["Write letters", "Walk to school", "Play outside", "Listen to the radio"],
+                "right": ["Send emails", "Take the bus", "Play video games", "Watch YouTube"],
+                "answers": {
+                  "Write letters": "Send emails",
+                  "Walk to school": "Take the bus",
+                  "Play outside": "Play video games",
+                  "Listen to the radio": "Watch YouTube"
+                }
+              },
+              { "type": "mcq", "prompt": "We _______ have a car when I was little.", "options": ["used to", "use to", "didn’t used to"], "answer": "used to" },
+              { "type": "mcq", "prompt": "Did you _______ go camping as a child?", "options": ["used to", "use to", "using to"], "answer": "use to" }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Write 3 sentences about how life was different when your parents were young using used to / didn’t use to."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Then and Now",
+      "lessons": [
+        {
+          "id": "g5u2l1",
+          "title": "Life Long Ago",
+          "image": "images/lesson1.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Past Simple (was / were / had / didn’t have)",
+              "intro": "Talk about life in the past using the past simple forms of be and have.",
+              "points": [
+                "am/is → was: My grandfather was a farmer.",
+                "are → were: People were happy.",
+                "have → had: They had a big house.",
+                "don’t have → didn’t have: They didn’t have phones.",
+                "Use was/were to describe what something was like; use had/didn’t have to talk about possessions."
+              ],
+              "note": "Past time phrases: yesterday, last week, a long time ago, in the past, many years ago.",
+              "image": "images/lesson1.jpg"
+            },
+            "read": {
+              "title": "Reading: Life Long Ago",
+              "passage": "Long ago, life was very different. People didn’t have computers or mobile phones. They wrote letters instead of emails, and they walked to school because there were no buses. Children played outside with simple toys. Families sat together every evening and talked. Life was quiet and simple — people had fewer things, but they spent more time together.",
+              "image": "images/lesson1.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What didn’t people have long ago?", "options": ["Computers and phones", "Books", "Friends", "Water"], "answer": "Computers and phones" },
+              { "type": "mcq", "prompt": "What did people use instead of emails?", "options": ["Internet", "Letters", "Telephones", "Text messages"], "answer": "Letters" },
+              { "type": "mcq", "prompt": "Why did children walk to school?", "options": ["There were no cars", "There were no buses", "The weather was bad", "They liked walking"], "answer": "There were no buses" },
+              { "type": "mcq", "prompt": "People had _______ things in the past.", "options": ["more", "fewer", "expensive", "funnier"], "answer": "fewer" },
+              { "type": "mcq", "prompt": "What did families do every evening?", "options": ["Watch TV", "Play games online", "Sit and talk together", "Travel"], "answer": "Sit and talk together" },
+              { "type": "mcq", "prompt": "The opposite of “past” is _______.", "options": ["today", "yesterday", "future", "before"], "answer": "future" },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["People didn’t had phones.", "People didn’t have phones.", "People don’t had phones.", "People hadn’t phones."], "answer": "People didn’t have phones." },
+              { "type": "mcq", "prompt": "“Life was quiet and simple” means _______.", "options": ["life was easy and calm", "life was boring", "life was loud and busy", "life was dangerous"], "answer": "life was easy and calm" },
+              { "type": "mcq", "prompt": "Which time phrase fits? “People had no TV _______.”", "options": ["now", "later", "in the past", "tomorrow"], "answer": "in the past" },
+              { "type": "mcq", "prompt": "The story is mostly about _______.", "options": ["how people lived long ago", "a family trip", "school subjects", "new inventions"], "answer": "how people lived long ago" },
+              { "type": "fill", "prompt": "People _______ (not / have) cars in the past.", "answer": "didn’t have", "acceptableAnswers": ["didn’t have", "didn't have", "did not have"] },
+              { "type": "fill", "prompt": "There _______ (be) many shops 100 years ago.", "answer": "were", "acceptableAnswers": ["were"] },
+              { "type": "fill", "prompt": "My grandmother _______ (have) a radio.", "answer": "had", "acceptableAnswers": ["had"] },
+              { "type": "fill", "prompt": "Children _______ (play) outside every day.", "answer": "played", "acceptableAnswers": ["played"] }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Interview an older person and write 3–5 sentences using was, were, had, didn’t have."
+            }
+          }
+        },
+        {
+          "id": "g5u2l2",
+          "title": "Old and New Technology",
+          "image": "images/old_inventions.svg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Technology (Past vs. Present) & \"Could / Couldn't\"",
+              "intro": "Compare old and modern technology and use could / couldn’t to talk about past ability.",
+              "points": [
+                "Vocabulary: letter → email; telephone → mobile phone; computer → tablet; CD player → streaming app; typewriter → laptop.",
+                "We use could to talk about something possible in the past.",
+                "We use couldn’t to talk about something not possible in the past.",
+                "Structure: Subject + could / couldn’t + base verb.",
+                "Examples: My father could play the oud when he was young. My grandmother couldn’t use a computer."
+              ],
+              "note": "No \"to\" after could/couldn’t: say \"could call\", not \"could to call\".",
+              "image": "images/old_inventions.svg"
+            },
+            "read": {
+              "title": "Reading: Old and New Technology",
+              "passage": "Fahad is working on a school project about technology. He shows his class two photos — one of an old black telephone, and one of a modern smartphone. He says, \"In the past, people could call others, but they couldn’t send pictures or videos.\" Amal adds, \"My grandmother used a typewriter. She could write letters, but she couldn’t save her work!\" The students laugh and say, \"Technology today is much faster and easier!\"",
+              "image": "images/old_inventions.svg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What is Fahad’s project about?", "options": ["Sports", "Technology", "Food", "Art"], "answer": "Technology" },
+              { "type": "mcq", "prompt": "What two photos did Fahad show?", "options": ["A car and a bus", "An old telephone and a smartphone", "A book and a pen", "A computer and a cat"], "answer": "An old telephone and a smartphone" },
+              { "type": "mcq", "prompt": "What could people do in the past?", "options": ["Send pictures", "Watch videos", "Call others", "Use tablets"], "answer": "Call others" },
+              { "type": "mcq", "prompt": "What couldn’t people do with old telephones?", "options": ["Talk", "Call", "Send pictures", "Hear voices"], "answer": "Send pictures" },
+              { "type": "mcq", "prompt": "What did Amal’s grandmother use?", "options": ["A computer", "A typewriter", "A tablet", "A phone"], "answer": "A typewriter" },
+              { "type": "mcq", "prompt": "Why did the students laugh?", "options": ["Amal made a joke", "They liked technology", "Her grandmother couldn’t save her work", "They didn’t understand"], "answer": "Her grandmother couldn’t save her work" },
+              { "type": "mcq", "prompt": "The word \"faster\" is a _______.", "options": ["noun", "verb", "comparative adjective", "adverb"], "answer": "comparative adjective" },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["People could to send emails.", "People couldn’t send messages quickly.", "People don’t could call others.", "People could not to use telephones."], "answer": "People couldn’t send messages quickly." },
+              { "type": "mcq", "prompt": "The opposite of \"old\" is _______.", "options": ["big", "new", "modern", "B and C"], "answer": "B and C" },
+              { "type": "mcq", "prompt": "The main idea of the text is _______.", "options": ["how technology has changed", "how to write a letter", "how to draw phones", "how to play games"], "answer": "how technology has changed" },
+              { "type": "fill", "prompt": "People _______ (could / couldn’t) use computers 50 years ago.", "answer": "couldn’t", "acceptableAnswers": ["couldn’t", "couldn't", "could not"] },
+              { "type": "fill", "prompt": "My grandmother _______ (could / couldn’t) use a typewriter.", "answer": "could", "acceptableAnswers": ["could"] },
+              { "type": "fill", "prompt": "We _______ (could / couldn’t) watch movies online before.", "answer": "couldn’t", "acceptableAnswers": ["couldn’t", "couldn't", "could not"] },
+              { "type": "fill", "prompt": "My father _______ (could / couldn’t) fix old radios.", "answer": "could", "acceptableAnswers": ["could"] }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Use \"could\" for things possible in the past and \"couldn’t\" for things that were not possible. Write 3 sentences about what your parents could or couldn’t do as children."
+            }
+          }
+        },
+        {
+          "id": "g5u2l3",
+          "title": "Travel Then and Now",
+          "image": "images/lesson3.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: There was / There were + Past Simple",
+              "intro": "Talk about travel and places in the past vs. now using was/were and simple past verbs.",
+              "points": [
+                "There was a small road. There were few cars.",
+                "People went by camel or boat. They didn’t travel quickly.",
+                "There weren’t buses in many towns.",
+                "Past time phrases: a long time ago, in the past, many years ago"
+              ],
+              "note": "Use was for singular, were for plural. Negative: wasn’t / weren’t.",
+              "image": "images/lesson3.jpg"
+            },
+            "read": {
+              "title": "Reading: A Trip Long Ago",
+              "passage": "Many years ago, my grandfather went to the city by camel. The road was dusty and there were no buses. He took water and dates for the long journey. When he arrived, there was a small market and a well in the square. He wrote a letter to his family to say, “I am safe.”\n\nToday, we drive on wide roads and arrive in a few hours. We send messages in seconds. Life is faster now, but I like hearing the stories of the past.",
+              "image": "images/lesson3.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "How did the grandfather travel to the city?", "options": ["By bus", "By camel", "By plane", "By train"], "answer": "By camel" },
+              { "type": "mcq", "prompt": "What was the road like?", "options": ["Wide", "Dusty", "Wet", "Snowy"], "answer": "Dusty" },
+              { "type": "mcq", "prompt": "Were there buses long ago in the story?", "options": ["Yes, many", "Only one", "No, there were no buses", "Sometimes"], "answer": "No, there were no buses" },
+              { "type": "mcq", "prompt": "What did the market look like?", "options": ["Huge", "Small", "Modern", "Closed"], "answer": "Small" },
+              { "type": "mcq", "prompt": "How did he tell his family he was safe?", "options": ["Phone call", "Letter", "Video", "Text"], "answer": "Letter" },
+              { "type": "mcq", "prompt": "Which is correct?", "options": ["There was many cars.", "There were many cars.", "There were no buses.", "There was no buses."], "answer": "There were no buses." },
+              { "type": "mcq", "prompt": "Choose the past form of go:", "options": ["goes", "gone", "went", "going"], "answer": "went" },
+              { "type": "mcq", "prompt": "Which sentence talks about the present?", "options": ["He went by camel.", "There were no buses.", "We drive on wide roads now.", "He wrote a letter."], "answer": "We drive on wide roads now." },
+              { "type": "mcq", "prompt": "“There weren’t buses” means:", "options": ["There were buses", "There were not buses", "There was a bus", "There is a bus"], "answer": "There were not buses" },
+              { "type": "mcq", "prompt": "The main idea:", "options": ["How to ride a camel", "A long trip in the past vs. travel today", "Buying food in a market", "Writing letters today"], "answer": "A long trip in the past vs. travel today" },
+              { "type": "fill", "prompt": "There _______ a well in the square. (was / were)", "answer": "was", "acceptableAnswers": ["was"] },
+              { "type": "fill", "prompt": "There _______ buses long ago. (wasn’t / weren’t)", "answer": "weren’t", "acceptableAnswers": ["weren’t", "werent", "were not"] },
+              { "type": "fill", "prompt": "He _______ a letter to his family. (write → past)", "answer": "wrote", "acceptableAnswers": ["wrote"] },
+              { "type": "fill", "prompt": "People _______ quickly in the past. (travel → negative past)", "answer": "didn’t travel", "acceptableAnswers": ["didn’t travel", "didn't travel", "did not travel"] }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Make two sentences with there was/there were about your town long ago, and two sentences with past verbs (went, wrote, walked)."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g5u2l4",
+          "title": "Old Inventions, New Ideas",
+          "image": "images/lesson2.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Technology Vocabulary & “Could / Couldn’t”",
+              "intro": "Vocabulary for old and new inventions and how to talk about past ability.",
+              "points": [
+                "Vocabulary (Old → New): Typewriter → Laptop; CD Player → Streaming App; Rotary Phone → Mobile Phone; Film Camera → Digital Camera; Radio → Podcast.",
+                "Could → ability in the past: People could type letters on a typewriter. My father could fix radios.",
+                "Couldn’t → impossibility in the past: People couldn’t send instant messages. Children couldn’t watch TV all day.",
+                "Structure: Subject + could / couldn’t + base verb.",
+                "No \"to\" after could/couldn’t: say \"could send\", not \"could to send\"."
+              ],
+              "note": "Compare old and modern technology to see how life has changed.",
+              "image": "images/lesson2.jpg"
+            },
+            "read": {
+              "title": "Reading: From Old to New",
+              "passage": "Long ago, people could write letters, listen to the radio, and take black-and-white photos.\nThey couldn’t watch videos on YouTube, send emails, or play online games.\nToday, technology is everywhere. We can type on laptops, take digital photos, and watch movies instantly.\nAmal says, “Old inventions were important, but modern technology makes life easier and faster!”",
+              "image": "images/lesson2.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What could people do in the past?", "options": ["Send emails", "Take black-and-white photos", "Watch YouTube", "Play online games"], "answer": "Take black-and-white photos" },
+              { "type": "mcq", "prompt": "What couldn’t people do long ago?", "options": ["Write letters", "Listen to the radio", "Send instant messages", "Take photos"], "answer": "Send instant messages" },
+              { "type": "mcq", "prompt": "What can we do today?", "options": ["Type on laptops", "Use typewriters", "Only listen to radios", "Watch black-and-white TV"], "answer": "Type on laptops" },
+              { "type": "mcq", "prompt": "What does Amal think about old inventions?", "options": ["They were useless", "They were important", "They were boring", "They were the same as now"], "answer": "They were important" },
+              { "type": "mcq", "prompt": "Modern technology makes life _______.", "options": ["slower", "easier", "harder", "confusing"], "answer": "easier" },
+              { "type": "mcq", "prompt": "Which is correct?", "options": ["People couldn’t send emails.", "People couldn’t send letters.", "People could watch YouTube.", "People couldn’t listen to radio."], "answer": "People couldn’t send emails." },
+              { "type": "mcq", "prompt": "What is the opposite of “old”?", "options": ["new", "slow", "past", "black-and-white"], "answer": "new" },
+              { "type": "mcq", "prompt": "Which sentence uses could?", "options": ["People could watch YouTube.", "People could write letters.", "People could send instant messages.", "People could watch movies online."], "answer": "People could write letters." },
+              { "type": "mcq", "prompt": "“Typewriter → Laptop” shows _______.", "options": ["past and present technology", "sports equipment", "school subjects", "animals"], "answer": "past and present technology" },
+              { "type": "mcq", "prompt": "The main idea of the text is _______.", "options": ["How technology has changed", "How to make a typewriter", "How to write letters", "How to take photos"], "answer": "How technology has changed" },
+              {
+                "type": "drag",
+                "prompt": "Match the old invention with the new one.",
+                "left": ["Typewriter", "CD Player", "Rotary Phone", "Film Camera", "Radio"],
+                "right": ["Laptop", "Streaming App", "Mobile Phone", "Digital Camera", "Podcast"],
+                "answers": {
+                  "Typewriter": "Laptop",
+                  "CD Player": "Streaming App",
+                  "Rotary Phone": "Mobile Phone",
+                  "Film Camera": "Digital Camera",
+                  "Radio": "Podcast"
+                }
+              }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Use could / couldn’t for the past, and can / can’t for today. Write 3 sentences comparing old and new inventions (e.g., “People could write letters in the past, but now we can send emails.”). Try comparing 5 things at home: “My parents couldn’t play games on the phone. I can play games on my tablet.”"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Let’s Explore!",
+      "lessons": [
+        {
+          "id": "g5u3l1",
+          "title": "Exploring Planets",
+          "image": "images/space_planets.svg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Space Vocabulary & Asking Questions",
+              "intro": "Names of planets and space objects, and how to ask How…? questions using the present simple.",
+              "points": [
+                "Vocabulary: Sun — The Sun is very hot.",
+                "Vocabulary: Moon — The Moon orbits the Earth.",
+                "Vocabulary: Earth — We live on Earth.",
+                "Vocabulary: Planet — Jupiter is the biggest planet.",
+                "Vocabulary: Star — Stars shine at night.",
+                "Vocabulary: Solar system — The solar system has eight planets.",
+                "Vocabulary: Telescope — We can see planets with a telescope.",
+                "Vocabulary: Comet — Halley’s comet appears every 76 years.",
+                "Vocabulary: Rocket — Rockets carry astronauts to space.",
+                "Vocabulary: Space station — The ISS is a space station orbiting Earth.",
+                "Vocabulary: Satellite — Satellites send information to Earth.",
+                "Vocabulary: Spacesuit — Astronauts wear a spacesuit in space.",
+                "How-questions: How far is the Moon from Earth?",
+                "How-questions: How many planets are in the solar system?",
+                "How-questions: How big is Jupiter?",
+                "Structure: How + adjective/adverb + verb + subject?"
+              ],
+              "note": "Use present simple for facts about space: The Sun is a star. Saturn has rings.",
+              "image": "images/space_planets.svg"
+            },
+            "read": {
+              "title": "Reading: A Trip Through Space",
+              "passage": "Amal dreams of becoming an astronaut. She looks at the night sky and counts the stars.\n“How far is the Moon?” she asks. Her teacher answers, “About 384,000 km!”\nAmal’s friend Fahad loves planets. He asks, “How many planets are there in the solar system?”\n“There are eight planets,” says the teacher. “Each planet is different. Some are hot, some are cold. Some have rings, like Saturn.”\nAmal imagines flying in a rocket to visit the planets and seeing the Earth from space.",
+              "image": "images/space_planets.svg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "How many planets are in the solar system?", "options": ["7", "8", "9", "10"], "answer": "8" },
+              { "type": "mcq", "prompt": "How far is the Moon from Earth?", "options": ["384 km", "384,000 km", "38,400 km", "3,840 km"], "answer": "384,000 km" },
+              { "type": "mcq", "prompt": "Which planet has rings?", "options": ["Jupiter", "Mars", "Saturn", "Earth"], "answer": "Saturn" },
+              { "type": "mcq", "prompt": "Amal dreams of becoming a _______.", "options": ["teacher", "astronaut", "scientist", "pilot"], "answer": "astronaut" },
+              { "type": "mcq", "prompt": "Fahad asks about _______.", "options": ["stars", "planets", "rockets", "comets"], "answer": "planets" },
+              { "type": "mcq", "prompt": "Which is a space object?", "options": ["Telescope", "Spacesuit", "Comet", "Laptop"], "answer": "Comet" },
+              { "type": "mcq", "prompt": "“Each planet is different” shows _______.", "options": ["similarity", "diversity", "danger", "size"], "answer": "diversity" },
+              { "type": "mcq", "prompt": "How does Amal feel about space?", "options": ["Bored", "Excited", "Afraid", "Sad"], "answer": "Excited" },
+              { "type": "mcq", "prompt": "Which sentence asks a question correctly?", "options": ["How far Moon is?", "How far is the Moon?", "How far Moon is it?", "How far Moon are?"], "answer": "How far is the Moon?" },
+              { "type": "mcq", "prompt": "What is Amal imagining?", "options": ["Flying in a rocket", "Drawing planets", "Reading a book", "Counting satellites"], "answer": "Flying in a rocket" },
+              { "type": "drag", "prompt": "Match the space object with its description.", "left": ["Sun", "Moon", "Telescope", "Rocket", "Satellite"], "right": ["Very hot star at the center of our solar system", "Orbits the Earth", "Helps us see stars and planets", "Carries astronauts to space", "Sends information to Earth"], "answers": { "Sun": "Very hot star at the center of our solar system", "Moon": "Orbits the Earth", "Telescope": "Helps us see stars and planets", "Rocket": "Carries astronauts to space", "Satellite": "Sends information to Earth" } }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Use How…? to ask about size, distance, or numbers in space. Write 3 sentences using the new words and a How…? question (e.g., “How big is Jupiter?” “The Moon orbits the Earth.” “Saturn has rings.”)."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g5u3l2",
+          "title": "The ISS and Astronauts",
+          "image": "images/ISS.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: Comparative Adjectives & Space Facts",
+              "intro": "Compare space objects with comparative adjectives and learn key ISS facts. Practice How…? questions.",
+              "points": [
+                "Vocabulary: Astronaut — Astronauts live on the ISS.",
+                "Vocabulary: Space station — The ISS orbits the Earth.",
+                "Vocabulary: Microgravity — Astronauts experience microgravity in space.",
+                "Vocabulary: Rocket — Rockets take astronauts to the ISS.",
+                "Vocabulary: Module — The ISS has different modules for experiments.",
+                "Vocabulary: Orbit — The ISS orbits the Earth every 90 minutes.",
+                "Comparatives: bigger / smaller / hotter / colder / faster / slower.",
+                "Examples: Jupiter is bigger than Earth. Mercury is hotter than Pluto. The ISS moves faster than a plane.",
+                "Structure: Subject + is + comparative adjective + than + object.",
+                "How-questions: How many people are on the ISS? How fast does the ISS move?"
+              ],
+              "note": "Use ‘than’ after comparative adjectives: bigger than, faster than.",
+              "image": "images/ISS.jpg"
+            },
+            "read": {
+              "title": "Reading: Life on the ISS",
+              "passage": "Amal watches a video about the International Space Station. She sees astronauts floating in microgravity.\n“The ISS is bigger than my school,” she says. “And it moves faster than a car!”\nThe astronauts live in small modules. They do experiments in space, eat special food, and sleep in sleeping bags.\nFahad asks, “How many people are on the ISS?”\n“Usually six,” says the teacher. “Sometimes seven.”\nAmal thinks life in space is amazing, but very different from life on Earth.",
+              "image": "images/ISS.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "How many people usually live on the ISS?", "options": ["3", "5", "6", "10"], "answer": "6" },
+              { "type": "mcq", "prompt": "The ISS moves ______ than a car.", "options": ["slower", "faster", "same", "heavier"], "answer": "faster" },
+              { "type": "mcq", "prompt": "Compared to Earth, the ISS is ______.", "options": ["smaller", "bigger", "hotter", "lighter"], "answer": "bigger" },
+              { "type": "mcq", "prompt": "What do astronauts do on the ISS?", "options": ["Play games only", "Sleep only", "Do experiments", "Drive cars"], "answer": "Do experiments" },
+              { "type": "mcq", "prompt": "What is microgravity?", "options": ["Heavy weight", "Weightlessness", "Strong gravity", "Planet’s surface"], "answer": "Weightlessness" },
+              { "type": "mcq", "prompt": "Which module fact is correct?", "options": ["The ISS has only one module", "Astronauts sleep in modules", "Modules are outside the ISS", "Modules are cars"], "answer": "Astronauts sleep in modules" },
+              { "type": "mcq", "prompt": "How does Amal feel about space life?", "options": ["Boring", "Amazing", "Scary", "Normal"], "answer": "Amazing" },
+              { "type": "mcq", "prompt": "Which comparative is used in the text?", "options": ["bigger than", "most bigger", "bigger of", "more big"], "answer": "bigger than" },
+              { "type": "mcq", "prompt": "The ISS orbits the Earth every ______.", "options": ["24 hours", "90 minutes", "1 week", "1 month"], "answer": "90 minutes" },
+              { "type": "mcq", "prompt": "Which question is correct?", "options": ["How many astronauts is on the ISS?", "How many people are on the ISS?", "How many people on ISS?", "How many is on ISS?"], "answer": "How many people are on the ISS?" },
+              { "type": "drag", "prompt": "Match the object with the correct fact.", "left": ["ISS", "Module", "Rocket", "Astronaut", "Microgravity"], "right": ["Orbits Earth every 90 minutes", "Living and experiment area", "Carries astronauts to space", "Does experiments and sleeps in sleeping bags", "Weightlessness in space"], "answers": { "ISS": "Orbits Earth every 90 minutes", "Module": "Living and experiment area", "Rocket": "Carries astronauts to space", "Astronaut": "Does experiments and sleeps in sleeping bags", "Microgravity": "Weightlessness in space" } }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Use comparative adjectives to compare space objects: faster than, bigger than. Ask one How…? question about the ISS (e.g., “How fast does it orbit Earth?”)."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g5u3l3",
+          "title": "Asking for Information",
+          "image": "images/information.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Learn: How to Ask for Information Politely",
+              "intro": "Today, we’re learning how to ask for information politely, especially when visiting museums, clubs, or interesting places.",
+              "points": [
+                "Imagine you are exploring your city or a museum. You want to know: What time it opens; How much it costs; What you can see or do.",
+                "You can ask politely using these patterns.",
+                "Useful Phrases:",
+                "I’d like some information about… → I’d like some information about the National Museum, please.",
+                "Can you tell me…? → Can you tell me when the museum opens?",
+                "I’m interested in… → I’m interested in joining the Space Explorers Club.",
+                "How much is it? → How much is a ticket to the science exhibition?",
+                "Could you tell me…? → Could you tell me where the gift shop is?",
+                "Tip: Always start politely with please or could you, and don’t forget to say thank you afterwards.",
+                "Grammar Focus — Question Words: How, What, Where, When, Who.",
+                "Examples: How much is it? → Price | Where is the museum? → Location | What can I see there? → Activities or objects"
+              ],
+              "note": "Be polite and clear: choose the right question word and use a polite opener.",
+              "image": "images/information.jpg"
+            },
+            "read": {
+              "title": "Reading: A Visit to the National Museum",
+              "passage": "Amal and Fahad are visiting the National Museum. They want to know more about the exhibitions.\nAmal asks the guide, “I’d like some information about the ancient artefacts, please.”\nThe guide smiles and says, “You can see them on the second floor. They show life from thousands of years ago.”\nFahad asks, “How much is the entrance ticket?”\n“It’s fifteen rials,” replies the guide.\nAmal notices a brochure and asks, “Can you tell me if there are special workshops for children?”\n“Yes! We have a science club and a history workshop every weekend,” the guide answers.\nAmal and Fahad are excited. Now they know what to explore first!",
+              "image": "images/information.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "What does Amal ask about first?", "options": ["The workshops", "The artefacts", "The ticket price", "The museum map"], "answer": "The artefacts" },
+              { "type": "mcq", "prompt": "How much is the entrance ticket?", "options": ["10 rials", "15 rials", "20 rials", "5 rials"], "answer": "15 rials" },
+              { "type": "mcq", "prompt": "What does Fahad want to know?", "options": ["How big the museum is", "How much the ticket costs", "Where the gift shop is", "What the artefacts are"], "answer": "How much the ticket costs" },
+              { "type": "mcq", "prompt": "Where are the artefacts located?", "options": ["First floor", "Ground floor", "Second floor", "Third floor"], "answer": "Second floor" },
+              { "type": "mcq", "prompt": "Which phrase is polite for asking information?", "options": ["Give me information", "I want to know", "I’d like some information, please", "Tell me"], "answer": "I’d like some information, please" },
+              { "type": "mcq", "prompt": "What workshops are available for children?", "options": ["Music club", "Science and history workshops", "Dance workshop", "Art club"], "answer": "Science and history workshops" },
+              { "type": "mcq", "prompt": "“Can you tell me…?” is used to ______.", "options": ["Make a statement", "Ask politely", "Give information", "Compare objects"], "answer": "Ask politely" },
+              { "type": "mcq", "prompt": "Why are Amal and Fahad excited?", "options": ["They are tired", "They know what to explore first", "They are lost", "They are hungry"], "answer": "They know what to explore first" },
+              { "type": "mcq", "prompt": "Which question is correct?", "options": ["How much it is?", "How much is it?", "How much it costs?", "How much costs it?"], "answer": "How much is it?" },
+              { "type": "mcq", "prompt": "“I’m interested in…” is used to express ______.", "options": ["Politeness", "Interest", "Surprise", "Confusion"], "answer": "Interest" },
+              { "type": "drag", "prompt": "Match the question with the type of information.", "left": ["How much is the ticket?", "Where is the museum?", "What can I see there?", "I’m interested in joining the Space Club", "Can you tell me about workshops?"], "right": ["Price", "Location", "Activities / Exhibits", "Membership / Program", "Special Events"], "answers": { "How much is the ticket?": "Price", "Where is the museum?": "Location", "What can I see there?": "Activities / Exhibits", "I’m interested in joining the Space Club": "Membership / Program", "Can you tell me about workshops?": "Special Events" } },
+              { "type": "write", "prompt": "Write 3 polite questions to ask about a place you want to visit (use the Useful Phrases).", "minChars": 80 }
+            ],
+            "review": {
+              "title": "Review Tip",
+              "tip": "Start politely (I’d like…, Can you tell me…, Could you…); use question words (How / What / Where / When / Who). Write 3 polite questions about a place you want to visit."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g5u3l4",
+          "title": "Big Numbers in Space",
+          "image": "images/big_numbers_space.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🧠 1️⃣ Learn Section: Talking About Big Numbers",
+              "intro": "Today, we’re traveling into space to learn how to talk about big numbers in English — just like scientists and astronauts do!",
+              "points": [
+                "When we describe planets, distances, or stars, we often use thousands, millions, and billions.",
+                "🔹 Common Big Numbers",
+                "Number\tHow to Say It\tExample",
+                "100\ta hundred\tThere are about a hundred craters on the small moon.",
+                "500\tfive hundred\tThe rocket has five hundred parts!",
+                "1,000\ta thousand\tThere are a thousand stars in this picture.",
+                "5,000\tfive thousand\tThe space station is five thousand kilograms in weight.",
+                "10,000\tten thousand\tTen thousand people visited the museum last year.",
+                "50,000\tfifty thousand\tThe comet travels fifty thousand kilometres every hour.",
+                "100,000\ta hundred thousand\tA hundred thousand stars shine in this galaxy.",
+                "1,000,000\ta million\tThe Sun is more than a million times bigger than Earth!",
+                "💡 Tip:",
+                "Don’t say “one thousands” ❌ — it’s one thousand ✅.",
+                "Add s only when the number is not exact (e.g., thousands of stars 🌟)."
+              ],
+              "image": "images/spacee.jpg"
+            },
+            "read": {
+              "title": "🌌 2️⃣ Reading Passage: “Journey Through the Solar System”",
+              "passage": "The Solar System is full of wonders and big numbers!\nThe Sun is at the center, and eight planets move around it.\nThe Earth is about 150 million kilometres away from the Sun.\nJupiter, the biggest planet, is more than 1,300 times larger than Earth.\nA day on Venus is 243 Earth days long — that’s a very long day!\nScientists use telescopes and satellites to study millions of stars, comets, and asteroids every year.\nThe numbers may be big, but they help us understand the universe better!",
+              "image": "images/big_numbers_space.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "How many planets are in the Solar System?", "options": ["7", "8", "9", "10"], "answer": "8" },
+              { "type": "mcq", "prompt": "How far is Earth from the Sun?", "options": ["1 million km", "15 million km", "150 million km", "150 thousand km"], "answer": "150 million km" },
+              { "type": "mcq", "prompt": "Which planet is the biggest?", "options": ["Venus", "Earth", "Jupiter", "Mars"], "answer": "Jupiter" },
+              { "type": "mcq", "prompt": "How long is one day on Venus?", "options": ["24 hours", "243 Earth days", "365 days", "1 week"], "answer": "243 Earth days" },
+              { "type": "mcq", "prompt": "What do scientists use to study stars and planets?", "options": ["Cameras", "Telescopes and satellites", "Rulers", "Computers only"], "answer": "Telescopes and satellites" },
+              { "type": "mcq", "prompt": "“A hundred thousand stars” means:", "options": ["1,000 stars", "100 stars", "100,000 stars", "1,000,000 stars"], "answer": "100,000 stars" },
+              { "type": "mcq", "prompt": "What does “the biggest” mean?", "options": ["Very small", "Larger than all the others", "The same size", "A little big"], "answer": "Larger than all the others" },
+              { "type": "mcq", "prompt": "Which word is used to describe many but not exact large numbers?", "options": ["Hundred", "Thousands", "Million", "Hundreds thousand"], "answer": "Thousands" },
+              { "type": "mcq", "prompt": "Why are big numbers important in space?", "options": ["They help measure and understand distances", "They look interesting", "They are easy to say", "They are small"], "answer": "They help measure and understand distances" },
+              { "type": "mcq", "prompt": "“150 million kilometres” is a way to talk about:", "options": ["Size", "Distance", "Weight", "Age"], "answer": "Distance" },
+              { "type": "drag", "prompt": "Match the number to its correct phrase:", "left": ["100", "1,000", "50,000", "1,000,000", "150,000,000"], "right": ["a hundred", "a thousand", "fifty thousand", "a million", "one hundred fifty million"], "answers": { "100": "a hundred", "1,000": "a thousand", "50,000": "fifty thousand", "1,000,000": "a million", "150,000,000": "one hundred fifty million" } },
+              { "type": "write", "prompt": "🗣️ Imagine you’re a space explorer! Write three sentences using big numbers.\nExample:\n\nMy rocket can travel five thousand kilometres.\n\nThe galaxy has millions of stars.\n\nThe telescope can see a hundred thousand planets.", "minChars": 10 }
+            ],
+            "review": {
+              "title": "💬 4️⃣ Review Tip",
+              "tip": "✅ Use hundred, thousand, million for big numbers.\n✅ Don’t add “s” after an exact number.\n✅ Remember: thousands of = many, but not exact.\n✅ Always use commas to separate big numbers (1,000 not 1000)."
+            }
+          }
+        },
+        {
+          "id": "g5u3l5",
+          "title": "World Museums",
+          "image": "images/moi700108552.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "1️⃣ Learn Section: Discovering Museums Around the World",
+              "intro": "Museums are windows to the past, present, and future. They tell stories through objects, paintings, fossils, and inventions.\nEach museum is special — some show art, some show science, and others show history.\n\nLet’s learn how to talk about museums and describe what we can see or do there.",
+              "points": [
+                "🔹 Vocabulary You Need",
+                "Word | Meaning | Example",
+                "Exhibit | something shown in a museum | There’s a new dinosaur exhibit.",
+                "Ancient | very old, from long ago | Ancient statues tell stories of history.",
+                "Display | to show something | The museum displays old coins and books.",
+                "Guide | a person who shows you around | The guide explained the history of the castle.",
+                "Gallery | a room or building for art | We saw a famous painting in the art gallery.",
+                "Collection | a group of objects | The museum has a large collection of fossils.",
+                "Artifact | an object from the past | This artifact is from Ancient Egypt.",
+                "Entrance | the way into a place | The entrance is near the big blue gate."
+              ],
+              "note": "💡 Tip:\nWhen you talk about museums, use “There is / There are” and “You can see…”\n\nExamples:\n\nThere are many interesting exhibits in the museum.\n\nYou can see beautiful paintings and old coins.",
+              "image": "images/lesson5.jpg"
+            },
+            "read": {
+              "title": "2️⃣ Reading Passage: “A Trip Around the World’s Museums”",
+              "passage": "People all around the world love visiting museums.\nIn France, the Louvre Museum has the famous painting Mona Lisa.\nIn Egypt, the Grand Egyptian Museum shows ancient treasures and mummies.\nIn Oman, the National Museum in Muscat displays Omani history, culture, and traditional crafts.\nIn America, the Smithsonian Museum has space rockets and dinosaur skeletons!\n\nWhen you visit a museum, you learn about art, science, and history.\nYou can ask questions, read information, and explore different sections.\nMuseums help us understand how people lived long ago — and how we live today.",
+              "image": "images/lesson5.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "Which painting is in the Louvre Museum?", "options": ["The Starry Night", "The Mona Lisa", "The Scream", "Girl with a Pearl Earring"], "answer": "The Mona Lisa" },
+              { "type": "mcq", "prompt": "Where is the Grand Egyptian Museum?", "options": ["Oman", "France", "Egypt", "America"], "answer": "Egypt" },
+              { "type": "mcq", "prompt": "What can you see in the Smithsonian Museum?", "options": ["Only books", "Rockets and dinosaurs", "Paintings", "Cars"], "answer": "Rockets and dinosaurs" },
+              { "type": "mcq", "prompt": "What does the National Museum in Oman display?", "options": ["Only jewelry", "Omani history and crafts", "French art", "Egyptian mummies"], "answer": "Omani history and crafts" },
+              { "type": "mcq", "prompt": "Why do people visit museums?", "options": ["To play games", "To learn and explore", "To sleep", "To buy clothes"], "answer": "To learn and explore" },
+              { "type": "mcq", "prompt": "The Louvre Museum is in _______.", "options": ["London", "Paris", "Cairo", "Muscat"], "answer": "Paris" },
+              { "type": "mcq", "prompt": "What is the meaning of “artifact”?", "options": ["A new invention", "An old object from the past", "A type of animal", "A large building"], "answer": "An old object from the past" },
+              { "type": "mcq", "prompt": "Which word means “a person who shows visitors around”?", "options": ["Guard", "Guide", "Artist", "Teacher"], "answer": "Guide" },
+              { "type": "mcq", "prompt": "What can you learn in a museum?", "options": ["Art, science, and history", "Cooking", "Sports", "Singing"], "answer": "Art, science, and history" },
+              { "type": "mcq", "prompt": "“The museum displays ancient treasures.” What does displays mean?", "options": ["Hides", "Shows", "Sells", "Breaks"], "answer": "Shows" },
+              {
+                "type": "drag",
+                "prompt": "Match the museum to its country:",
+                "left": ["Louvre Museum", "Grand Egyptian Museum", "Smithsonian Museum", "National Museum"],
+                "right": ["France", "Egypt", "USA", "Oman"],
+                "answers": {
+                  "Louvre Museum": "France",
+                  "Grand Egyptian Museum": "Egypt",
+                  "Smithsonian Museum": "USA",
+                  "National Museum": "Oman"
+                }
+              },
+              {
+                "type": "write",
+                "prompt": "🗣️ Write 4 sentences about a museum you know.\nUse There is / There are / You can see / I’d like to visit…\n\nExample:\n\nThere is a big museum in Muscat.\n\nYou can see old swords and jewelry.\n\nThere are many beautiful photos of Oman.\n\nI’d like to visit the National Museum again!",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "4️⃣ Review Tip",
+              "tip": "✅ Use There is / There are to describe what’s in a museum.\n✅ Remember: museum = a place to learn about history, art, or science.\n✅ Be polite when asking for information — “Could you tell me where the gallery is?”\n✅ Museums are not boring… they are full of stories waiting to be explored! 🌟"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "Off to the Shops",
+      "lessons": [
+        {
+          "id": "g5u4l1",
+          "title": "Shopping in Oman",
+          "image": "images/oman_shops.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "1️⃣ Learn Section: Let's Go Shopping!",
+              "intro": "Oman has many types of shops — from modern malls to traditional souqs (markets) filled with beautiful local products.\nYou can buy dates, frankincense, silver jewelry, clothes, toys, and electronics — everything you need!\n\nWhen shopping, we must use polite English to ask for prices or help.\nLet's learn how to talk about shops and money the right way.",
+              "points": [
+                "🏪 Types of Shops",
+                "Shop | What You Can Buy | Example Sentence",
+                "Butcher's | meat | I went to the butcher's to buy beef.",
+                "Greengrocer's | fruits and vegetables | The greengrocer's has fresh dates and tomatoes.",
+                "Pharmacy | medicine | You can buy medicine at the pharmacy.",
+                "Fishmonger's | fish | The fishmonger's sells fresh kingfish.",
+                "Gift shop | presents and souvenirs | We bought frankincense from the gift shop.",
+                "Toy shop | toys and games | My brother bought a puzzle from the toy shop.",
+                "Jeweller's | gold, silver | The jeweller's has Omani silver khanjars.",
+                "Corner shop | small food items | I got milk and bread from the corner shop.",
+                "💰 Money & Prices Vocabulary",
+                "Word | Meaning | Example",
+                "Wallet / Purse | where you keep your money | I keep my rials in my wallet.",
+                "Save | to keep money for later | I save my pocket money to buy books.",
+                "Spend | to use money | I spend three rials on snacks.",
+                "Buy / Sell | to get or give items for money | They buy and sell dates at the souq.",
+                "Pocket money | money you get weekly | I get pocket money from my parents every Friday.",
+                "🔹 Useful Phrases for Shopping",
+                "• How much is it? → How much is this khanjar, please?",
+                "• It's five rials. → It's fifteen rials for the necklace.",
+                "• I'd like to buy... → I'd like to buy a box of Omani halwa.",
+                "• Can I help you? → Yes, I'm looking for a souvenir.",
+                "• Thank you very much! → You're welcome!"
+              ],
+              "note": "💡 Tip: Always use please and thank you when shopping. Being polite shows respect and makes shopping more enjoyable for everyone!",
+              "image": "images/oman_shops.jpg"
+            },
+            "read": {
+              "title": "2️⃣ Reading Passage: A Visit to Muttrah Souq",
+              "passage": "Amal and her family went to Muttrah Souq in Muscat. The air smelled of frankincense and perfume.\nThere were small shops selling silver jewelry, colorful scarves, and Omani sweets.\nAmal asked politely, \"How much is this scarf, please?\"\nThe shopkeeper smiled and said, \"It's three rials.\"\nShe looked at another one and said, \"I'd like to buy this blue scarf.\"\nHer father bought Omani halwa and a small silver khanjar as a gift for his friend.\nAt the end, they thanked the shopkeeper and left happily with their bags full of Omani treasures.",
+              "image": "images/oman_shops.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "Where did Amal and her family go?", "options": ["A museum", "Muttrah Souq", "The National Museum", "The park"], "answer": "Muttrah Souq" },
+              { "type": "mcq", "prompt": "What did the shop sell?", "options": ["Toys", "Fruits", "Silver jewelry and scarves", "Books"], "answer": "Silver jewelry and scarves" },
+              { "type": "mcq", "prompt": "How much was the scarf?", "options": ["2 rials", "3 rials", "4 rials", "5 rials"], "answer": "3 rials" },
+              { "type": "mcq", "prompt": "What did Amal's father buy?", "options": ["A T-shirt", "A khanjar and halwa", "A phone", "A toy car"], "answer": "A khanjar and halwa" },
+              { "type": "mcq", "prompt": "What did Amal say to ask the price?", "options": ["What is the cost?", "How much is this scarf, please?", "I want this scarf.", "Give me this scarf."], "answer": "How much is this scarf, please?" },
+              { "type": "mcq", "prompt": "What is the polite way to speak to a shopkeeper?", "options": ["Say \"Please\" and \"Thank you\"", "Speak loudly", "Ignore them", "Walk away"], "answer": "Say \"Please\" and \"Thank you\"" },
+              { "type": "mcq", "prompt": "Which shop sells Omani halwa?", "options": ["Toy shop", "Gift shop", "Pharmacy", "Greengrocer's"], "answer": "Gift shop" },
+              { "type": "mcq", "prompt": "What smell filled the air in the souq?", "options": ["Coffee", "Frankincense", "Perfume only", "Flowers"], "answer": "Frankincense" },
+              { "type": "mcq", "prompt": "What is a khanjar?", "options": ["A type of shoe", "A traditional Omani dagger", "A sweet", "A fish"], "answer": "A traditional Omani dagger" },
+              { "type": "mcq", "prompt": "Why was the family happy?", "options": ["They got discounts", "They bought Omani gifts", "They met their friends", "They got lost"], "answer": "They bought Omani gifts" },
+              {
+                "type": "drag",
+                "prompt": "Match the shop to what you can buy:",
+                "left": ["Butcher's", "Fishmonger's", "Pharmacy", "Jeweller's", "Toy shop", "Gift shop"],
+                "right": ["Meat", "Fish", "Medicine", "Silver khanjar", "Puzzle", "Frankincense"],
+                "answers": {
+                  "Butcher's": "Meat",
+                  "Fishmonger's": "Fish",
+                  "Pharmacy": "Medicine",
+                  "Jeweller's": "Silver khanjar",
+                  "Toy shop": "Puzzle",
+                  "Gift shop": "Frankincense"
+                }
+              },
+              {
+                "type": "write",
+                "prompt": "🗣️ Imagine you're at a souq or mall in Oman.\nWrite 3 sentences showing how you buy something politely.\n\nExample:\n\nI'd like to buy some frankincense, please.\n\nHow much is this box of halwa?\n\nThank you very much!",
+                "minChars": 60
+              }
+            ],
+            "review": {
+              "title": "4️⃣ Review Tip",
+              "tip": "✅ Always use please and thank you when shopping.\n✅ \"How much is it?\" = Ask the price politely.\n✅ \"I'd like to buy…\" = Shows respect and good manners.\n✅ Learn from Omani culture: politeness and respect make every trade beautiful. 🇴🇲"
+            }
+          }
+        },
+        {
+          "id": "g5u4l2",
+          "title": "Shopping in My Town",
+          "image": "images/mall of oman.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🛍️ Let's Explore Shops & Prices!",
+              "intro": "Welcome to the world of shopping! 🌟\n\nFrom the grand Mall of Oman with its glass ceiling and luxury stores, to the cozy traditional souqs filled with the smell of frankincense and spices — Oman has it all!\n\nToday, we'll learn how to talk about different shops, ask for prices in rials, and use the right words when shopping.\n\nReady to become a smart shopper? Let's go! 🛒✨",
+              "points": [
+                "🏬 Where Do We Shop in Oman?",
+                "🏛️ Modern Malls → Grand places with many stores — like Mall of Oman, Muscat Grand Mall, and Oman Avenues Mall. You can find clothes, electronics, toys, food courts, and even cinemas!",
+                "🕌 Traditional Souqs → Historic markets like Muttrah Souq and Nizwa Souq where you can buy spices, silver jewelry, Omani halwa, frankincense, textiles, and handmade crafts. Shopkeepers are friendly and you can often bargain politely!",
+                "🏪 Corner Shops → Small neighborhood stores for quick items like milk, bread, snacks, and drinks.",
+                "",
+                "🏪 Types of Shops",
+                "Shop | What You Buy | Example Sentence",
+                "Butcher's | meat (beef, chicken, lamb) | I buy meat at the butcher's.",
+                "Greengrocer's | fruits & vegetables | We buy mangoes at the greengrocer's.",
+                "Pharmacy | medicine | I get medicine from the pharmacy.",
+                "Toy shop | toys | My brother loves going to the toy shop.",
+                "Sports shop | balls, shoes | I bought a football from the sports shop.",
+                "Gift shop | souvenirs | Tourists buy frankincense in the gift shop.",
+                "Corner shop | snacks & drinks | I buy milk from the corner shop.",
+                "Fishmonger's | fresh fish | The fishmonger's sells kingfish.",
+                "",
+                "💰 Money & Prices",
+                "Word | Meaning | Example",
+                "Rials (OMR) | Omani currency | The toy costs five rials.",
+                "Baisa | coins (1000 baisa = 1 rial) | It's 2 rials and 500 baisa.",
+                "Price | how much something costs | What's the price of this shirt?",
+                "Receipt | proof of payment | Can I have a receipt, please?",
+                "Bargain | ask for lower price | Can you make it eight rials?",
+                "Change | money returned | Here's your change: 2 rials.",
+                "",
+                "⚖️ Grammar Focus: Countable vs. Uncountable Nouns",
+                "",
+                "🔹 Countable Nouns (you can count them):",
+                "• We use: a, an, one, two, three, many, few",
+                "• Examples: a toy, an apple, three oranges, five rials",
+                "• Sentences:",
+                "   ✅ I want a bottle of water.",
+                "   ✅ We need some eggs.",
+                "   ✅ I'd like an orange, please.",
+                "",
+                "🔹 Uncountable Nouns (you CANNOT count them):",
+                "• We use: some, any, much, little",
+                "• Examples: water, rice, money, medicine, frankincense, milk",
+                "• Sentences:",
+                "   ✅ Do you have any rice?",
+                "   ✅ I need some medicine.",
+                "   ✅ How much money do you have?",
+                "",
+                "�️ Pronunciation Tip:",
+                "Say the 's ending clearly: butcher's (butcher + s), greengrocer's — it means \"the shop of that person.\"",
+                "",
+                "🌍 Culture Connection: Omani Markets",
+                "In Oman, people visit souqs like Muttrah Souq or Nizwa Souq. You can buy silver, spices, and frankincense there. Shopkeepers are friendly, and you can often bargain politely!",
+                "",
+                "💬 Useful Shopping Phrases:",
+                "• How much is it? → How much is this football, please?",
+                "• It's ___ rials. → It's ten rials.",
+                "• I'd like to buy... → I'd like to buy a box of halwa.",
+                "• Can I help you? → Yes, I'm looking for a souvenir.",
+                "• Can you make it less? → Can you make it eight rials? (bargaining)",
+                "• Thank you very much! → You're welcome!"
+              ],
+              "note": "🎯 Quick Tip: Emphasize the 's in shop names (butcher's, toy shop's). Always use 'please' and 'thank you' when shopping. In souqs, polite bargaining is part of Omani culture — but always smile! 😊",
+              "image": "images/mall of oman.jpg"
+            },
+            "read": {
+              "title": "📖 Reading: A Day at the Mall & Souq",
+              "passage": "Amal and Fahad had a busy shopping day in Muscat!\n\nFirst, they visited the Mall of Oman. The building was huge with a beautiful glass ceiling. They went to the toy shop.\n\"How much is this teddy bear?\" asked Amal.\n\"It's eight rials,\" said the shopkeeper.\nFahad bought a football from the sports shop for twelve rials.\n\nLater, they visited Muttrah Souq with their parents. The narrow streets smelled of frankincense and spices. Their mother bought some Omani halwa from a gift shop.\n\"How much is this box?\" she asked.\n\"It's five rials, but for you, four rials,\" the kind shopkeeper said with a smile.\n\nAt the end of the day, they stopped at a corner shop near home and bought milk, juice, and some chocolate.\n\nAmal said, \"I love shopping in Oman — we have modern malls and traditional souqs. Both are amazing!\"\n\nFahad agreed. \"And everyone is so polite and kind!\"",
+              "image": "images/souq.jpg"
+            },
+            "practice": [
+              {
+                "type": "drag",
+                "prompt": "🛒 Match the item to the correct shop:",
+                "left": ["A football", "A teddy bear", "Oranges", "Meat", "Medicine", "Chocolate", "Fresh fish", "Frankincense"],
+                "right": ["Sports shop", "Toy shop", "Greengrocer's", "Butcher's", "Pharmacy", "Corner shop", "Fishmonger's", "Gift shop"],
+                "answers": {
+                  "A football": "Sports shop",
+                  "A teddy bear": "Toy shop",
+                  "Oranges": "Greengrocer's",
+                  "Meat": "Butcher's",
+                  "Medicine": "Pharmacy",
+                  "Chocolate": "Corner shop",
+                  "Fresh fish": "Fishmonger's",
+                  "Frankincense": "Gift shop"
+                }
+              },
+              {
+                "type": "mcq",
+                "prompt": "🗣️ You want to ask the price. What do you say?",
+                "options": ["What is cost?", "How much is it?", "How many price?", "Give me price."],
+                "answer": "How much is it?"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which is countable?",
+                "options": ["water", "rice", "an apple", "money"],
+                "answer": "an apple"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which is uncountable?",
+                "options": ["toys", "rials", "medicine", "eggs"],
+                "answer": "medicine"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Complete: I want ___ bottle of water.",
+                "options": ["a", "some", "any", "much"],
+                "answer": "a"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Complete: Do you have ___ rice?",
+                "options": ["a", "an", "any", "two"],
+                "answer": "any"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Where can you buy traditional Omani silver?",
+                "options": ["Toy shop", "Souq gift shop", "Corner shop", "Pharmacy"],
+                "answer": "Souq gift shop"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is the Omani currency called?",
+                "options": ["Dirham", "Dinar", "Rial", "Dollar"],
+                "answer": "Rial"
+              },
+              {
+                "type": "mcq",
+                "prompt": "How many baisa are in 1 rial?",
+                "options": ["10", "100", "1000", "10000"],
+                "answer": "1000"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does 'bargain' mean?",
+                "options": ["Pay full price", "Ask for a discount", "Leave the shop", "Buy many items"],
+                "answer": "Ask for a discount"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is correct?",
+                "options": ["I need some informations.", "I need some information.", "I need an information.", "I need informations."],
+                "answer": "I need some information."
+              },
+              {
+                "type": "write",
+                "prompt": "🎭 Role-Play Time!\n\nImagine you're shopping at a mall or souq in Oman. Write a short conversation (6–8 sentences) between you and a shopkeeper.\n\n✅ Use: How much is it? / I'd like to buy... / Thank you!\n✅ Include at least 2 items and their prices in rials.\n\nExample Start:\n\nCustomer: Hello! How much is this football?\n\nShopkeeper: It's twelve rials.\n\nCustomer: Great! I'd like to buy it, please...",
+                "minChars": 150
+              }
+            ],
+            "review": {
+              "title": "🎯 Lesson Review & Shopping Wisdom",
+              "tip": "🛍️ What We Learned Today:\n\n✅ Different types of shops: butcher's, greengrocer's, pharmacy, toy shop, sports shop, gift shop, corner shop, fishmonger's\n\n✅ How to ask prices politely: \"How much is it?\" / \"It's ___ rials.\"\n\n✅ Countable vs. Uncountable:\n   • Countable: a toy, an apple, three eggs\n   • Uncountable: water, rice, money, medicine\n\n✅ Omani shopping culture: Modern malls + traditional souqs = the best of both worlds! 🇴🇲\n\n💡 Remember: Good manners make you a better shopper. Always say please, thank you, and smile! 😊"
+            }
+          }
+        },
+        {
+          "id": "g5u4l3",
+          "title": "Money, Prices & Budgets",
+          "image": "images/souq.jpg",
+          "stars": 20,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "💰 Learn — Money, Prices & Budgets",
+              "intro": "Imagine you've got 10 rials and you're visiting Muttrah Souq. You want a scarf, some halwa and a postcard. Can you buy everything and still save some money?\n\nToday we learn how to ask prices, count money, and make smart choices like a real Omani shopper! 🛍️",
+              "points": [
+                "� Money Words",
+                "Word | Meaning | Example",
+                "Rials | Omani currency | I have 10 rials in my wallet.",
+                "Baisa | small coins (1000 baisa = 1 rial) | It costs 2 rials and 500 baisa.",
+                "Wallet | where you keep money | My wallet is in my pocket.",
+                "Purse | bag for money (usually for women) | She keeps her rials in her purse.",
+                "Pocket money | money given weekly by parents | I get 5 rials pocket money every Friday.",
+                "Price | how much something costs | What's the price of this scarf?",
+                "Cost | another word for price | How much does this cost?",
+                "Change | money returned when you pay more | Here's your change: 2 rials.",
+                "",
+                "🗣️ Useful Phrases",
+                "• How much is it, please?",
+                "• It's three rials.",
+                "• How much does this cost?",
+                "• I'd like to buy…",
+                "• Do you have change for five rials?",
+                "",
+                "⚖️ Grammar Focus — have to / don't have to",
+                "",
+                "✅ have to = It's NECESSARY (you must do it)",
+                "• I have to save money for school books.",
+                "• You have to ask politely for the price.",
+                "• We have to pay before leaving the shop.",
+                "",
+                "❌ don't have to = It's NOT necessary (you can choose)",
+                "• You don't have to buy everything now.",
+                "• I don't have to buy the bracelet today.",
+                "• We don't have to spend all our money.",
+                "",
+                "💬 Mini-Modelled Examples",
+                "Conversation at the souq:",
+                "",
+                "🧕 Shopkeeper: \"That scarf is 3 rials.\"",
+                "",
+                "👦 Customer: \"How much is the bracelet, please?\"",
+                "",
+                "🧕 Shopkeeper: \"It's 15 rials.\"",
+                "",
+                "👦 Student self-talk: \"I have 10 rials. I don't have to buy the bracelet today.\""
+              ],
+              "note": "💡 Budget Tip: A budget means planning how much money you'll spend and save. Smart shoppers always keep some money for later!",
+              "image": "images/souq.jpg"
+            },
+            "read": {
+              "title": "📖 Reading: Amal's Shopping Trip",
+              "passage": "Amal has ten rials in her wallet. She goes to the corner shop and sees a postcard for one rial, a small box of halwa for two rials, and a pretty scarf for three rials.\n\nShe asks politely, \"How much is this scarf, please?\"\n\nThe shopkeeper smiles and says, \"It's three rials.\"\n\nAmal thinks, \"I have to save some money for school.\" She buys the postcard and the halwa and leaves two rials in her wallet.\n\nShe is happy because she spent her money carefully.",
+              "image": "images/souq.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Amal had how many rials?",
+                "options": ["5", "10", "20", "3"],
+                "answer": "10"
+              },
+              {
+                "type": "mcq",
+                "prompt": "The postcard costs:",
+                "options": ["1 rial", "2 rials", "3 rials", "5 rials"],
+                "answer": "1 rial"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Why didn't Amal buy the scarf?",
+                "options": ["She didn't like it", "She had to save money", "It was broken", "It was free"],
+                "answer": "She had to save money"
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"Do you have change for five rials?\" is used to ask for:",
+                "options": ["price", "bigger money", "change", "a discount"],
+                "answer": "change"
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"I don't have to buy everything now.\" — meaning:",
+                "options": ["It's necessary to buy now", "It's not necessary to buy now", "I must buy now", "I can't buy anything"],
+                "answer": "It's not necessary to buy now"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Fill in: I ________ save money for school books.",
+                "options": ["have to", "don't have to", "doesn't have to", "having to"],
+                "answer": "have to"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Fill in: You ________ buy the scarf today.",
+                "options": ["have to", "don't have to", "has to", "must"],
+                "answer": "don't have to"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Fill in: We ________ ask politely for the price.",
+                "options": ["have to", "don't have to", "doesn't have to", "having"],
+                "answer": "have to"
+              },
+              {
+                "type": "mcq",
+                "prompt": "💰 Budget Math: Amal has 10 rials. She buys postcard (1 rial) and halwa (2 rials). How much is left?",
+                "options": ["5 rials", "6 rials", "7 rials", "8 rials"],
+                "answer": "7 rials"
+              },
+              {
+                "type": "mcq",
+                "prompt": "💰 Budget Calculation: Amal has 10 rials. She buys postcard (1), halwa (2) and a toy (4). How much money is left?\n\nWork it out: 10 − (1 + 2 + 4) = ?",
+                "options": ["2 rials", "3 rials", "4 rials", "5 rials"],
+                "answer": "3 rials"
+              },
+              {
+                "type": "drag",
+                "prompt": "💵 Match the price to the correct item:",
+                "left": ["Postcard", "Halwa", "Scarf", "Toy car"],
+                "right": ["1 rial", "2 rials", "3 rials", "4 rials"],
+                "answers": {
+                  "Postcard": "1 rial",
+                  "Halwa": "2 rials",
+                  "Scarf": "3 rials",
+                  "Toy car": "4 rials"
+                }
+              },
+              {
+                "type": "write",
+                "prompt": "🎭 Speaking / Writing Task:\n\n📝 Part 1 — Pair Role-Play (classroom):\nStudent A = shopkeeper\nStudent B = customer with a budget of 8 rials\nPractice asking prices and buying politely.\n\n✍️ Part 2 — Writing:\nWrite 3 sentences describing what you would buy with 15 rials in Muttrah Souq.\n\n✅ Use \"I'd like to buy…\"\n✅ Use \"I have to / don't have to…\"\n\nExample:\nI have 15 rials. I'd like to buy a box of Omani halwa for 5 rials and a postcard for 1 rial. I don't have to buy the expensive bracelet because I have to save money for school books.",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "🎯 Review & Teacher Notes",
+              "tip": "� Quick Recap:\n\n✅ Vocabulary: rials, baisa, wallet, save, spend, pocket money, price, cost, change\n\n✅ Polite phrases: \"How much is it, please?\" / \"I'd like to buy…\" / \"Do you have change for…?\"\n\n✅ Grammar: have to (necessary) vs. don't have to (not necessary)\n\n✅ Budget math: Simple addition/subtraction with rials\n\n👩‍🏫 Teacher Suggestions:\n• Use real coins or printed rials for hands-on practice\n• Let students role-play shopkeeper and customer\n• For stronger students: include baisa (0.001 rial) conversions\n• For others: stick to whole rials\n\n🎮 Game Idea — \"Souq Saver\":\nA fun, timed shopping game where students:\n• Are given a budget (e.g., 10 rials)\n• Must buy required items from a shopping list\n• Practice asking \"How much is it?\" to see prices\n• Make smart choices to stay within budget\n• Get bonus points for using polite phrases\n• Learn to give correct change\n\nGame teaches vocabulary, polite phrases, and arithmetic while making budgeting fun! 🛒✨\n\n💡 Assessment: Quick quiz on vocabulary + budget calculations\n📌 Extension: Ask students to create a savings plan for a 20-rial toy based on weekly pocket money"
+            }
+          }
+        },
+        {
+          "id": "g5u4l4",
+          "title": "The World of the Corner Shop",
+          "image": "images/corner_shop_outside.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Teach Section – Understanding Corner Shops",
+              "intro": "In Oman, corner shops are part of daily life. They’re small, friendly stores in many neighborhoods — perfect for buying snacks, drinks, or things you forgot from the supermarket. Let’s learn how to describe a corner shop, talk about prices, and use polite English when buying or selling.",
+              "points": [
+                "🏪 Vocabulary – Shops & Shopping",
+                "Word | Meaning | Example Sentence",
+                "Corner shop | A small local shop | The corner shop near my house sells cold drinks.",
+                "Kiosk | A small stand that sells newspapers or snacks | There’s a kiosk near the bus stop.",
+                "Save | Keep money for later | I save my pocket money every week.",
+                "Spend | Use money to buy things | I spend my money on toys.",
+                "Wallet | A small case for keeping money | My father keeps his rials in a brown wallet.",
+                "🗣️ Useful Phrases for Everyday English",
+                "Can I help you?",
+                "How much does this cost?",
+                "That’s two rials, please.",
+                "Would you like a bag?",
+                "Have a nice day!",
+                "⚖️ Grammar Focus: Have to / Don’t Have to",
+                "We use have to for things that are necessary: I have to go to the shop before dinner.",
+                "We use don’t have to when something isn’t necessary: You don’t have to buy milk, we already have some."
+              ],
+              "note": "🌍 Omani Culture: Corner shops often sell Omani halwa, incense, and fresh dates near the counter. It’s polite to greet the shopkeeper with ‘As-salamu alaykum’ and say ‘Shukran’ when you leave.",
+              "image": "images/corner_shop_inside.jpg"
+            },
+            "read": {
+              "title": "Reading: Salim at the Corner Shop",
+              "passage": "Salim goes to the corner shop every morning. He buys milk, bread, and fruit. The shopkeeper always smiles and says, ‘Good morning!’ Salim likes his corner shop because it is near his house and the prices are good.",
+              "image": "images/corner_shop_outside.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "A corner shop is usually...", "options": ["very big", "small and local", "inside a mall"], "answer": "small and local" },
+              { "type": "mcq", "prompt": "You can buy medicine at the...", "options": ["pharmacy", "toy shop", "fishmonger’s"], "answer": "pharmacy" },
+              { "type": "mcq", "prompt": "You use a wallet to...", "options": ["drink juice", "keep your money", "write letters"], "answer": "keep your money" },
+              { "type": "mcq", "prompt": "‘You don’t have to buy milk’ means...", "options": ["Buying milk is not necessary", "You must buy milk", "You can’t buy milk"], "answer": "Buying milk is not necessary" },
+              { "type": "drag", "prompt": "Drag the correct word into each blank.", "left": ["I bought a drink from the ____ near my school.", "I always keep my money in my ____.", "You ____ save money if you want to buy a new phone.", "You ____ spend all your money at once.", "The ____ sells newspapers and magazines."], "right": ["corner shop", "wallet", "have to", "don’t have to", "kiosk"], "answers": { "I bought a drink from the ____ near my school.": "corner shop", "I always keep my money in my ____.": "wallet", "You ____ save money if you want to buy a new phone.": "have to", "You ____ spend all your money at once.": "don’t have to", "The ____ sells newspapers and magazines.": "kiosk" } },
+              { "type": "write", "prompt": "Write 4–5 sentences about your favorite corner shop. Use the words save, spend, wallet, and shop.", "minChars": 100 },
+              { "type": "mcq", "prompt": "What does Salim buy from the shop?", "options": ["Clothes", "Shoes", "Milk, bread, and fruit"], "answer": "Milk, bread, and fruit" },
+              { "type": "mcq", "prompt": "How does the shopkeeper greet him?", "options": ["‘Good morning!’", "‘Welcome back!’", "‘See you later!’"], "answer": "‘Good morning!’" },
+              { "type": "mcq", "prompt": "Why does Salim like the corner shop?", "options": ["It sells phones", "It is near his house and the prices are good", "It is very big"], "answer": "It is near his house and the prices are good" },
+              { "type": "mcq", "prompt": "True or False: A corner shop is very big.", "options": ["True", "False"], "answer": "False" },
+              { "type": "mcq", "prompt": "True or False: You can buy drinks at a corner shop.", "options": ["True", "False"], "answer": "True" },
+              { "type": "mcq", "prompt": "True or False: You don’t have to say thank you in a shop.", "options": ["True", "False"], "answer": "False" },
+              { "type": "mcq", "prompt": "True or False: Saving money helps you buy things later.", "options": ["True", "False"], "answer": "True" }
+            ],
+            "review": {
+              "title": "Review Challenge",
+              "tip": "Remember: Corner shops are small and local. Ask politely: ‘Can I help you?’ ‘How much does this cost?’ Use have to for necessity and don’t have to when it isn’t necessary. Greet with As-salamu alaykum and say Shukran when you leave."
+            }
+          }
+        },
+        {
+          "id": "g5u4l5",
+          "title": "Good Manners Around the World",
+          "image": "images/manners_world.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "What Are Good Manners?",
+              "intro": "Good manners are ways we show respect and kindness to others. Every culture has its own special ways to greet, thank, and speak politely. In Oman, we greet people by saying ‘As-salamu alaykum’, and we show respect by speaking kindly, helping others, and waiting our turn. In other countries, people may show good manners differently — by shaking hands, bowing, or smiling.",
+              "points": [
+                "🔹 Vocabulary – Politeness Around the World",
+                "Word / Phrase | Meaning | Example",
+                "Polite | Showing good manners | It’s polite to say ‘please’ and ‘thank you.’",
+                "Greet | Say hello to someone | Omanis greet with ‘As-salamu alaykum.’",
+                "Bow | Bend slightly to show respect | In Japan, people bow to greet each other.",
+                "Respect | Care and kindness for others | We respect our teachers and elders.",
+                "Share | Give part of something to others | I share my lunch with my friends.",
+                "⚖️ Grammar Focus – Using ‘should’ for Advice",
+                "We use should to give advice or talk about what’s right.",
+                "You should say thank you.",
+                "You shouldn’t be rude to your friends.",
+                "We should help people in need.",
+                "🔹 Culture Focus – Manners by Country",
+                "Country | Manners",
+                "Oman 🇴🇲 | Say ‘As-salamu alaykum’, show respect to elders, remove shoes in homes.",
+                "Japan 🇯🇵 | People bow when they meet, and they don’t talk loudly in public.",
+                "India 🇮🇳 | People greet with ‘Namaste’ and show respect to teachers.",
+                "UK 🇬🇧 | People say ‘Please’ and ‘Thank you’ often and queue politely.",
+                "USA 🇺🇸 | People smile and say ‘Hi!’ or ‘Nice to meet you!’"
+              ],
+              "note": "Optional video: Kids Learn Manners Around the World (YouTube)",
+              "image": "images/manners_class.jpg"
+            },
+            "read": {
+              "title": "Mini Reading: Being Polite",
+              "passage": "In Oman, children learn good manners at home and at school. They greet people politely and help their friends. When they visit someone’s house, they take off their shoes and say ‘As-salamu alaykum.’ Being polite makes everyone happy!",
+              "image": "images/manners_world.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "You should always say ‘____’ when someone gives you something.", "options": ["Sorry", "Thank you", "Goodbye"], "answer": "Thank you" },
+              { "type": "mcq", "prompt": "In Oman, it’s polite to say ‘____’ when you greet someone.", "options": ["Hello!", "As-salamu alaykum", "See you!"], "answer": "As-salamu alaykum" },
+              { "type": "mcq", "prompt": "In Japan, people show respect by ____.", "options": ["Smiling", "Bowing", "Waving"], "answer": "Bowing" },
+              { "type": "mcq", "prompt": "You shouldn’t ____.", "options": ["Help others", "Speak kindly", "Be rude"], "answer": "Be rude" },
+              { "type": "drag", "prompt": "Drag the correct phrase into each blank.", "left": ["You ____ say ‘please’ when asking for something.", "In Oman, people greet with ‘____.’", "People in Japan ____ when they meet.", "We ____ respect our teachers.", "It’s ____ to interrupt someone."], "right": ["should", "As-salamu alaykum", "bow", "should", "rude"], "answers": { "You ____ say ‘please’ when asking for something.": "should", "In Oman, people greet with ‘____.’": "As-salamu alaykum", "People in Japan ____ when they meet.": "bow", "We ____ respect our teachers.": "should", "It’s ____ to interrupt someone.": "rude" } },
+              { "type": "write", "prompt": "Write 4–5 sentences about good manners in your family or school.", "minChars": 100 },
+              { "type": "mcq", "prompt": "Where do Omani children learn good manners?", "options": ["Only at home", "At home and at school", "Only at school"], "answer": "At home and at school" },
+              { "type": "mcq", "prompt": "What do they say when they visit someone’s house?", "options": ["Hello!", "As-salamu alaykum", "Good evening"], "answer": "As-salamu alaykum" },
+              { "type": "mcq", "prompt": "Why are good manners important?", "options": ["They make people happy", "They make people angry", "They are not important"], "answer": "They make people happy" },
+              { "type": "mcq", "prompt": "True or False: You should greet people politely.", "options": ["True", "False"], "answer": "True" },
+              { "type": "mcq", "prompt": "True or False: In Japan, people wave to say hello.", "options": ["True", "False"], "answer": "False" },
+              { "type": "mcq", "prompt": "True or False: It’s rude to say ‘thank you.’", "options": ["True", "False"], "answer": "False" },
+              { "type": "mcq", "prompt": "True or False: Good manners make people happy.", "options": ["True", "False"], "answer": "True" }
+            ],
+            "review": {
+              "title": "Review Challenge",
+              "tip": "Use ‘should’ to give advice (You should say thank you. We shouldn’t be rude.). Greet politely in different cultures: As-salamu alaykum, Namaste, a bow, a smile. Kindness and respect make communities happy."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

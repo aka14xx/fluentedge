@@ -1,0 +1,3437 @@
+{
+  "grade": 6,
+  "units": [
+    {
+      "unit": 1,
+      "title": "Free-time Fun",
+      "lessons": [
+        {
+          "id": "g6u1l1",
+          "title": "The WOW! Team — Getting to Know Each Other",
+          "image": "images/wow_team.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🎬 The WOW! Team — Getting to Know Each Other",
+              "intro": "Free time is what we do when we're not studying or working — it's the perfect chance to explore our interests, grow skills, and connect with friends.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will:",
+                "✅ Describe yourself and others using adjectives and hobbies",
+                "✅ Talk about free-time activities using play, go, and do correctly",
+                "✅ Use the present simple to describe habits and routines",
+                "✅ Recognize Omani and global free-time culture",
+                "",
+                "**Let's meet The WOW! Team** — students from around the world who share their hobbies and learn from each other:",
+                "",
+                "🇴🇲 **Aisha from Oman** loves doing photography and collecting cards.",
+                "🇬🇧 **Tom from the UK** enjoys playing football and watching cartoons.",
+                "🇮🇳 **Ravi from India** likes doing gymnastics and playing the guitar.",
+                "🇨🇦 **Maya from Canada** spends her weekends making videos and going swimming.",
+                "",
+                "Just like Aisha, many Omani students enjoy outdoor activities like:",
+                "• cycling in Al Mouj 🚴",
+                "• playing volleyball at school 🏐",
+                "• going scouting with friends in the mountains ⛰️",
+                "",
+                "**Why is free time important?**",
+                "Free time helps us relax, stay healthy, and learn teamwork — key skills for school and life!",
+                "",
+                "**💬 Vocabulary Practice**",
+                "Match each hobby with the correct verb:",
+                "• ___ gymnastics → (do)",
+                "• ___ football → (play)",
+                "• ___ swimming → (go)",
+                "",
+                "**🗣 Speaking Task**",
+                "With a partner, ask and answer:",
+                "**A:** What do you do in your free time?",
+                "**B:** I play video games and do photography.",
+                "",
+                "**✍️ Writing Task**",
+                "Write a short paragraph about yourself using the present simple. Include: your name, where you're from, adjectives to describe yourself, and 2-3 free-time activities.",
+                "",
+                "**Example:**",
+                "\"Hi, I'm Saif. I'm from Oman. I'm very friendly and creative. In my free time, I go cycling with my friends and make videos.\""
+              ],
+              "image": "images/wow_team.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Category", "Words & Phrases"],
+                  "rows": [
+                    ["Adjectives", "energetic, kind, creative, clever, friendly, tall, chatty, handsome, fun"],
+                    ["Sports (go)", "go swimming, go skating, go cycling, go scouting"],
+                    ["Games (play)", "play football, play volleyball, play badminton, play video games"],
+                    ["Activities (do)", "do photography, do gymnastics, do karate, do the gardening"],
+                    ["Hobbies", "collect cards, make models, write a diary, put on shows"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use the present simple to talk about habits, hobbies, and routines.",
+                "table": {
+                  "columns": ["Subject", "Verb", "Example"],
+                  "rows": [
+                    ["I / You / We / They", "play / go / do", "I play football every Friday."],
+                    ["He / She", "plays / goes / does", "She goes swimming every weekend."]
+                  ]
+                },
+                "questions": [
+                  "What do you do in your free time?",
+                  "Do you play any sports?",
+                  "Does he like making videos?"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏞️ hiking in Jebel Shams",
+                  "🏖️ swimming at Qurum Beach",
+                  "🏐 playing volleyball after school"
+                ],
+                "world": [
+                  "🎮 Japanese students love video games",
+                  "🎨 Italians enjoy painting",
+                  "🏸 Indonesians play badminton a lot!"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Meet The WOW! Team",
+              "passage": "The WOW! Team is a group of students from different countries who love sharing their hobbies.\n\nAisha is from Oman. She is creative and friendly. She loves doing photography at the beach and collecting cards with her friends. On weekends, she goes cycling in Al Mouj.\n\nTom is from the UK. He is energetic and fun. He plays football every Saturday and watches cartoons with his little brother.\n\nRavi lives in India. He is clever and kind. He does gymnastics three times a week and plays the guitar in his free time.\n\nMaya is from Canada. She is chatty and brave. She makes videos about nature and goes swimming in the lake near her house.\n\nAll four friends use video calls to share their hobbies and learn about each other's cultures. They even created a group chat called 'The WOW! Team' where they send photos and talk about their free time!",
+              "image": "images/wow_team_reading.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is correct?",
+                "options": [
+                  "I goes swimming every Friday.",
+                  "She go skating every day.",
+                  "He plays football every weekend."
+                ],
+                "answer": "He plays football every weekend."
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which verb fits? 'I ___ gymnastics.'",
+                "options": ["play", "do", "go"],
+                "answer": "do"
+              },
+              {
+                "type": "mcq",
+                "prompt": "'Does she like making videos?' — Correct response:",
+                "options": [
+                  "Yes, she do.",
+                  "Yes, she does.",
+                  "Yes, she is."
+                ],
+                "answer": "Yes, she does."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What's a popular free-time activity in Oman?",
+                "options": ["Ice hockey", "Hiking", "Skiing"],
+                "answer": "Hiking"
+              },
+              {
+                "type": "mcq",
+                "prompt": "The word 'friendly' is…",
+                "options": ["a verb", "a noun", "an adjective"],
+                "answer": "an adjective"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each hobby with the correct verb:",
+                "left": ["gymnastics", "football", "swimming"],
+                "right": ["do", "play", "go"],
+                "answers": {
+                  "gymnastics": "do",
+                  "football": "play",
+                  "swimming": "go"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: I ___ football every Friday. (play/plays)",
+                "answer": "play",
+                "acceptableAnswers": ["play"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: She ___ swimming every weekend. (go/goes)",
+                "answer": "goes",
+                "acceptableAnswers": ["goes"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph about yourself using the present simple. Include: your name, where you're from, adjectives to describe yourself, and 2-3 free-time activities. Example: 'Hi, I'm Saif. I'm from Oman. I'm very friendly and creative. In my free time, I go cycling with my friends and make videos.'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can use adjectives to describe people.",
+                "☑ I can talk about hobbies with play/go/do.",
+                "☑ I can write about my free time clearly.",
+                "☑ I know some free-time activities in Oman."
+              ],
+              "homework": "Create a mini poster about The WOW! Team or your own hobbies. Include pictures and at least 5 sentences using present simple."
+            }
+          }
+        },
+        {
+          "id": "g6u1l2",
+          "title": "Sports and Hobbies Around the World",
+          "image": "images/sports_world.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🎯 Sports and Hobbies Around the World",
+              "intro": "All around the world, children spend their free time in creative and active ways. Each hobby reflects the country's culture, weather, and lifestyle — just like Oman's outdoor life fits its warm, sunny climate.",
+              "points": [
+                "**🎓 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Talk about sports and hobbies in Oman and other countries",
+                "✅ Use Present Simple vs Present Continuous correctly",
+                "✅ Make and respond to suggestions",
+                "✅ Compare activities people do in different cultures",
+                "",
+                "**💡 Warm-Up: Around the World in 5 Minutes**",
+                "",
+                "Think about these questions:",
+                "• What hobbies do you and your friends enjoy?",
+                "• What do kids in other countries like to do for fun?",
+                "",
+                "**🌍 Sports & Hobbies Around the World:**",
+                "",
+                "🇴🇲 **Oman:**",
+                "Students love playing football, going camping, or doing photography in the desert. Families often go picnicking in Wadi Shab or cycling in Al Mouj.",
+                "",
+                "🇯🇵 **Japan:**",
+                "Kids enjoy playing video games, karate, and calligraphy. They sometimes mix modern hobbies with traditional art.",
+                "",
+                "🇬🇧 **UK:**",
+                "Many children play football, ride bikes, and join drama clubs after school.",
+                "",
+                "🇧🇷 **Brazil:**",
+                "Students are crazy about football, but also love dancing and making crafts.",
+                "",
+                "🇮🇳 **India:**",
+                "Popular hobbies include playing cricket, doing yoga, and drawing rangoli art.",
+                "",
+                "**💬 Making Suggestions**",
+                "",
+                "**Ways to suggest activities:**",
+                "• Why don't we go swimming?",
+                "• Let's play table tennis!",
+                "• How about watching a movie?",
+                "",
+                "**Positive Response:** \"That's a good idea!\"",
+                "**Negative Response:** \"Sorry, I can't. Maybe later.\"",
+                "",
+                "**🗣 Speaking Practice**",
+                "",
+                "Role play with a partner:",
+                "**A:** \"Let's go cycling after school.\"",
+                "**B:** \"That's a good idea!\"",
+                "",
+                "Try making your own suggestions!"
+              ],
+              "image": "images/sports_world.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Group", "Examples"],
+                  "rows": [
+                    ["Sports", "football, badminton, swimming, cycling, volleyball"],
+                    ["Hobbies", "photography, gardening, reading, playing guitar, drawing"],
+                    ["Adjectives", "active, creative, brave, clever, energetic, funny"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "Present Simple is used for habits and routines. Present Continuous is used for actions happening right now.",
+                "table": {
+                  "columns": ["Tense", "Use", "Example"],
+                  "rows": [
+                    ["Present Simple", "Habits / routines", "I play football every Friday."],
+                    ["Present Continuous", "Actions happening now", "I'm playing football right now."]
+                  ]
+                },
+                "questions": [
+                  "I do gymnastics every weekend. (habit)",
+                  "Look! I am doing gymnastics right now! (happening now)"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏕️ Camping in Jebel Akhdar",
+                  "🏄 Swimming in Tiwi",
+                  "🐪 Camel races in the desert",
+                  "🎭 School drama festivals"
+                ],
+                "world": [
+                  "🎮 Japanese students love video games",
+                  "🏸 Indonesians play badminton",
+                  "🎨 Italians enjoy painting",
+                  "⚽ Brazilians are crazy about football"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Hobbies That Connect Us",
+              "passage": "Around the world, children share many similar hobbies even though they live in different countries.\n\nIn Oman, Ahmed loves going camping with his family in Jebel Akhdar. They bring tents, cook traditional food, and enjoy the cool mountain air.\n\nIn Japan, Yuki practices karate three times a week. She also enjoys calligraphy, a traditional art of beautiful writing.\n\nIn Brazil, Carlos plays football every day after school. His dream is to become a professional player.\n\nIn the UK, Emma goes to drama club where she acts in school plays. She also loves cycling in the park with her friends.\n\nEven though their hobbies are different, all four children learn important skills: teamwork, creativity, and staying healthy. Hobbies connect us all, no matter where we live!",
+              "image": "images/hobbies_connect.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which tense describes a habit?",
+                "options": ["Present Continuous", "Present Simple", "Past Simple"],
+                "answer": "Present Simple"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is correct?",
+                "options": [
+                  "I am go swimming on Fridays.",
+                  "I go swimming every Friday.",
+                  "I going swimming every Friday."
+                ],
+                "answer": "I go swimming every Friday."
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"Let's play football.\" → Correct reply:",
+                "options": [
+                  "No, it's boring.",
+                  "That's a good idea!",
+                  "I don't like you."
+                ],
+                "answer": "That's a good idea!"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which of these is NOT a hobby?",
+                "options": ["playing chess", "watching TV", "running late"],
+                "answer": "running late"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Omani families often go...",
+                "options": ["skiing", "camping", "ice skating"],
+                "answer": "camping"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each activity with the correct verb:",
+                "left": ["football", "swimming", "gymnastics"],
+                "right": ["play", "go", "do"],
+                "answers": {
+                  "football": "play",
+                  "swimming": "go",
+                  "gymnastics": "do"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: I _______ (go) swimming every Saturday.",
+                "answer": "go",
+                "acceptableAnswers": ["go"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Look! She _______ (play) volleyball right now.",
+                "answer": "is playing",
+                "acceptableAnswers": ["is playing", "'s playing"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: We usually _______ (do) karate at school.",
+                "answer": "do",
+                "acceptableAnswers": ["do"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: They _______ (make) a video at the moment.",
+                "answer": "are making",
+                "acceptableAnswers": ["are making", "'re making"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph comparing hobbies in Oman and another country. Use present simple and include at least 3 activities. Example: 'In Oman, students love playing football and going camping. In Japan, kids enjoy karate and video games. Both countries have fun outdoor activities.'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can describe hobbies in Oman and other countries",
+                "☑ I can use present simple and present continuous correctly",
+                "☑ I can make and respond to suggestions",
+                "☑ I can explain how hobbies show culture"
+              ],
+              "homework": "Create a presentation about hobbies in 3 different countries. Include pictures and at least 2 sentences about each country using present simple."
+            }
+          }
+        },
+        {
+          "id": "g6u1l3",
+          "title": "Technology and Free Time",
+          "image": "images/tech_life.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "⚙️ Technology and Free Time",
+              "intro": "Technology is part of everyone's free time — from watching videos to learning new skills. Technology connects people and helps them learn, create, and share — but we should also use it safely and wisely.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will:",
+                "✅ Talk about how you use technology in daily life",
+                "✅ Use Present Simple and Present Continuous to describe habits and current actions",
+                "✅ Ask for and give help with technology",
+                "✅ Learn tech-related vocabulary and safe internet habits",
+                "",
+                "**💡 Warm-Up: \"What's on Your Screen?\"**",
+                "",
+                "Think about:",
+                "• What apps do you use every day?",
+                "• What do you usually do online?",
+                "",
+                "Common devices students use:",
+                "📱 a smartphone with games",
+                "💻 a laptop showing YouTube",
+                "🎧 headphones playing music",
+                "📷 taking a selfie",
+                "",
+                "**🧠 Technology in Our Lives**",
+                "",
+                "Here are some common ways students in Oman and around the world use technology:",
+                "",
+                "🇴🇲 **Oman:**",
+                "Students love watching YouTube, playing online games, and editing videos on their phones. Some also use apps to learn English or design digital art.",
+                "",
+                "🇯🇵 **Japan:**",
+                "Students use robots to learn coding and language games for fun.",
+                "",
+                "🇬🇧 **UK:**",
+                "Teenagers often watch sports online or stream shows on tablets.",
+                "",
+                "🇮🇳 **India:**",
+                "Kids use smartphones for music, drawing apps, and educational videos.",
+                "",
+                "**💬 Asking for Help with Technology**",
+                "",
+                "**Useful expressions:**",
+                "• Can you show me how to turn it on?",
+                "• How do I upload a photo?",
+                "• What's wrong with the printer?",
+                "• Thanks, that really helps!",
+                "",
+                "**Practice Dialogue:**",
+                "**A:** Can you show me how to connect to Wi-Fi?",
+                "**B:** Sure! Click on 'Settings,' then 'Network.'",
+                "",
+                "**🧠 Vocabulary Match Activity**",
+                "",
+                "Match each word to its meaning:",
+                "• **Upload** → Put something from your device onto the internet",
+                "• **Download** → Save something from the internet to your device",
+                "• **Click** → Press a button on the mouse or screen",
+                "• **Go online** → Connect to the internet"
+              ],
+              "image": "images/tech_life.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Group", "Words"],
+                  "rows": [
+                    ["Devices", "smartphone, laptop, tablet, printer, digital camera, speaker"],
+                    ["Actions", "go online, type a password, upload, download, click, press a button"],
+                    ["Apps & Media", "website, video, selfie, message, screen, e-reader"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "Present Simple is used for habits and regular actions. Present Continuous is used for actions happening right now.",
+                "table": {
+                  "columns": ["Tense", "Use", "Example"],
+                  "rows": [
+                    ["Present Simple", "habits / regular actions", "I watch videos online every evening."],
+                    ["Present Continuous", "actions happening now", "I'm downloading a new app right now."]
+                  ]
+                },
+                "questions": [
+                  "He goes online every day. (habit)",
+                  "She is typing her password now. (happening now)",
+                  "They upload photos every week. (habit)"
+                ]
+              },
+              "culture": {
+                "oman": [
+                    "📘 Using educational apps like Fluent Edge or Alef",
+                  "🪐 Watching STEM videos about space or science",
+                  "📸 Taking selfies at Nizwa Fort",
+                  "🎮 Playing multiplayer games with friends"
+                ],
+                "world": [
+                  "🤖 Japan: Using robots to learn coding",
+                  "📺 UK: Watching sports online",
+                  "🎨 India: Using drawing apps",
+                  "🎮 Worldwide: Gaming connects students globally"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 A Day in the Digital World",
+              "passage": "Technology has changed how we spend our free time.\n\nIn Muscat, Fatima uses her tablet every evening. She watches educational videos about animals and sometimes plays puzzle games. Her favorite app teaches her new English words.\n\nIn Tokyo, Kenji loves coding. He uses a laptop to create small games and share them with friends online. He also watches anime on weekends.\n\nIn London, James streams football matches on his phone. He also uses a music app to listen to his favorite songs while doing homework.\n\nIn Mumbai, Priya loves photography. She uses her smartphone to take pictures of flowers and sunsets. Then she edits them using a photo app and shares them with her family.\n\nAll four students use technology in different ways, but they all learn something new every day. Technology can be fun and educational when we use it wisely!",
+              "image": "images/digital_world.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which tense describes a habit?",
+                "options": ["Present Continuous", "Present Simple", "Past Simple"],
+                "answer": "Present Simple"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What do you do when you 'upload' a photo?",
+                "options": [
+                  "Take a picture",
+                  "Put it on the internet",
+                  "Delete it"
+                ],
+                "answer": "Put it on the internet"
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"Look! I'm typing my password.\" — This is...",
+                "options": [
+                  "Present Simple",
+                  "Present Continuous",
+                  "Past Simple"
+                ],
+                "answer": "Present Continuous"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which of these is a device?",
+                "options": ["Keyboard", "Typing", "Uploading"],
+                "answer": "Keyboard"
+              },
+              {
+                "type": "mcq",
+                "prompt": "In Oman, students use technology for...",
+                "options": [
+                  "Learning only",
+                  "Fun only",
+                  "Learning and fun"
+                ],
+                "answer": "Learning and fun"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each tech problem with its solution:",
+                "left": ["My tablet won't turn on", "I can't connect to the internet", "I forgot my password"],
+                "right": ["Charge it", "Check Wi-Fi", "Reset password"],
+                "answers": {
+                  "My tablet won't turn on": "Charge it",
+                  "I can't connect to the internet": "Check Wi-Fi",
+                  "I forgot my password": "Reset password"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: He _______ (use) his laptop every day.",
+                "answer": "uses",
+                "acceptableAnswers": ["uses"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Look! She _______ (type) her password.",
+                "answer": "is typing",
+                "acceptableAnswers": ["is typing", "'s typing"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: I _______ (watch) a video right now.",
+                "answer": "am watching",
+                "acceptableAnswers": ["am watching", "'m watching"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: We _______ (go) online to do homework.",
+                "answer": "go",
+                "acceptableAnswers": ["go"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph about how you use technology in your free time. Include at least 3 activities and use both Present Simple (for habits) and Present Continuous (for what you're doing now). Example: 'I usually watch YouTube videos every evening. Right now, I'm typing this message on my laptop. I also play games online with my friends on weekends.'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can describe how people use technology",
+                "☑ I can ask for help politely",
+                "☑ I can use Present Simple and Present Continuous",
+                "☑ I can talk about Omani tech culture"
+              ],
+              "homework": "Create a mini guide titled 'Safe and Smart Tech Use' with 5 tips for using technology wisely. Include pictures or drawings."
+            }
+          }
+        },
+        {
+          "id": "g6u1l4",
+          "title": "Giving Suggestions for Free-Time Activities",
+          "image": "images/suggestions.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "💬 Giving Suggestions for Free-Time Activities",
+              "intro": "We use suggestion phrases when we want to plan something fun or give an idea. This helps us make plans with friends and family!",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Make and respond to suggestions politely",
+                "✅ Use expressions with Let's, Shall we…?, and How about…?",
+                "✅ Talk about group plans and fun things to do",
+                "✅ Use vocabulary for activities, places, and people",
+                "",
+                "**🌞 Warm-Up: \"What Shall We Do?\"**",
+                "",
+                "It's the weekend in Oman — what do you do for fun?",
+                "",
+                "Common weekend activities:",
+                "🏖 going to the beach",
+                "🎮 playing games",
+                "⚽ playing football",
+                "🎥 watching movies",
+                "🎨 painting or drawing",
+                "",
+                "**🧠 Making Suggestions**",
+                "",
+                "Here are different ways to suggest activities:",
+                "",
+                "**Let's go to the park.**",
+                "**How about watching a movie?** (verb + -ing)",
+                "**Why don't we play football?**",
+                "**Shall we make a pizza?**",
+                "",
+                "**💬 Dialogue Practice**",
+                "",
+                "**Ahmed:** What shall we do this weekend?",
+                "**Salim:** Let's go to the beach!",
+                "**Ahmed:** Hmm, it's too hot. How about going to the mall?",
+                "**Salim:** Great idea! We can get ice cream, too! 🍦",
+                "",
+                "**Discussion:**",
+                "• Which expressions are used for suggestions?",
+                "• Which one shows agreement?",
+                "",
+                "**🧠 Mini Practice – Complete the Suggestion**",
+                "",
+                "Try these:",
+                "• ________ go shopping after school. (Let's)",
+                "• How about ________ (play) basketball? (playing)",
+                "• ________ we visit the park? (Shall)",
+                "• Why don't we ________ (watch) a film? (watch)",
+                "",
+                "**💬 Replying to Suggestions**",
+                "",
+                "**Positive replies:**",
+                "• Great idea!",
+                "• Sounds good!",
+                "• Sure, let's do that!",
+                "",
+                "**Polite refusals:**",
+                "• Hmm, I'm not sure.",
+                "• Maybe another time.",
+                "• How about something else?",
+                "",
+                "**🎮 Speaking Activity – \"Weekend Planner\"**",
+                "",
+                "Work in pairs:",
+                "**A:** Let's go hiking in Jebel Akhdar!",
+                "**B:** Hmm, it's far. How about going to the beach instead?"
+              ],
+              "image": "images/suggestions.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Group", "Words"],
+                  "rows": [
+                    ["Places", "park, beach, mall, cinema, sports club, mountain"],
+                    ["Activities", "swimming, hiking, shopping, reading, drawing, watching movies"],
+                    ["Expressions", "let's, shall we, how about, why don't we, sounds good, great idea"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "Different suggestion patterns use different verb forms. Learn when to use the base verb vs. verb + -ing.",
+                "table": {
+                  "columns": ["Pattern", "Structure", "Example"],
+                  "rows": [
+                    ["Let's", "Let's + base verb", "Let's go hiking."],
+                    ["How about", "How about + verb + -ing", "How about going swimming?"],
+                    ["Why don't we", "Why don't we + base verb", "Why don't we play football?"],
+                    ["Shall we", "Shall we + base verb", "Shall we watch a movie?"]
+                  ]
+                },
+                "questions": []
+              },
+              "culture": {
+                "oman": [
+                  "👨‍👩‍👧‍👦 Families love spending weekends together",
+                  "🏔️ Going picnicking, hiking, or camping in the mountains",
+                  "🌅 Enjoying barbecues on the beach",
+                  "🛍️ Teens hang out at malls or watch movies"
+                ],
+                "world": [
+                  "🇬🇧 UK: Going to the cinema with friends",
+                  "🇯🇵 Japan: Visiting arcades and parks",
+                  "🇧🇷 Brazil: Playing beach volleyball",
+                  "🇮🇳 India: Shopping at markets together"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Planning the Perfect Weekend",
+              "passage": "It's Friday afternoon in Muscat. Four friends are planning their weekend.\n\n\"Let's go to the beach!\" says Sara excitedly.\n\n\"Hmm, it might be too hot,\" replies Ahmed. \"How about going to the mall instead?\"\n\n\"Good idea!\" says Fatima. \"We can watch a movie and get ice cream.\"\n\n\"Wait,\" interrupts Khalid. \"Why don't we go hiking in Jebel Akhdar? The weather is perfect for it.\"\n\nThe friends think for a moment.\n\n\"That sounds amazing, but it's far,\" says Sara. \"Shall we go next weekend instead? This weekend we can go to the mall.\"\n\n\"Deal!\" everyone agrees.\n\nBy making suggestions and listening to each other, the friends created a plan that made everyone happy. Sometimes the best plans come from working together!",
+              "image": "images/weekend_planning.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which of these is a suggestion?",
+                "options": [
+                  "I go to the park.",
+                  "Let's go to the park.",
+                  "I went to the park."
+                ],
+                "answer": "Let's go to the park."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What's correct?",
+                "options": [
+                  "How about go shopping?",
+                  "How about going shopping?",
+                  "How about to go shopping?"
+                ],
+                "answer": "How about going shopping?"
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"Shall we play football?\" means:",
+                "options": [
+                  "A command",
+                  "A suggestion",
+                  "A question about ability"
+                ],
+                "answer": "A suggestion"
+              },
+              {
+                "type": "mcq",
+                "prompt": "\"Why don't we go swimming?\" — What's this for?",
+                "options": [
+                  "Offering help",
+                  "Making a suggestion",
+                  "Asking permission"
+                ],
+                "answer": "Making a suggestion"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which reply is polite?",
+                "options": [
+                  "No, boring.",
+                  "Sounds great!",
+                  "I don't want."
+                ],
+                "answer": "Sounds great!"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each suggestion phrase with the correct verb form:",
+                "left": ["Let's", "How about", "Why don't we"],
+                "right": ["base verb", "verb + -ing", "base verb"],
+                "answers": {
+                  "Let's": "base verb",
+                  "How about": "verb + -ing",
+                  "Why don't we": "base verb"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: ________ go shopping after school. (Let's)",
+                "answer": "Let's",
+                "acceptableAnswers": ["Let's", "Lets"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: How about ________ (play) basketball?",
+                "answer": "playing",
+                "acceptableAnswers": ["playing"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: ________ we visit the park? (Shall)",
+                "answer": "Shall",
+                "acceptableAnswers": ["Shall"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Why don't we ________ (watch) a film?",
+                "answer": "watch",
+                "acceptableAnswers": ["watch"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short dialogue (at least 4 lines) between two friends planning a weekend activity. Use at least 2 different suggestion phrases (Let's, How about, Why don't we, Shall we) and include both acceptance and refusal. Example: 'A: Let's go swimming! B: Hmm, I can't swim well. How about going to the cinema? A: Great idea! What shall we watch?'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can make suggestions with Let's / How about / Shall we",
+                "☑ I can accept or refuse politely",
+                "☑ I know fun activities and free-time vocabulary",
+                "☑ I can talk about Omani weekend plans"
+              ],
+              "homework": "Create a 'Weekend Plan' poster with 3 activities. For each activity, write a suggestion sentence using Let's, How about, or Why don't we. Add drawings or pictures."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Technology",
+      "lessons": [
+        {
+          "id": "g6u2l1",
+          "title": "Amazing Inventions",
+          "image": "images/amazing_inventions.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "💻 Amazing Inventions",
+              "intro": "We use technology every day — at home, in school, and even outdoors! Technology helps us learn, communicate, and make life easier.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Identify and describe different types of technology and devices",
+                "✅ Talk about how technology helps people in daily life",
+                "✅ Use Present Simple tense to describe functions and uses",
+                "✅ Recognize how technology is part of Omani life",
+                "",
+                "**🌅 Warm-Up – \"What Can It Do?\"**",
+                "",
+                "Think about devices you use:",
+                "• Smartphone, laptop, vacuum cleaner, digital camera",
+                "",
+                "Ask yourself:",
+                "• What can this do?",
+                "• Who uses it the most in your family?",
+                "",
+                "Common answers:",
+                "• It takes photos.",
+                "• It helps clean the house.",
+                "• It connects us to the internet.",
+                "",
+                "**🎮 Activity – \"Tech Detective\"**",
+                "",
+                "🕵️‍♂️ Choose one device and describe it without saying its name!",
+                "",
+                "**Example:**",
+                "\"It has buttons and a screen. You can talk to people with it.\"",
+                "✅ Answer: Smartphone!",
+                "",
+                "**💬 Dialogue Practice**",
+                "",
+                "**Nasser:** What does your tablet do?",
+                "**Aisha:** It plays music and helps me study English.",
+                "**Nasser:** Cool! My tablet doesn't play music, but it's great for games. 🎮",
+                "",
+                "**Discussion:**",
+                "• Which verbs show \"functions\"?",
+                "• Which sentences use \"doesn't\"?",
+                "",
+                "**🧠 Mini Practice – Match the Device to Its Use**",
+                "",
+                "1️⃣ Smartphone → C. Calls and texts",
+                "2️⃣ Laptop → D. Helps with homework",
+                "3️⃣ Printer → B. Prints papers",
+                "4️⃣ Camera → A. Takes photos"
+              ],
+              "image": "images/amazing_inventions.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Device", "A machine used for a purpose"],
+                    ["App", "A program on a phone or computer"],
+                    ["Screen", "The part you look at"],
+                    ["Charger", "Used to give power"],
+                    ["Printer", "Prints paper copies"],
+                    ["Upload", "Send data to the internet"],
+                    ["Download", "Save data from the internet"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use Present Simple to describe what something does or how it works. This is the most common way to talk about technology functions.",
+                "table": {
+                  "columns": ["Form", "Structure", "Example"],
+                  "rows": [
+                    ["Positive", "Subject + Verb (base form)", "A phone makes calls."],
+                    ["Negative", "doesn't + base verb", "My old TV doesn't have a remote."],
+                    ["Question", "Does + subject + base verb?", "Does your laptop work fast?"]
+                  ]
+                },
+                "questions": [
+                  "Laptops help us study.",
+                  "My smartwatch shows messages.",
+                  "Does your tablet play music? Yes, it does. / No, it doesn't."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "📚 Students use tablets and smartboards in classrooms",
+                  "📱 Families stay connected with Omantel and Ooredoo",
+                  "🚗 Delivery apps and e-services in Muscat",
+                  "🌾 Farmers use drones to check their crops"
+                ],
+                "world": [
+                  "🇯🇵 Japan: Robots help in hospitals and schools",
+                  "🇬🇧 UK: Self-checkout machines in stores",
+                  "🇺🇸 USA: Smart home devices control lights and temperature",
+                  "🇰🇷 South Korea: Super-fast 5G internet everywhere"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Technology in My Home",
+              "passage": "My name is Khalid and I live in Muscat. Technology is everywhere in my house!\n\nIn the morning, my dad's smartwatch wakes him up. It also shows his messages and counts his steps.\n\nMy mom uses her smartphone to order groceries online. The delivery arrives in just one hour!\n\nI use my laptop for school. It helps me write reports and watch educational videos. My little sister has a tablet that teaches her Arabic and English through fun games.\n\nIn the kitchen, we have a microwave that heats food quickly. My mom also uses a vacuum cleaner to clean the floors every day.\n\nAt night, we all watch TV together. Our smart TV connects to the internet, so we can watch Omani shows and documentaries.\n\nTechnology makes our life easier, faster, and more fun. I can't imagine living without it!",
+              "image": "images/tech_home.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which device can you use to write homework?",
+                "options": ["Camera", "Laptop", "Vacuum cleaner"],
+                "answer": "Laptop"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which verb fits? 'My phone ________ photos.'",
+                "options": ["take", "takes", "taking"],
+                "answer": "takes"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does a vacuum cleaner do?",
+                "options": [
+                  "Washes clothes",
+                  "Cleans the floor",
+                  "Takes pictures"
+                ],
+                "answer": "Cleans the floor"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What's the opposite of upload?",
+                "options": ["Watch", "Download", "Delete"],
+                "answer": "Download"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is correct?",
+                "options": [
+                  "My laptop don't work.",
+                  "My laptop doesn't work.",
+                  "My laptop doesn't works."
+                ],
+                "answer": "My laptop doesn't work."
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each device to what it does:",
+                "left": ["Smartphone", "Printer", "Camera"],
+                "right": ["Calls and texts", "Prints papers", "Takes photos"],
+                "answers": {
+                  "Smartphone": "Calls and texts",
+                  "Printer": "Prints papers",
+                  "Camera": "Takes photos"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: My laptop ________ (help) me with school work.",
+                "answer": "helps",
+                "acceptableAnswers": ["helps"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: A smartphone ________ (take) great pictures.",
+                "answer": "takes",
+                "acceptableAnswers": ["takes"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: My old camera ________ (not record) videos. Use doesn't + verb.",
+                "answer": "doesn't record",
+                "acceptableAnswers": ["doesn't record", "does not record"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph about your favorite device. Describe what it does and how it helps you. Use Present Simple tense (it helps, it makes, it shows, etc.). Example: 'My favorite device is my tablet. It helps me study English and play educational games. It has a big screen and connects to the internet. I use it every day after school.'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can name different devices and their functions",
+                "☑ I can use Present Simple to describe what technology does",
+                "☑ I can use doesn't in negative sentences",
+                "☑ I can talk about technology in Oman"
+              ],
+              "homework": "Create a 'Tech at Home' poster. Draw or find pictures of 5 devices in your house. Write one sentence for each using Present Simple (e.g., 'My TV shows movies.')."
+            }
+          }
+        },
+        {
+          "id": "g6u2l2",
+          "title": "Using Technology Safely",
+          "image": "images/tech_safety.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "💻 Using Technology Safely",
+              "intro": "Technology helps us — but we must use it wisely. Learning internet safety rules will protect you and keep your information private.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Talk about safe and responsible ways to use technology",
+                "✅ Use modal verbs like can, can't, should, and shouldn't",
+                "✅ Understand internet safety rules and apply them in real life",
+                "✅ Discuss how Omani schools teach safe digital habits",
+                "",
+                "**🌅 Warm-Up – \"Online or Offline?\"**",
+                "",
+                "Which activities are online? Which are offline?",
+                "• Sending an email → Online",
+                "• Riding a bike → Offline",
+                "• Taking a selfie → Can be both!",
+                "• Playing football → Offline",
+                "",
+                "💬 Some activities use technology — and others don't!",
+                "",
+                "**🧠 Be Smart, Be Safe! – Golden Rules 🏆**",
+                "",
+                "Here are important safety rules:",
+                "",
+                "**1. Don't share personal information**",
+                "Don't post your address or school name online.",
+                "",
+                "**2. Use strong passwords**",
+                "Mix letters, numbers, and symbols.",
+                "",
+                "**3. Be kind online**",
+                "Don't write mean comments.",
+                "",
+                "**4. Ask an adult for help**",
+                "If something feels strange, tell your parents or teacher.",
+                "",
+                "**5. Take breaks**",
+                "Too much screen time hurts your eyes.",
+                "",
+                "**💬 Dialogue Practice – Online Chat Trouble**",
+                "",
+                "**Hassan:** I got a message from someone I don't know.",
+                "**Sara:** You shouldn't answer!",
+                "**Hassan:** You're right. I'll tell my parents.",
+                "",
+                "**Discussion:**",
+                "• What advice does Sara give?",
+                "• What modal verbs are used?",
+                "",
+                "**🎮 Safe or Unsafe Activity**",
+                "",
+                "Sort these actions:",
+                "",
+                "**SAFE:**",
+                "✅ I use a strong password.",
+                "✅ I ask my teacher for help.",
+                "✅ I take breaks from screens.",
+                "",
+                "**UNSAFE:**",
+                "❌ I share my phone number online.",
+                "❌ I click on strange links.",
+                "❌ I talk to strangers in games.",
+                "",
+                "**🧩 Practice Sentences**",
+                "",
+                "Complete with can, can't, should, or shouldn't:",
+                "• You _______ use strong passwords. (should)",
+                "• You _______ share photos with strangers. (shouldn't)",
+                "• You _______ protect your device with a password. (can)"
+              ],
+              "image": "images/tech_safety.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Password", "A secret code for safety"],
+                    ["Stranger", "Someone you don't know"],
+                    ["Download", "Get a file from the internet"],
+                    ["Upload", "Send a file to the internet"],
+                    ["Privacy", "Keeping your information safe"],
+                    ["Virus", "A harmful program for computers"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use can/can't to talk about ability and possibility, and should/shouldn't to give advice about what is right or wrong to do.",
+                "table": {
+                  "columns": ["Modal Verb", "Use", "Example"],
+                  "rows": [
+                    ["Can", "Ability / Possibility", "You can use a password to protect your device."],
+                    ["Can't", "Impossibility / Prohibition", "You can't talk to strangers online."],
+                    ["Should", "Advice (positive)", "You should ask your teacher before downloading apps."],
+                    ["Shouldn't", "Advice (negative)", "You shouldn't share your password with anyone."]
+                  ]
+                },
+                "questions": []
+              },
+              "culture": {
+                "oman": [
+                  "📚 Schools teach digital safety lessons",
+                  "📱 Omantel and Ooredoo promote safe online behavior",
+                  "👨‍👩‍👧 Families encourage balance — learning, not just games",
+                  "💻 Schools use E-Learning Portals with safe student accounts"
+                ],
+                "world": [
+                  "🇬🇧 UK: CBBC runs 'Stay Safe Online' campaigns",
+                  "🇺🇸 USA: Many schools have 'Digital Citizenship' classes",
+                  "🇦🇺 Australia: eSafety Commissioner protects kids online",
+                  "🇯🇵 Japan: Students learn about cyberbullying prevention"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Sara's Smart Choice",
+              "passage": "Sara is 11 years old and loves playing online games. One day, while playing her favorite game, someone sent her a message.\n\n\"Hi Sara! I'm your friend Ahmed. Can you tell me your phone number?\"\n\nSara felt confused. She didn't remember having a friend named Ahmed in the game.\n\nShe thought: \"Should I answer? This person might be a stranger.\"\n\nSara remembered her teacher's lesson about internet safety. Her teacher always said: \"You shouldn't share personal information with people you don't know online.\"\n\nSara closed the chat and told her mom about the message. Her mom was proud of her.\n\n\"You made a very smart choice, Sara,\" her mom said. \"You can't trust everyone online. Always tell an adult if something feels wrong.\"\n\nFrom that day, Sara always thought carefully before chatting with anyone online. She knew that being safe was more important than being polite to strangers.",
+              "image": "images/safe_choice.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "You _______ share your password with your friends.",
+                "options": ["should", "shouldn't", "can"],
+                "answer": "shouldn't"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What should you do if you get a strange message?",
+                "options": [
+                  "Ignore it or tell an adult",
+                  "Reply to it",
+                  "Send your photo"
+                ],
+                "answer": "Ignore it or tell an adult"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which word means 'someone you don't know'?",
+                "options": ["Friend", "Stranger", "Teacher"],
+                "answer": "Stranger"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What can happen if you click on unknown links?",
+                "options": [
+                  "Your computer might get a virus",
+                  "You win money",
+                  "Nothing happens"
+                ],
+                "answer": "Your computer might get a virus"
+              },
+              {
+                "type": "mcq",
+                "prompt": "You _______ take breaks when using screens.",
+                "options": ["can't", "should", "shouldn't"],
+                "answer": "should"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each action to Safe or Unsafe:",
+                "left": ["Use strong passwords", "Share phone number online", "Ask teacher for help"],
+                "right": ["Safe", "Unsafe", "Safe"],
+                "answers": {
+                  "Use strong passwords": "Safe",
+                  "Share phone number online": "Unsafe",
+                  "Ask teacher for help": "Safe"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You _______ (should/shouldn't) use strong passwords.",
+                "answer": "should",
+                "acceptableAnswers": ["should"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You _______ (can't/shouldn't) talk to strangers online.",
+                "answer": "shouldn't",
+                "acceptableAnswers": ["shouldn't", "can't"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You _______ (can/should) protect your device with a password.",
+                "answer": "can",
+                "acceptableAnswers": ["can", "should"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write 5 internet safety rules using should and shouldn't. Example: 'You should use strong passwords. You shouldn't share your address online. You should tell an adult if something feels wrong.'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can talk about internet safety rules",
+                "☑ I can use should, shouldn't, can, and can't correctly",
+                "☑ I know what to do if something feels wrong online",
+                "☑ I understand how Omani schools teach digital safety"
+              ],
+              "homework": "Create an 'Internet Safety Poster' with 5 rules. Use should/shouldn't in each rule. Add drawings or pictures to make it colorful."
+            }
+          }
+        },
+        {
+          "id": "g6u2l3",
+          "title": "Technology and Learning",
+          "image": "images/tech_learning.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🧩 Technology and Learning",
+              "intro": "Omani schools use many new technologies! Smart boards, online classes, e-learning portals, and digital books help students learn better and faster.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will:",
+                "✅ Learn how technology supports education",
+                "✅ Use Past Continuous tense to describe actions happening at a time in the past",
+                "✅ Talk about school tools and devices",
+                "",
+                "**🧠 Tech in the Classroom**",
+                "",
+                "Omani schools use many modern technologies:",
+                "📺 Smart boards for interactive lessons",
+                "💻 Online classes through Google Classroom",
+                "🌐 E-learning portals like EduPortal Oman",
+                "📱 Digital books on tablets",
+                "🎥 Educational videos and animations",
+                "",
+                "**Examples:**",
+                "\"I was watching a science video when the teacher asked a question.\"",
+                "\"We were using the projector to see a map of Oman.\"",
+                "\"Students were typing their essays on laptops.\"",
+                "",
+                "**🎮 Tech in Action Activity**",
+                "",
+                "Match the action to the device:",
+                "",
+                "**Students were typing** → Using computers",
+                "**The teacher was showing a slide** → Teaching with a projector",
+                "**Sara was taking a photo** → Using her tablet",
+                "**We were listening** → Using speakers",
+                "",
+                "**🧩 Practice Sentences**",
+                "",
+                "Complete with was or were:",
+                "• I ___ using my laptop at 9 p.m. (was)",
+                "• They ___ watching a video. (were)",
+                "• She ___ studying online when I called. (was)"
+              ],
+              "image": "images/tech_learning.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Smart board", "Interactive digital whiteboard"],
+                    ["Projector", "Device that shows images on a screen"],
+                    ["E-learning portal", "Online platform for education"],
+                    ["Digital book", "Electronic version of a book"],
+                    ["Online class", "Virtual lesson through the internet"],
+                    ["Educational video", "Video made for teaching"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "Past Continuous is used to describe an action that was in progress at a specific time in the past. We form it with was/were + verb + -ing.",
+                "table": {
+                  "columns": ["Subject", "Structure", "Example"],
+                  "rows": [
+                    ["I / He / She", "was + verb + -ing", "She was studying online."],
+                    ["You / We / They", "were + verb + -ing", "They were watching a video."],
+                    ["Question", "Was/Were + subject + verb + -ing?", "Were you using the computer?"]
+                  ]
+                },
+                "questions": [
+                  "At 8 p.m., I was doing my homework.",
+                  "We were using the projector to see a map.",
+                  "What were you doing at 3 p.m.?"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "📱 Some schools in Muscat use tablets for exams",
+                  "💻 Teachers share lessons on Google Classroom or EduPortal",
+                  "🌪️ Students can study at home during sandstorms or emergencies",
+                  "🎓 Smart boards are becoming common in classrooms"
+                ],
+                "world": [
+                  "🇸🇬 Singapore: All students have laptops",
+                  "🇰🇷 South Korea: Robot teachers help in classrooms",
+                  "🇺🇸 USA: Virtual reality for science lessons",
+                  "🇫🇮 Finland: Coding taught from age 7"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 A Day in Amal's Digital Classroom",
+              "passage": "Last Tuesday was an exciting day at Amal's school in Muscat.\n\nAt 8 a.m., the teacher was showing a video about Oman's mountains on the smart board. All the students were watching carefully.\n\nAt 9 a.m., Amal was using her tablet to read a digital book about Arabian wildlife. Her friend Fatima was typing notes on her laptop.\n\nDuring the science lesson, the class was doing an online experiment. They were watching how plants grow in different conditions through a live camera.\n\n\"What were you doing at 10 a.m.?\" asked her mom after school.\n\n\"I was presenting my project using the projector!\" Amal said proudly. \"Everyone in class could see my photos of Nizwa Fort on the big screen.\"\n\nTechnology makes learning so much more interesting and interactive!",
+              "image": "images/digital_classroom.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "What tense is this sentence? 'I was reading online.'",
+                "options": ["Present Simple", "Past Continuous", "Past Simple"],
+                "answer": "Past Continuous"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which tool is used for showing slides?",
+                "options": ["Projector", "Bicycle", "Notebook"],
+                "answer": "Projector"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Where are digital classes popular in Oman?",
+                "options": ["At schools", "In malls", "In parks"],
+                "answer": "At schools"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What was Amal doing at 9 a.m.?",
+                "options": [
+                  "Watching a video",
+                  "Reading a digital book",
+                  "Playing games"
+                ],
+                "answer": "Reading a digital book"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is in Past Continuous?",
+                "options": [
+                  "I use a laptop.",
+                  "I was using a laptop.",
+                  "I will use a laptop."
+                ],
+                "answer": "I was using a laptop."
+              },
+              {
+                "type": "drag",
+                "prompt": "Match the action to what was being used:",
+                "left": ["Students were typing", "Teacher was showing slides", "Sara was taking photos"],
+                "right": ["Computers", "Projector", "Tablet"],
+                "answers": {
+                  "Students were typing": "Computers",
+                  "Teacher was showing slides": "Projector",
+                  "Sara was taking photos": "Tablet"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: I ___ (use) my laptop at 9 p.m. Use Past Continuous.",
+                "answer": "was using",
+                "acceptableAnswers": ["was using"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: They ___ (watch) a video. Use Past Continuous.",
+                "answer": "were watching",
+                "acceptableAnswers": ["were watching"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: She ___ (study) online when I called. Use Past Continuous.",
+                "answer": "was studying",
+                "acceptableAnswers": ["was studying"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph about what you were doing in your last online class. Use Past Continuous tense at least 3 times. Example: 'Yesterday at 10 a.m., I was attending an online English class. I was listening to my teacher's explanation. My classmates were typing questions in the chat.'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can name different educational technologies",
+                "☑ I can use Past Continuous (was/were + verb-ing)",
+                "☑ I can describe what I was doing at a specific time",
+                "☑ I know how Omani schools use technology"
+              ],
+              "homework": "Create a 'Tech in My School' poster. Draw or find pictures of 4 technologies used in your classroom. Write one sentence for each using Past Continuous (e.g., 'Yesterday, we were using the smart board.')."
+            }
+          }
+        },
+        {
+          "id": "g6u2l4",
+          "title": "Technology for a Better World",
+          "image": "images/tech_world.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🌍 Technology for a Better World",
+              "intro": "Technology helps people live better lives! From clean energy to life-saving robots, innovation makes our world smarter and healthier.",
+              "points": [
+                "**🎯 Learning Objectives**",
+                "",
+                "By the end of this lesson, you will:",
+                "✅ Discuss how technology helps people and the planet",
+                "✅ Use could/couldn't + had to (past ability and obligation)",
+                "✅ Explore inventions and environmental tech",
+                "",
+                "**🌍 Good Tech, Smart World**",
+                "",
+                "Technology helps in many ways:",
+                "",
+                "**Environment:**",
+                "☀️ Solar panels give clean energy",
+                "💧 Smart farms save water in Oman's deserts",
+                "🌱 Drones plant trees in forests",
+                "",
+                "**Healthcare:**",
+                "🤖 Robots help doctors in hospitals",
+                "📱 Apps remind people to take medicine",
+                "🚁 Drones deliver medical supplies to remote areas",
+                "",
+                "**Daily Life:**",
+                "🚗 Electric cars reduce pollution",
+                "📚 E-books save paper and trees",
+                "♿ Technology helps people with disabilities",
+                "",
+                "**Examples:**",
+                "\"Old scientists couldn't use computers, but they had to write everything by hand.\"",
+                "\"Today, we can use robots for surgery.\"",
+                "\"People couldn't send instant messages before smartphones.\"",
+                "",
+                "**🎮 Then & Now Activity**",
+                "",
+                "Match old methods to modern versions:",
+                "",
+                "**Then → Now**",
+                "• Send letters → Send emails",
+                "• Use candles → Use solar lamps",
+                "• Walk to school → Take the bus",
+                "• Write by hand → Type on a computer",
+                "",
+                "**🧩 Practice Sentences**",
+                "",
+                "Complete the sentences:",
+                "• We ___ use the internet in 1990. (couldn't)",
+                "• People ___ send letters, not emails. (had to)",
+                "• Today, we ___ video call anyone in the world. (can)"
+              ],
+              "image": "images/tech_world.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Solar panel", "Device that uses sunlight for electricity"],
+                    ["Robot", "Automatic machine that can do tasks"],
+                    ["Drone", "Flying device controlled remotely"],
+                    ["Innovation", "A new idea or invention"],
+                    ["Clean energy", "Power that doesn't pollute"],
+                    ["Smart farm", "Farm using technology to save resources"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use 'could' for past ability, 'couldn't' for past inability, and 'had to' for past obligation (things we were required to do).",
+                "table": {
+                  "columns": ["Modal", "Use", "Example"],
+                  "rows": [
+                    ["Could", "Past ability", "He could use a computer when he was five."],
+                    ["Couldn't", "Past inability", "She couldn't send emails in 2000."],
+                    ["Had to", "Past obligation", "We had to walk to school before we had cars."]
+                  ]
+                },
+                "questions": [
+                  "People couldn't travel fast before cars were invented.",
+                  "Students had to write with pen and paper.",
+                  "Could your grandfather use a smartphone?"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🔬 The Research Council of Oman supports young inventors",
+                  "🌳 SQU students made a robot that plants trees",
+                  "🏙️ Oman Vision 2040 encourages clean energy and smart cities",
+                  "☀️ Solar panels are being installed across Oman"
+                ],
+                "world": [
+                  "🇯🇵 Japan: Robots assist elderly people at home",
+                  "🇳🇱 Netherlands: Wind farms power entire cities",
+                  "🇰🇪 Kenya: Drones deliver medicine to remote villages",
+                  "🇸🇬 Singapore: Vertical farms grow food in buildings"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Ahmed's Dream Invention",
+              "passage": "Ahmed is a 12-year-old student from Salalah who loves inventing things.\n\nLast week, his teacher asked the class: \"What invention would make the world better?\"\n\nAhmed thought carefully. In the past, people couldn't clean beaches easily. They had to pick up trash by hand, which took hours.\n\n\"I want to invent a solar-powered robot that collects plastic from beaches!\" Ahmed announced.\n\nHis teacher smiled. \"That's wonderful! In the past, we couldn't use solar power for robots, but now we can!\"\n\nAhmed drew his invention. The robot had:\n✓ Solar panels for clean energy\n✓ Sensors to detect plastic\n✓ A container to store the trash\n\n\"When I grow up, I want to study engineering at Sultan Qaboos University,\" Ahmed said. \"Technology can help protect Oman's beautiful coastline!\"\n\nHis classmates loved the idea. Some students couldn't draw robots well, but they all had to try. Everyone felt excited about using technology for a better world.",
+              "image": "images/future_invention.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "What does 'had to' mean?",
+                "options": ["Past ability", "Past obligation", "Future plan"],
+                "answer": "Past obligation"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which technology helps the environment?",
+                "options": ["Solar panels", "Loud speakers", "Video games"],
+                "answer": "Solar panels"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Oman Vision 2040 focuses on...",
+                "options": [
+                  "Smart cities and innovation",
+                  "Sports only",
+                  "Traditional methods only"
+                ],
+                "answer": "Smart cities and innovation"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does Ahmed want to invent?",
+                "options": [
+                  "A flying car",
+                  "A solar-powered robot for cleaning beaches",
+                  "A video game"
+                ],
+                "answer": "A solar-powered robot for cleaning beaches"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence uses 'couldn't' correctly?",
+                "options": [
+                  "People couldn't use computers in 1950.",
+                  "People couldn't to use computers.",
+                  "People couldn't uses computers."
+                ],
+                "answer": "People couldn't use computers in 1950."
+              },
+              {
+                "type": "drag",
+                "prompt": "Match old methods to modern technology:",
+                "left": ["Send letters", "Use candles", "Walk to school"],
+                "right": ["Send emails", "Use solar lamps", "Take the bus"],
+                "answers": {
+                  "Send letters": "Send emails",
+                  "Use candles": "Use solar lamps",
+                  "Walk to school": "Take the bus"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: We ___ use the internet in 1990. (could/couldn't)",
+                "answer": "couldn't",
+                "acceptableAnswers": ["couldn't", "could not"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: People ___ send letters, not emails. (had to/have to)",
+                "answer": "had to",
+                "acceptableAnswers": ["had to"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Today, we ___ video call anyone in the world. (can/could)",
+                "answer": "can",
+                "acceptableAnswers": ["can"]
+              },
+              {
+                "type": "write",
+                "prompt": "Draw and describe your own invention that helps people or the planet. Write at least 5 sentences explaining what it does and how it helps. Use can, could, couldn't, or had to at least twice. Example: 'My invention is a water-saving shower. In the past, people couldn't measure water use easily. Now, my invention can show you how much water you're using. It helps save Oman's precious water!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can talk about how technology helps the world",
+                "☑ I can use could/couldn't for past ability",
+                "☑ I can use had to for past obligation",
+                "☑ I know about Oman's innovation goals"
+              ],
+              "homework": "Create a 'My Dream Invention' poster. Draw your invention and write 5 sentences about it. Explain what problem it solves and how it helps people or the environment."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "title": "Places and Communities",
+      "lessons": [
+        {
+          "id": "g6u3l1",
+          "title": "Places Around Us",
+          "image": "images/places_around_us.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🏙️ Places Around Us",
+              "intro": "Every town and city has special places where people live, work, study, and have fun. Let's learn about these places and what makes them important!",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Name common places in a town or city",
+                "✅ Talk about what people do at different places",
+                "✅ Use Present Simple and state verbs correctly",
+                "✅ Express likes and dislikes about places",
+                "",
+                "**🏛️ Places in Our Community**",
+                "",
+                "**Education & Learning:**",
+                "🏫 College - A place where students study after primary school",
+                "📚 Library - Where people read and borrow books",
+                "",
+                "**Health & Care:**",
+                "🏥 Hospital - Where sick or injured people go",
+                "💊 Clinic - Small medical center",
+                "",
+                "**History & Culture:**",
+                "🏰 Castle - An old building, usually historic, for kings or rulers",
+                "🕌 Palace - The home of a king, queen, or sultan",
+                "🏛️ Museum - Where we see historical objects",
+                "",
+                "**Work & Business:**",
+                "🏢 Office building - Where people work in offices",
+                "🏙️ Skyscraper - A very tall building in a city",
+                "",
+                "**Sports & Entertainment:**",
+                "🏟️ Stadium - A place for sports events",
+                "🎭 Theatre - Where people watch plays",
+                "🏊 Swimming pool - A place to swim",
+                "",
+                "**Infrastructure:**",
+                "🌉 Bridge - Connects two places separated by water or roads",
+                "🏢 Apartment building - Where many people live in separate apartments",
+                "",
+                "**🇴🇲 Omani Reference:**",
+                "",
+                "Famous places in Oman:",
+                "• The Sultan Qaboos Grand Mosque in Muscat",
+                "• Nizwa Fort (historic castle)",
+                "• Royal Opera House Muscat (theatre)",
+                "• Sultan Qaboos Sports Complex (stadium)",
+                "",
+                "**🗣️ Speaking Practice**",
+                "",
+                "Questions to ask and answer:",
+                "• What places are there in your town?",
+                "• Which is your favorite place? Why?",
+                "• Do you like visiting the palace or the museum?",
+                "",
+                "**Example Dialogue:**",
+                "**A:** What's your favorite place in Muscat?",
+                "**B:** I love the Royal Opera House because I enjoy music and plays."
+              ],
+              "image": "images/places_around_us.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning / Example"],
+                  "rows": [
+                    ["College", "A place where students study after primary school"],
+                    ["Hospital", "Where sick or injured people go"],
+                    ["Castle", "An old building, usually historic, for kings or rulers"],
+                    ["Palace", "The home of a king, queen, or sultan"],
+                    ["Office building", "Where people work in offices"],
+                    ["Skyscraper", "A very tall building in a city"],
+                    ["Stadium", "A place for sports events"],
+                    ["Theatre", "Where people watch plays"],
+                    ["Bridge", "Connects two places separated by water or roads"],
+                    ["Apartment building", "Where many people live in separate apartments"],
+                    ["Swimming pool", "A place to swim"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use Present Simple with state verbs (like, love, have, know) to talk about facts, habits, and feelings about places.",
+                "table": {
+                  "columns": ["Form", "Structure", "Example"],
+                  "rows": [
+                    ["Positive", "Subject + verb", "My school has a big playground."],
+                    ["Negative", "Subject + don't/doesn't + verb", "I don't like noisy factories."],
+                    ["Question", "Do/Does + subject + verb?", "Do you like the theatre?"]
+                  ]
+                },
+                "questions": [
+                  "I like the mosque because it is peaceful.",
+                  "The theatre has a big stage.",
+                  "Do you enjoy visiting museums?"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🕌 Sultan Qaboos Grand Mosque - One of the largest mosques",
+                  "🏰 Nizwa Fort - Historic castle and market",
+                  "🎭 Royal Opera House - Beautiful theatre in Muscat",
+                  "🏟️ Sultan Qaboos Sports Complex - Major stadium"
+                ],
+                "world": [
+                  "🗼 Eiffel Tower in Paris - Famous landmark",
+                  "🏛️ British Museum in London - World's history",
+                  "🏟️ Camp Nou in Barcelona - Huge football stadium",
+                  "🌉 Golden Gate Bridge in USA - Iconic bridge"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Exploring Muscat",
+              "passage": "Sara and her family are exploring Muscat this weekend.\n\nOn Friday morning, they visit the Sultan Qaboos Grand Mosque. Sara loves it because it is peaceful and beautiful. The mosque has a big garden and a huge prayer hall with a magnificent chandelier.\n\n\"I like this place,\" Sara tells her father. \"It has amazing architecture!\"\n\nOn Saturday, they go to Nizwa Fort, an old castle in the mountains. Her brother Ahmed enjoys learning about Omani history. The fort has tall towers and thick walls.\n\n\"Do you like castles?\" Ahmed asks.\n\n\"Yes, I do!\" Sara replies. \"They tell us stories about the past.\"\n\nIn the evening, they walk across Mutrah Corniche and see the beautiful bridge connecting different parts of the city. Muscat has many wonderful places!\n\n\"Which place is your favorite?\" their mother asks.\n\nSara thinks for a moment. \"I love them all, but the Grand Mosque is the most beautiful!\"",
+              "image": "images/exploring_muscat.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Where do sick people go?",
+                "options": ["Theatre", "Hospital", "Stadium"],
+                "answer": "Hospital"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is a tall building in the city called?",
+                "options": ["Castle", "Skyscraper", "Bridge"],
+                "answer": "Skyscraper"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What can you do at a swimming pool?",
+                "options": ["Swim", "Play football", "Watch plays"],
+                "answer": "Swim"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is Sara's favorite place?",
+                "options": [
+                  "The Grand Mosque",
+                  "Nizwa Fort",
+                  "The bridge"
+                ],
+                "answer": "The Grand Mosque"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence is correct?",
+                "options": [
+                  "I likes the museum.",
+                  "I like the museum.",
+                  "I liking the museum."
+                ],
+                "answer": "I like the museum."
+              },
+              {
+                "type": "drag",
+                "prompt": "Match the place with what people do there:",
+                "left": ["College", "Hospital", "Theatre", "Stadium"],
+                "right": ["Study", "Get treatment", "Watch plays", "Sports events"],
+                "answers": {
+                  "College": "Study",
+                  "Hospital": "Get treatment",
+                  "Theatre": "Watch plays",
+                  "Stadium": "Sports events"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: My school ___ (have) a big playground.",
+                "answer": "has",
+                "acceptableAnswers": ["has"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: I ___ (not like) noisy factories. Use don't or doesn't.",
+                "answer": "don't like",
+                "acceptableAnswers": ["don't like", "do not like"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: The theatre ___ (have) a stage.",
+                "answer": "has",
+                "acceptableAnswers": ["has"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph (5-6 sentences) about your favorite place in your city. Include: what it is, what people do there, and what you like or don't like about it. Example: 'My favorite place is the Sultan Qaboos Grand Mosque. Many people visit it to pray and learn about Islam. I like it because it is peaceful and beautiful. It has a big garden and a huge hall.'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can name common places in a town or city",
+                "☑ I can talk about what people do at different places",
+                "☑ I can use Present Simple with state verbs (like, have)",
+                "☑ I can express my likes and dislikes about places"
+              ],
+              "homework": "Create a 'Places in My City' map or poster. Draw or find pictures of 5 important places. Write one sentence for each place using Present Simple (e.g., 'The hospital helps sick people.')."
+            }
+          }
+        },
+        {
+          "id": "g6u3l2",
+          "title": "Inside Buildings",
+          "image": "images/inside_buildings.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🏢 Inside Buildings",
+              "intro": "Every building has different parts that help us move around and find what we need. Let's learn how to describe buildings and give directions!",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Name parts of buildings accurately",
+                "✅ Use prepositions of place (on, next to, in front of, behind) correctly",
+                "✅ Give simple directions inside buildings",
+                "✅ Use imperatives to guide someone",
+                "",
+                "**🏗️ Parts of Buildings**",
+                "",
+                "**Inside the Room:**",
+                "🔼 Ceiling - The top part inside a room",
+                "🔽 Floor - The bottom part inside a room",
+                "🧱 Wall - Separates one room from another",
+                "📐 Corner - Where two walls meet",
+                "",
+                "**Outside & Structure:**",
+                "🏠 Roof - The top outside part of a building",
+                "",
+                "**Moving Around:**",
+                "🚪 Corridor - A long passage connecting rooms",
+                "🪜 Stairs - Steps to go up or down",
+                "⚡ Escalator - Moving stairs in shopping malls or stations",
+                "🚪 Entrance - The main door to a building",
+                "🚪 Exit - The door to leave a building",
+                "🛗 Lift/Elevator - Takes you up and down floors",
+                "",
+                "**🇴🇲 Omani Reference:**",
+                "",
+                "Example: Muscat Grand Mall has:",
+                "• Long corridors connecting different shops",
+                "• Escalators to reach different floors",
+                "• Multiple entrances and exits",
+                "• Clear signs showing directions",
+                "",
+                "**📍 Prepositions of Place:**",
+                "",
+                "• **on** - The library is on the second floor.",
+                "• **next to** - The stairs are next to the lift.",
+                "• **in front of** - The reception is in front of the entrance.",
+                "• **behind** - The exit is behind the food court.",
+                "• **between** - The shop is between the café and the bank.",
+                "",
+                "**🗣️ Giving Directions (Imperatives):**",
+                "",
+                "• Go straight ahead.",
+                "• Turn left / Turn right.",
+                "• Take the lift / Take the stairs.",
+                "• Walk along the corridor.",
+                "• Go through the door.",
+                "• Go up / Go down to the first floor.",
+                "",
+                "**Example Dialogue:**",
+                "",
+                "**A:** Excuse me, how do I get to the food court?",
+                "**B:** Go through the main entrance, walk along the corridor, take the escalator to the first floor, and it's on your left.",
+                "",
+                "**Practice Giving Directions:**",
+                "",
+                "Try these:",
+                "• How do you get from the entrance to the library?",
+                "• Where is the lift in your school or mall?",
+                "• Can you describe the stairs and corridors?"
+              ],
+              "image": "images/inside_buildings.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning / Example"],
+                  "rows": [
+                    ["Ceiling", "The top part inside a room"],
+                    ["Floor", "The bottom part inside a room"],
+                    ["Wall", "Separates one room from another"],
+                    ["Roof", "The top outside part of a building"],
+                    ["Corner", "Where two walls meet"],
+                    ["Corridor", "A long passage connecting rooms"],
+                    ["Stairs", "Steps to go up or down"],
+                    ["Escalator", "Moving stairs in shopping malls or stations"],
+                    ["Entrance", "The main door to a building"],
+                    ["Exit", "The door to leave a building"],
+                    ["Lift", "Takes you up and down floors"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use prepositions of place to say where things are. We use imperatives (command form) to give directions. Imperatives start with the base verb (Go, Turn, Take).",
+                "table": {
+                  "columns": ["Type", "Structure", "Example"],
+                  "rows": [
+                    ["Preposition", "on / next to / in front of / behind", "The stairs are next to the lift."],
+                    ["Imperative", "Verb + object/direction", "Go straight ahead."],
+                    ["Location", "Subject + is/are + preposition + place", "The office is on the second floor."]
+                  ]
+                },
+                "questions": [
+                  "Where is the library? It's on the first floor.",
+                  "How do I get there? Go through the door, then turn left.",
+                  "The café is next to the bookshop."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏬 Muscat Grand Mall - Modern shopping with escalators",
+                  "🕌 Sultan Qaboos Grand Mosque - Beautiful corridors and halls",
+                  "🏛️ National Museum - Multiple floors and staircases",
+                  "🏨 Hotels in Muscat - Elegant lobbies and entrances"
+                ],
+                "world": [
+                  "🇦🇪 Dubai Mall - World's largest with many escalators",
+                  "🇬🇧 London Underground - Famous for escalators",
+                  "🇯🇵 Tokyo stations - Complex corridors and signs",
+                  "🇺🇸 American malls - Multiple floors and lifts"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Lost in the Mall",
+              "passage": "Ahmed and his little sister Maryam are at Muscat Grand Mall.\n\nMaryam wants to find the toy shop, but they don't know where it is. Ahmed sees an information board near the entrance.\n\n\"Let's ask someone,\" Maryam suggests.\n\nThey walk along the corridor and find a helpful security guard.\n\n\"Excuse me, where is the toy shop?\" Ahmed asks politely.\n\nThe guard smiles. \"It's easy! Go straight ahead along this corridor. Then take the escalator to the second floor. The toy shop is next to the food court, on your left.\"\n\n\"Thank you!\" they both say.\n\nThey follow the directions carefully. First, they walk along the corridor. The ceiling is very high and there are many shops on both sides. Then they see the escalator and go up.\n\nOn the second floor, they turn left and see the toy shop immediately!\n\n\"We found it!\" Maryam says happily.\n\nAhmed is proud. \"Now I know how to give directions in buildings!\"",
+              "image": "images/mall_directions.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "What do you use to go up a building quickly?",
+                "options": ["Stairs", "Wall", "Roof"],
+                "answer": "Stairs"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is the top part inside a room called?",
+                "options": ["Floor", "Ceiling", "Corridor"],
+                "answer": "Ceiling"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Where was the toy shop?",
+                "options": [
+                  "On the first floor",
+                  "On the second floor, next to the food court",
+                  "At the entrance"
+                ],
+                "answer": "On the second floor, next to the food court"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence gives a direction?",
+                "options": [
+                  "The shop is nice.",
+                  "Go straight ahead.",
+                  "I like the mall."
+                ],
+                "answer": "Go straight ahead."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What connects different rooms in a building?",
+                "options": ["Ceiling", "Corridor", "Roof"],
+                "answer": "Corridor"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match the part of the building to its description:",
+                "left": ["Ceiling", "Corridor", "Entrance", "Stairs"],
+                "right": ["Top inside a room", "Connects rooms", "Main door", "Steps to go up"],
+                "answers": {
+                  "Ceiling": "Top inside a room",
+                  "Corridor": "Connects rooms",
+                  "Entrance": "Main door",
+                  "Stairs": "Steps to go up"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: The library is ___ the second floor. (on/in)",
+                "answer": "on",
+                "acceptableAnswers": ["on"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: The stairs are ___ the lift. (next to/behind/in front of)",
+                "answer": "next to",
+                "acceptableAnswers": ["next to", "beside", "near"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete the direction: ___ straight ahead and turn left.",
+                "answer": "Go",
+                "acceptableAnswers": ["Go", "Walk"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph (5-6 sentences) describing the inside of a building you know well (your school, a mall, or a museum). Include 2-3 parts of the building and give directions to one location. Example: 'My school has a long corridor and two staircases. The library is next to the classrooms. To get to the library, go through the corridor and take the stairs to the first floor. I like the library because it is quiet.'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can identify parts of buildings (ceiling, floor, corridor, stairs)",
+                "☑ I can use prepositions for location (on, next to, behind)",
+                "☑ I can give simple directions using imperatives (Go, Turn, Take)",
+                "☑ I can describe how to get from one place to another"
+              ],
+              "homework": "Draw a simple floor plan of your school or a building you know. Label at least 5 parts (entrance, corridor, stairs, rooms). Write 3 sentences giving directions from the entrance to a specific room."
+            }
+          }
+        },
+        {
+          "id": "g6u3l3",
+          "title": "How to Get There",
+          "image": "images/giving_directions.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🗺️ How to Get There",
+              "intro": "Being able to give and follow directions is an important life skill! Let's learn how to help people find places and how to ask for help when we need it.",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Give and follow directions in a town or building",
+                "✅ Use imperatives and prepositions correctly",
+                "✅ Ask and answer questions about locations",
+                "✅ Use common phrases for asking directions",
+                "",
+                "**🗺️ Direction Phrases**",
+                "",
+                "**Basic Directions:**",
+                "➡️ Go straight ahead - Walk forward without turning",
+                "⬅️ Turn left - Change direction to the left",
+                "➡️ Turn right - Change direction to the right",
+                "🛣️ Take the first/second street - Instruction for a specific street",
+                "👉 Go past - Move beyond a place",
+                "📍 It's on your left/right - Location in relation to the person",
+                "🔄 At the corner - Where two streets meet",
+                "",
+                "**More Directions:**",
+                "• Walk along the street",
+                "• Go across the bridge",
+                "• Continue until you see...",
+                "• You'll see it on your left/right",
+                "• It's between the bank and the café",
+                "",
+                "**🇴🇲 Omani Reference:**",
+                "",
+                "Practice giving directions to:",
+                "• Muttrah Corniche from Muttrah Souq",
+                "• Mall of Oman from your school",
+                "• Sultan Qaboos Grand Mosque from the airport",
+                "",
+                "**💬 Asking for Directions (Politely):**",
+                "",
+                "• Excuse me, can you tell me where the museum is, please?",
+                "• Excuse me, how do I get to the hospital?",
+                "• Could you help me find the library?",
+                "• Which way is the stadium?",
+                "",
+                "**Responding:**",
+                "• Sure! / Of course! / Yes, certainly!",
+                "• Sorry, I don't know.",
+                "• I'm not from here, sorry.",
+                "",
+                "**Example Dialogue:**",
+                "",
+                "**A:** Excuse me, can you tell me where the cinema is?",
+                "**B:** Sure! Go straight ahead, turn left at the corner, and it's next to the café.",
+                "**A:** Thank you so much!",
+                "**B:** You're welcome!",
+                "",
+                "**🧩 Practice Activity:**",
+                "",
+                "Give directions from your school to:",
+                "1. The nearest supermarket",
+                "2. A famous mosque",
+                "3. Your favorite restaurant",
+                "",
+                "Use phrases like: Go straight, turn left/right, go past, it's on your left/right"
+              ],
+              "image": "images/giving_directions.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Phrase", "Meaning / Example"],
+                  "rows": [
+                    ["Go straight ahead", "Walk forward without turning"],
+                    ["Turn left / Turn right", "Change direction to left or right"],
+                    ["Take the first/second street", "Instruction for a specific street"],
+                    ["Go past", "Move beyond a place"],
+                    ["It's on your left/right", "Location in relation to the person"],
+                    ["At the corner", "Where two streets meet"],
+                    ["Walk along", "Continue walking on the same street"],
+                    ["Go across", "Cross to the other side"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use imperatives (command form) to give directions. Imperatives start with the base verb. We combine them with prepositions to be specific about location and direction.",
+                "table": {
+                  "columns": ["Type", "Structure", "Example"],
+                  "rows": [
+                    ["Imperative", "Verb + direction", "Go straight ahead."],
+                    ["Imperative + prep", "Verb + preposition + place", "Turn left at the corner."],
+                    ["Location", "It's + preposition + place", "It's on your left."],
+                    ["Polite request", "Can you + verb...?", "Can you tell me where the museum is?"]
+                  ]
+                },
+                "questions": [
+                  "Go straight ahead and turn right.",
+                  "Take the first street on your left.",
+                  "It's next to the supermarket."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏖️ Muttrah Corniche - Popular walking area with clear directions",
+                  "🏬 Mall of Oman - Easy to navigate with signs",
+                  "🕌 Sultan Qaboos Mosque - Well-known landmark",
+                  "🏰 Nizwa Fort - Historic site with tourist information"
+                ],
+                "world": [
+                  "🗼 Paris - Street signs in French and English",
+                  "🗾 Japan - Very detailed maps and directions",
+                  "🇬🇧 London - Underground map is world-famous",
+                  "🇦🇪 Dubai - Modern city with GPS everywhere"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Helping a Tourist",
+              "passage": "Fatima is walking near Muttrah Souq when a tourist stops her.\n\n\"Excuse me,\" says the tourist. \"Can you tell me where the National Museum is, please?\"\n\nFatima smiles. She learned how to give directions in English class!\n\n\"Yes, of course!\" she says confidently. \"Go straight ahead along this street. Walk past the old buildings on your left. Then turn right at the big roundabout. Continue straight until you see a blue sign. The museum is on your right, next to the park.\"\n\n\"Thank you so much!\" says the tourist. \"You're very helpful!\"\n\n\"You're welcome!\" Fatima replies. \"Have a nice day!\"\n\nThe tourist follows Fatima's directions carefully. She goes straight ahead, walks past the buildings, and turns right at the roundabout. Soon, she sees the blue sign and finds the museum easily.\n\nFatima feels proud. She helped someone in English! Now she knows how useful learning directions can be.",
+              "image": "images/helping_tourist.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "What phrase means 'walk forward without turning'?",
+                "options": ["Turn right", "Go straight ahead", "Take the first street"],
+                "answer": "Go straight ahead"
+              },
+              {
+                "type": "mcq",
+                "prompt": "If something is 'next to the café,' it is...",
+                "options": ["Across the street", "Near the café", "Behind the bakery"],
+                "answer": "Near the café"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What did Fatima tell the tourist to do first?",
+                "options": [
+                  "Turn right at the roundabout",
+                  "Go straight ahead along the street",
+                  "Walk to the park"
+                ],
+                "answer": "Go straight ahead along the street"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which is a polite way to ask for directions?",
+                "options": [
+                  "Where is it?",
+                  "Excuse me, can you tell me where the museum is?",
+                  "I need directions."
+                ],
+                "answer": "Excuse me, can you tell me where the museum is?"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Where was the museum?",
+                "options": [
+                  "On the left, next to the souq",
+                  "On the right, next to the park",
+                  "Behind the roundabout"
+                ],
+                "answer": "On the right, next to the park"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match the direction with its meaning:",
+                "left": ["Go straight ahead", "Turn left", "Go past", "It's on your right"],
+                "right": ["Walk forward", "Change direction left", "Move beyond a place", "Located on your right"],
+                "answers": {
+                  "Go straight ahead": "Walk forward",
+                  "Turn left": "Change direction left",
+                  "Go past": "Move beyond a place",
+                  "It's on your right": "Located on your right"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Go ___ ahead and turn left. (straight/forward)",
+                "answer": "straight",
+                "acceptableAnswers": ["straight"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: The café is ___ your left. (on/in/at)",
+                "answer": "on",
+                "acceptableAnswers": ["on"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: ___ the first street on your right. (Take/Go/Walk)",
+                "answer": "Take",
+                "acceptableAnswers": ["Take"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write 5-6 sentences giving directions to one of your favorite places in your city. Include a start point, 2-3 steps (turns, streets, landmarks), and the end point. Example: 'To get to the Sultan Qaboos Grand Mosque from my house, go straight along the main street. Turn right at the bakery, then go past the park. Walk for two minutes. The mosque is on your left. You can't miss it!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can ask for directions politely",
+                "☑ I can give directions using imperatives (Go, Turn, Take)",
+                "☑ I can use prepositions accurately (on, at, past, along)",
+                "☑ I can write simple directions from one place to another"
+              ],
+              "homework": "Draw a simple map showing your house, school, and 2-3 other places (mosque, shop, park). Write directions from your house to each place using at least 3 direction phrases."
+            }
+          }
+        },
+        {
+          "id": "g6u3l4",
+          "title": "Places in the Past and Future",
+          "image": "images/past_future_places.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🏜️ Places in the Past and Future",
+              "intro": "Places change over time! Let's explore how cities and travel have changed from the past to the present, and imagine what they might be like in the future.",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Talk about past and future ways of moving around or visiting places",
+                "✅ Use Past Continuous (was/were + verb-ing) and Comparative Adverbs",
+                "✅ Write about ancient and modern cities",
+                "✅ Connect English learning to Omani culture and history",
+                "",
+                "**🏛️ Ancient vs. Modern Places**",
+                "",
+                "**Ancient Oman:**",
+                "🏰 Nizwa - Ancient capital with traditional souq",
+                "🏰 Bahla Fort - UNESCO World Heritage site",
+                "🏘️ Al Hamra - Traditional mud-brick village",
+                "🐪 People traveled by camel and on foot",
+                "⏱️ Journeys took days or weeks",
+                "",
+                "**Modern Oman:**",
+                "🕌 Sultan Qaboos Grand Mosque - Modern architectural wonder",
+                "🏬 Mall of Oman - Contemporary shopping center",
+                "🚗 People travel by car, bus, and plane",
+                "⚡ Journeys are much faster today",
+                "",
+                "**Comparing Then and Now:**",
+                "",
+                "• In the past, people **were riding** camels through the desert.",
+                "• Today, people **are driving** cars on highways.",
+                "• In the future, people **will be traveling** even faster!",
+                "",
+                "**Time Phrases:**",
+                "• **In the past** / **Long ago** / **100 years ago**",
+                "• **Today** / **Now** / **These days**",
+                "• **In the future** / **Tomorrow** / **In 50 years**",
+                "",
+                "**💭 How Travel Changed:**",
+                "",
+                "**Past:**",
+                "• Camel caravans moved **slowly** through the desert",
+                "• Traders **were traveling** for weeks",
+                "• People **used to** walk to nearby villages",
+                "",
+                "**Present:**",
+                "• Cars move **faster** than camels",
+                "• Planes travel **more quickly** than ships",
+                "• We can visit places **more easily** today",
+                "",
+                "**Future:**",
+                "• Flying cars **will move** even faster",
+                "• We **will explore** space cities",
+                "• Virtual reality **will let** us visit anywhere instantly",
+                "",
+                "**🗣️ Discussion Questions:**",
+                "",
+                "1. How did people travel in ancient Oman?",
+                "2. Which historic city would you like to explore?",
+                "3. How do you think travel will be in 50 years?",
+                "4. What do you like about old cities? What about modern cities?",
+                "",
+                "**Example Dialogue:**",
+                "",
+                "**A:** How did people visit Nizwa 100 years ago?",
+                "**B:** They used to ride camels. It took many days.",
+                "**A:** And now?",
+                "**B:** Now we can drive there in a few hours! Cars are much faster than camels.",
+                "",
+                "**🧩 Imagine the Future:**",
+                "",
+                "Think about your favorite place in Oman. How will people visit it in 100 years?",
+                "",
+                "Example:",
+                "• Flying cars to Jebel Shams",
+                "• Underwater tunnels to Musandam",
+                "• Space elevators from Muscat",
+                "• Virtual reality tours of ancient forts"
+              ],
+              "image": "images/past_future_places.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word / Phrase", "Meaning / Example"],
+                  "rows": [
+                    ["ancient city", "A city that is very old, with historical importance"],
+                    ["modern city", "A city built recently or updated with new buildings"],
+                    ["travel", "Move from one place to another"],
+                    ["explore", "Visit a place to learn more about it"],
+                    ["faster / slower", "Comparative adverbs for speed"],
+                    ["used to", "Something happened regularly in the past"],
+                    ["in the past", "Long ago, before now"],
+                    ["in the future", "Time that has not happened yet"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use Past Continuous (was/were + verb-ing) to describe actions happening at a specific time in the past. We use Comparative Adverbs to compare how actions are done. We use 'will' and 'going to' for future predictions.",
+                "table": {
+                  "columns": ["Grammar Point", "Structure", "Example"],
+                  "rows": [
+                    ["Past Continuous", "was/were + verb-ing", "She was exploring the old market when it started to rain."],
+                    ["Comparative Adverbs", "faster/slower than", "Modern trains move faster than camels in the past."],
+                    ["Used to", "used to + base verb", "People used to travel by camel."],
+                    ["Future with will", "will + base verb", "People will travel even faster in the future."]
+                  ]
+                },
+                "questions": [
+                  "They were riding camels through the desert.",
+                  "Cars are faster than camels.",
+                  "In the future, we will explore space cities."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏰 Nizwa Fort - Ancient capital, famous for its round tower",
+                  "🏰 Bahla Fort - One of the oldest forts in Oman",
+                  "🏘️ Al Hamra - Traditional village with 400-year-old houses",
+                  "🕌 Sultan Qaboos Grand Mosque - Modern architectural masterpiece"
+                ],
+                "world": [
+                  "🏛️ Rome - Ancient city with Colosseum and Roman Forum",
+                  "🗾 Kyoto - Japanese city mixing ancient temples with modern life",
+                  "🗼 Dubai - Ultra-modern city built in the desert",
+                  "🏙️ Singapore - Futuristic city known for innovation"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 A Journey Through Time",
+              "passage": "Ahmed's grandfather is telling him a story about traveling to Nizwa when he was young.\n\n\"When I was your age,\" Grandfather says, \"we were riding camels to visit Nizwa. The journey took three days! We were sleeping under the stars and cooking over a fire. It was slow, but it was beautiful.\"\n\nAhmed listens carefully. \"That sounds amazing! But why didn't you use a car?\"\n\nGrandfather smiles. \"There weren't many roads back then. People used to travel the old way. Camels were slower than cars, but they knew the desert well.\"\n\n\"Now it's so different!\" Ahmed says excitedly. \"Last week, we drove to Nizwa in just two hours. We visited the fort and the souq. It was fantastic!\"\n\n\"Yes,\" Grandfather agrees. \"Modern travel is faster and more comfortable. But I think in the future, it will be even more amazing. Maybe you will fly there in a few minutes!\"\n\nAhmed imagines flying cars zooming over the mountains. \"I wonder what Nizwa will look like in 100 years,\" he says.\n\n\"The old fort will still be there,\" Grandfather says wisely. \"Some things don't change. But the ways we explore them do!\"\n\nAhmed feels grateful. He loves learning about the past and dreaming about the future.",
+              "image": "images/time_journey.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "'She was walking when it started to rain' uses which grammar?",
+                "options": ["Present Continuous", "Past Continuous", "Simple Past"],
+                "answer": "Past Continuous"
+              },
+              {
+                "type": "mcq",
+                "prompt": "'Modern cars are faster than camels' — what is being compared?",
+                "options": ["Speed", "Size", "Color"],
+                "answer": "Speed"
+              },
+              {
+                "type": "mcq",
+                "prompt": "How long did Grandfather's journey to Nizwa take?",
+                "options": ["Two hours", "Three days", "One week"],
+                "answer": "Three days"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence talks about the future?",
+                "options": [
+                  "They were riding camels.",
+                  "We drove to Nizwa last week.",
+                  "Maybe you will fly there in a few minutes."
+                ],
+                "answer": "Maybe you will fly there in a few minutes."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does 'used to' mean?",
+                "options": [
+                  "Something happening now",
+                  "Something that happened regularly in the past",
+                  "Something that will happen"
+                ],
+                "answer": "Something that happened regularly in the past"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each sentence with its time period:",
+                "left": ["She was riding a camel", "I will visit the museum", "People travel by car today"],
+                "right": ["Past", "Future", "Present"],
+                "answers": {
+                  "She was riding a camel": "Past",
+                  "I will visit the museum": "Future",
+                  "People travel by car today": "Present"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Cars are ___ than camels. (fast/faster/fastest)",
+                "answer": "faster",
+                "acceptableAnswers": ["faster"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: They ___ traveling to Nizwa when the sun set. (was/were)",
+                "answer": "were",
+                "acceptableAnswers": ["were"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: People ___ to walk to nearby villages. (use/used/using)",
+                "answer": "used",
+                "acceptableAnswers": ["used"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write 5-6 sentences comparing a place in Oman in the past and now, or imagine it in the future. Include: where it is, how people got there, and what it looks like. Example: 'Nizwa Fort was busy with traders and camels in the past. Today, tourists visit by car. The souq is still beautiful. I think in the future, people will explore it using virtual reality. It will be faster than walking through the market. But I hope the old buildings stay the same!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can compare past, present, and future places",
+                "☑ I can use Past Continuous (was/were + verb-ing) correctly",
+                "☑ I can use comparative adverbs (faster/slower than)",
+                "☑ I can connect English to Omani culture and history"
+              ],
+              "homework": "Interview a grandparent or older relative about a place they visited when they were young. Write 6-8 sentences about: 1) How they traveled there, 2) What it was like then, 3) How it's different now. Use Past Continuous and comparative adverbs."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "g6u4",
+      "title": "WOW! Learning Club",
+      "lessons": [
+        {
+          "id": "g6u4l1",
+          "title": "How Can We Classify Technology?",
+          "image": "images/classify_tech.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🔬 How Can We Classify Technology?",
+              "intro": "Technology is everywhere! From smartphones to washing machines, let's learn how to describe and classify different types of devices in English.",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Understand types of technology and devices",
+                "✅ Describe device functions using English",
+                "✅ Apply English to classify technology",
+                "",
+                "**💻 Types of Technology**",
+                "",
+                "**Small Devices (Gadgets):**",
+                "📱 Smartphone - For communication and apps",
+                "⌚ Smartwatch - For time and fitness tracking",
+                "🎧 Earbuds - For listening to music",
+                "📷 Camera - For taking photos",
+                "",
+                "**Machines:**",
+                "🧺 Washing machine - For cleaning clothes",
+                "❄️ Refrigerator - For keeping food cold",
+                "🚗 Car - For transportation",
+                "🏥 Medical machines - For helping patients",
+                "",
+                "**Tools:**",
+                "🔨 Hammer - For building things",
+                "🔧 Wrench - For fixing things",
+                "✂️ Scissors - For cutting",
+                "🖊️ Pen - For writing",
+                "",
+                "**Digital Technology:**",
+                "💾 Software - Programs on computers",
+                "🖥️ Hardware - Physical parts of computers",
+                "📲 Apps - Programs on phones",
+                "🤖 Robots - Machines that work automatically",
+                "",
+                "**🇴🇲 Omani Reference:**",
+                "",
+                "• Modern hospitals in Muscat use advanced medical machines",
+                "• Sultan Qaboos University has robotics labs",
+                "• Oman uses technology for oil exploration",
+                "• Smart traffic systems in Muscat",
+                "",
+                "**📝 Describing Devices:**",
+                "",
+                "We use **Present Simple** to describe what devices do:",
+                "",
+                "• This device **helps** people do homework.",
+                "• A smartphone **allows** us to communicate.",
+                "• Robots **can perform** simple tasks.",
+                "• Washing machines **clean** our clothes.",
+                "",
+                "**Questions to Ask:**",
+                "• What does this device do?",
+                "• How do we use this gadget?",
+                "• Where do we find this machine?",
+                "• Who uses this tool?",
+                "",
+                "**🔍 Classification Activity:**",
+                "",
+                "Let's classify these items:",
+                "1. **Smartphone** → Communication device",
+                "2. **Vacuum cleaner** → Cleaning machine",
+                "3. **Calculator** → Tool for math",
+                "4. **Laptop** → Computing device",
+                "5. **Robot vacuum** → Smart machine"
+              ],
+              "image": "images/classify_tech.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning / Example"],
+                  "rows": [
+                    ["Device", "Something that does a specific job, e.g., smartphone"],
+                    ["Machine", "Larger device, e.g., washing machine"],
+                    ["Gadget", "Small, useful tool, e.g., smartwatch"],
+                    ["Tool", "Device for work, e.g., hammer"],
+                    ["App", "Computer or phone program"],
+                    ["Software", "Programs used on a computer"],
+                    ["Hardware", "Physical parts of a computer"],
+                    ["Robot", "Machine that can do tasks automatically"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use Present Simple to describe what devices do and how they function. Use third person singular (-s/-es) with he/she/it.",
+                "table": {
+                  "columns": ["Structure", "Example"],
+                  "rows": [
+                    ["Subject + verb + object", "This device helps people do homework."],
+                    ["Subject + can + verb", "Robots can perform simple tasks."],
+                    ["Subject + allows/enables", "A smartphone allows us to communicate."]
+                  ]
+                },
+                "questions": [
+                  "This smartphone helps me stay connected.",
+                  "Robots can clean floors automatically.",
+                  "The app enables students to learn faster."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏥 Royal Hospital Muscat - Advanced medical technology",
+                  "🎓 Sultan Qaboos University - Robotics research labs",
+                  "🚦 Muscat Smart City - Digital traffic systems",
+                  "⚡ PDO - Technology for oil and gas exploration"
+                ],
+                "world": [
+                  "🇯🇵 Japan - Leading in robotics technology",
+                  "🇰🇷 South Korea - Advanced smartphones and gadgets",
+                  "🇺🇸 Silicon Valley - Software and app development",
+                  "🇨🇳 China - Manufacturing technology hubs"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 A Visit to the Tech Lab",
+              "passage": "Fatima's class is visiting the technology lab at Sultan Qaboos University.\n\n\"Welcome!\" says Dr. Ahmed, the lab director. \"Today you will see many types of technology.\"\n\nHe shows them a small robot. \"This is a gadget,\" he explains. \"It can move around and avoid obstacles. Robots like this help people in hospitals.\"\n\nNext, they see large computers. \"These are hardware,\" Dr. Ahmed says. \"The physical parts of computers. But computers also need software—programs that make them work.\"\n\nFatima raises her hand. \"We use apps on our phones. Is that software?\"\n\n\"Exactly!\" Dr. Ahmed smiles. \"Apps are software for smartphones. Your phone is a device with many functions.\"\n\nHe shows them medical machines. \"In Muscat's modern hospitals, doctors use advanced devices. These machines help diagnose illnesses and save lives.\"\n\nAli asks, \"Can robots do homework for us?\"\n\nEveryone laughs. \"Not yet!\" Dr. Ahmed says. \"But technology helps us learn. Apps can teach languages, and computers can store information.\"\n\nFatima thinks about all the devices around her: smartphones, washing machines, computers, robots. Technology is everywhere, making life easier!",
+              "image": "images/tech_lab_visit.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which is a device?",
+                "options": ["Chair", "Laptop", "Table"],
+                "answer": "Laptop"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What do we call programs on a computer?",
+                "options": ["Hardware", "Software", "Gadget"],
+                "answer": "Software"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Where did Fatima's class visit?",
+                "options": [
+                  "A hospital",
+                  "Sultan Qaboos University tech lab",
+                  "A shopping mall"
+                ],
+                "answer": "Sultan Qaboos University tech lab"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does 'This device helps people' use?",
+                "options": ["Past Simple", "Present Simple", "Future tense"],
+                "answer": "Present Simple"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What are physical parts of a computer called?",
+                "options": ["Software", "Apps", "Hardware"],
+                "answer": "Hardware"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each device with its main use:",
+                "left": ["Smartphone", "Vacuum cleaner", "Calculator", "Robot"],
+                "right": ["Communication", "Cleaning", "Math calculations", "Automatic tasks"],
+                "answers": {
+                  "Smartphone": "Communication",
+                  "Vacuum cleaner": "Cleaning",
+                  "Calculator": "Math calculations",
+                  "Robot": "Automatic tasks"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: This ___ helps people communicate. (device/devices)",
+                "answer": "device",
+                "acceptableAnswers": ["device"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Robots ___ perform simple tasks. (can/cans)",
+                "answer": "can",
+                "acceptableAnswers": ["can"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Apps are ___ for smartphones. (hardware/software)",
+                "answer": "software",
+                "acceptableAnswers": ["software"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write a short paragraph (4-5 sentences) describing your favorite device. Include: what it is, what it does, and why you like it. Example: 'My smartphone helps me communicate with my friends. It also has a camera for taking photos. I like using it to play educational games. It makes learning fun. I use it every day!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can identify different types of technology (devices, machines, gadgets, tools)",
+                "☑ I can describe what devices do using Present Simple",
+                "☑ I can classify technology by function",
+                "☑ I understand the difference between hardware and software"
+              ],
+              "homework": "Look around your house and find 5 different devices or machines. Create a chart with: Name | Type (device/machine/gadget) | Function (what it does). Write one sentence about each in English."
+            }
+          }
+        },
+        {
+          "id": "g6u4l2",
+          "title": "Amazing Inventions",
+          "image": "images/amazing_inventions_g6.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "💡 Amazing Inventions",
+              "intro": "Every device we use today was invented by someone! Let's learn about famous inventions and the brilliant people who created them.",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Learn about famous inventions and inventors",
+                "✅ Use Past Simple to describe inventions",
+                "✅ Make connections to Omani inventions and culture",
+                "",
+                "**🔍 What is an Invention?**",
+                "",
+                "• **Invention** - Something created for the first time",
+                "• **Discover** - Find something that already exists",
+                "• **Invent** - Make something completely new",
+                "• **Experiment** - Test ideas to see what works",
+                "",
+                "**📜 Famous Inventions:**",
+                "",
+                "**1. The Telephone (1876)**",
+                "👤 Inventor: Alexander Graham Bell",
+                "📞 What: Device for talking over long distances",
+                "💬 Impact: Changed communication forever",
+                "",
+                "**2. The Light Bulb (1879)**",
+                "👤 Inventor: Thomas Edison",
+                "💡 What: Electric light",
+                "💬 Impact: Made nighttime work and study possible",
+                "",
+                "**3. The Airplane (1903)**",
+                "👤 Inventors: Wright Brothers",
+                "✈️ What: Flying machine",
+                "💬 Impact: Made long-distance travel fast",
+                "",
+                "**4. The Computer (1940s)**",
+                "👤 Inventors: Many scientists",
+                "💻 What: Electronic calculating machine",
+                "💬 Impact: Digital revolution",
+                "",
+                "**5. The Internet (1960s-1990s)**",
+                "👤 Inventors: Many engineers and scientists",
+                "🌐 What: Global network of computers",
+                "💬 Impact: Connected the whole world",
+                "",
+                "**🇴🇲 Omani Inventions & Innovations:**",
+                "",
+                "**Al Khoudh Waterwheel:**",
+                "• Ancient Omani invention for irrigation",
+                "• Used water power to lift water from wells",
+                "• Still seen in traditional villages",
+                "",
+                "**Falaj System:**",
+                "• Ancient water management system",
+                "• UNESCO World Heritage",
+                "• Engineered over 1,500 years ago",
+                "",
+                "**Traditional Dhow Boats:**",
+                "• Omani design for sea travel and trade",
+                "• Used for centuries in Indian Ocean",
+                "• Combined Arab and Asian technology",
+                "",
+                "**Using Past Simple:**",
+                "",
+                "We use Past Simple to talk about inventions:",
+                "",
+                "• Alexander Graham Bell **invented** the telephone.",
+                "• Thomas Edison **created** the light bulb.",
+                "• The Wright Brothers **built** the first airplane.",
+                "• Scientists **developed** the Internet.",
+                "",
+                "**Timeline Activity:**",
+                "",
+                "Put these inventions in order:",
+                "1. Wheel (3500 BC) - Ancient",
+                "2. Waterwheel (500 BC) - Ancient",
+                "3. Telephone (1876) - Modern",
+                "4. Airplane (1903) - Modern",
+                "5. Internet (1990s) - Very modern"
+              ],
+              "image": "images/amazing_inventions_g6.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Invention", "Something created for the first time"],
+                    ["Discover", "Find something new that already exists"],
+                    ["Invent", "Make something completely new"],
+                    ["Experiment", "Test ideas to see what works"],
+                    ["Engineer", "Person who designs/builds machines"],
+                    ["Scientist", "Person who studies science"],
+                    ["Innovation", "New idea or method"],
+                    ["Creator", "Person who makes something new"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use Past Simple to talk about inventions and discoveries that happened in the past. Regular verbs add -ed, irregular verbs change form.",
+                "table": {
+                  "columns": ["Type", "Example", "Past Form"],
+                  "rows": [
+                    ["Regular verb", "invent → invented", "Alexander Graham Bell invented the telephone."],
+                    ["Irregular verb", "make → made", "Thomas Edison made the light bulb."],
+                    ["Irregular verb", "build → built", "The Wright Brothers built the first airplane."]
+                  ]
+                },
+                "questions": [
+                  "Alexander Graham Bell invented the telephone in 1876.",
+                  "Thomas Edison discovered how to make electric light.",
+                  "The Wright Brothers built the first successful airplane."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "💧 Falaj System - Ancient water management (UNESCO Heritage)",
+                  "⚙️ Al Khoudh Waterwheel - Traditional irrigation technology",
+                  "⛵ Dhow Boats - Traditional Omani shipbuilding",
+                  "🏰 Fort Architecture - Advanced defensive engineering"
+                ],
+                "world": [
+                  "📞 Telephone - Alexander Graham Bell (1876)",
+                  "💡 Light Bulb - Thomas Edison (1879)",
+                  "✈️ Airplane - Wright Brothers (1903)",
+                  "🌐 Internet - Multiple scientists (1960s-1990s)"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 The Story of the Falaj",
+              "passage": "Ahmed is doing a school project about Omani inventions. His grandfather is helping him.\n\n\"Let me tell you about the falaj,\" Grandfather says. \"Our ancestors invented this system over 1,500 years ago.\"\n\n\"What did it do?\" Ahmed asks.\n\n\"The falaj brought water from the mountains to farms and villages,\" Grandfather explains. \"Engineers built underground channels. They dug tunnels and calculated the slope perfectly. Water flowed by gravity—no pumps needed!\"\n\nAhmed is amazed. \"That's like ancient technology!\"\n\n\"Yes!\" Grandfather smiles. \"People all over the world invented things to solve problems. Thomas Edison invented the light bulb. The Wright Brothers built the first airplane. But our ancestors created the falaj to survive in the desert.\"\n\n\"Is it still used today?\" Ahmed asks.\n\nGrandfather nods. \"Some villages still use traditional falaj systems. UNESCO recognized them as World Heritage. Modern engineers study how our ancestors designed them so well.\"\n\nAhmed writes in his notebook: 'Omani engineers invented the falaj. They built it without modern tools. It worked for over a thousand years.'\n\n\"I'm proud of our history,\" Ahmed says.\n\n\"You should be,\" Grandfather replies. \"Innovation isn't just about new gadgets. It's about solving problems creatively—then and now.\"",
+              "image": "images/falaj_story.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Who invented the telephone?",
+                "options": ["Thomas Edison", "Alexander Graham Bell", "Wright Brothers"],
+                "answer": "Alexander Graham Bell"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is the falaj system?",
+                "options": [
+                  "A type of boat",
+                  "An ancient water management system",
+                  "A modern computer"
+                ],
+                "answer": "An ancient water management system"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence uses Past Simple correctly?",
+                "options": [
+                  "Edison invent the light bulb.",
+                  "Edison invented the light bulb.",
+                  "Edison invents the light bulb."
+                ],
+                "answer": "Edison invented the light bulb."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does 'discover' mean?",
+                "options": [
+                  "Make something completely new",
+                  "Find something that already exists",
+                  "Break something"
+                ],
+                "answer": "Find something that already exists"
+              },
+              {
+                "type": "mcq",
+                "prompt": "How old is the falaj system?",
+                "options": ["100 years old", "500 years old", "Over 1,500 years old"],
+                "answer": "Over 1,500 years old"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each inventor with their invention:",
+                "left": ["Alexander Graham Bell", "Thomas Edison", "Wright Brothers", "Omani ancestors"],
+                "right": ["Telephone", "Light bulb", "Airplane", "Falaj system"],
+                "answers": {
+                  "Alexander Graham Bell": "Telephone",
+                  "Thomas Edison": "Light bulb",
+                  "Wright Brothers": "Airplane",
+                  "Omani ancestors": "Falaj system"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Edison ___ the light bulb. (invent - past)",
+                "answer": "invented",
+                "acceptableAnswers": ["invented"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: The Wright Brothers ___ the first airplane. (build - past)",
+                "answer": "built",
+                "acceptableAnswers": ["built"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Scientists ___ the Internet. (develop - past)",
+                "answer": "developed",
+                "acceptableAnswers": ["developed"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write 3-4 sentences about an invention you like. Include: what it is, who invented it (if you know), and why you like it. Example: 'I like the bicycle because it helps people travel faster and stay healthy. The bicycle was invented a long time ago. It doesn't need fuel or electricity. I ride my bicycle to school sometimes!'",
+                "minChars": 80
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can name famous inventions and their inventors",
+                "☑ I can use Past Simple to describe inventions",
+                "☑ I know about Omani inventions like the falaj system",
+                "☑ I understand the difference between 'invent' and 'discover'"
+              ],
+              "homework": "Research one invention (can be modern or ancient). Write 5-6 sentences about: 1) What it is, 2) Who invented it, 3) When it was invented, 4) Why it's important. Use Past Simple tense."
+            }
+          }
+        },
+        {
+          "id": "g6u4l3",
+          "title": "Using Technology Safely",
+          "image": "images/tech_safety_g6.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🔒 Using Technology Safely",
+              "intro": "Technology is amazing, but we need to use it safely and responsibly. Let's learn how to protect ourselves online and use devices wisely!",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Learn about cyber safety and responsible technology use",
+                "✅ Use modals: must / mustn't / have to / don't have to",
+                "✅ Create personal safety rules for technology",
+                "",
+                "**🔐 Cyber Safety Rules:**",
+                "",
+                "**Passwords:**",
+                "✅ You **must** keep your password secret",
+                "✅ You **must** use strong passwords (letters + numbers)",
+                "❌ You **mustn't** share passwords with friends",
+                "❌ You **mustn't** use easy passwords like '12345'",
+                "",
+                "**Personal Information:**",
+                "✅ You **must** keep your address private",
+                "✅ You **must** ask parents before sharing photos",
+                "❌ You **mustn't** share personal info online",
+                "❌ You **mustn't** tell strangers where you live",
+                "",
+                "**Online Behavior:**",
+                "✅ You **must** be kind to others online",
+                "✅ You **must** tell an adult if something feels wrong",
+                "❌ You **mustn't** bully or be mean online",
+                "❌ You **mustn't** visit unsafe websites",
+                "",
+                "**Screen Time:**",
+                "✅ You **should** take breaks from screens",
+                "✅ You **should** do homework before playing games",
+                "💡 You **don't have to** be online all the time",
+                "💡 You **don't have to** answer every message immediately",
+                "",
+                "**📱 Smart Device Use:**",
+                "",
+                "**Privacy Settings:**",
+                "• Keep social media accounts private",
+                "• Only accept friend requests from people you know",
+                "• Turn off location sharing",
+                "• Review app permissions",
+                "",
+                "**Screen Time Balance:**",
+                "• Take a 10-minute break every hour",
+                "• Use devices in common areas (not alone in bedroom)",
+                "• No screens 1 hour before bedtime",
+                "• Spend time on outdoor activities too",
+                "",
+                "**🚨 Warning Signs:**",
+                "",
+                "**Tell an adult if:**",
+                "• Someone asks for personal information",
+                "• Someone makes you uncomfortable online",
+                "• You see inappropriate content",
+                "• Someone asks to meet in person",
+                "• You receive mean or threatening messages",
+                "",
+                "**🧑‍🏫 Using Modals:**",
+                "",
+                "**MUST** (strong obligation):",
+                "• You **must** keep your password safe.",
+                "• Students **must** follow online safety rules.",
+                "",
+                "**MUSTN'T** (strong prohibition):",
+                "• You **mustn't** share personal information.",
+                "• You **mustn't** cyberbully others.",
+                "",
+                "**HAVE TO** (necessary):",
+                "• I **have to** ask permission before downloading apps.",
+                "",
+                "**DON'T HAVE TO** (not necessary):",
+                "• You **don't have to** share your photos with everyone.",
+                "• You **don't have to** respond to every message."
+              ],
+              "image": "images/tech_safety_g6.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Password", "Secret word to access devices"],
+                    ["Online", "Connected to the internet"],
+                    ["Privacy", "Keeping personal information safe"],
+                    ["Cyber safety", "Safe behavior online"],
+                    ["Screen time", "Time spent on devices"],
+                    ["Personal information", "Name, address, phone number, etc."],
+                    ["Cyberbully", "Being mean to someone online"],
+                    ["Settings", "Options to control how apps work"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use modal verbs to express rules, obligations, and permissions. Must/mustn't are stronger than should/shouldn't.",
+                "table": {
+                  "columns": ["Modal", "Meaning", "Example"],
+                  "rows": [
+                    ["must", "Strong obligation (rule)", "You must keep your password safe."],
+                    ["mustn't", "Strong prohibition (not allowed)", "You mustn't share personal information online."],
+                    ["have to", "Necessary (required)", "I have to ask permission before downloading apps."],
+                    ["don't have to", "Not necessary (optional)", "You don't have to share photos with everyone."]
+                  ]
+                },
+                "questions": [
+                  "You must use strong passwords.",
+                  "You mustn't share personal information.",
+                  "I don't have to answer every message immediately."
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏫 Omani schools teach cyber safety in IT classes",
+                  "👨‍👩‍👧 Omani families value privacy and protection",
+                  "🚔 Royal Oman Police has cyber crime units",
+                  "📚 Public awareness campaigns about online safety"
+                ],
+                "world": [
+                  "🌍 International Safer Internet Day (February)",
+                  "🇬🇧 UK - Age restrictions on social media (13+)",
+                  "🇺🇸 USA - COPPA law protects children online",
+                  "🇪🇺 Europe - GDPR protects personal data"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Maryam Learns About Online Safety",
+              "passage": "Maryam got a new tablet for her birthday. She's excited to use it!\n\nHer mother sits with her. \"Before you start, we must talk about safety,\" she says.\n\n\"Okay, Mama,\" Maryam agrees.\n\n\"First, you must keep your password secret,\" Mother explains. \"Don't share it with anyone except me and your father.\"\n\n\"Not even my best friend?\" Maryam asks.\n\n\"Not even your best friend,\" Mother confirms. \"And you mustn't share personal information online. That means our address, phone number, or school name.\"\n\nMaryam nods. \"I understand.\"\n\n\"You have to ask permission before downloading new apps,\" Mother continues. \"And you don't have to answer messages from people you don't know. Just ignore them.\"\n\n\"What if someone is mean to me online?\" Maryam asks.\n\n\"You must tell me immediately,\" Mother says firmly. \"Cyberbullying is serious. Also, you mustn't be mean to others online either. Always be kind.\"\n\nMother shows Maryam the privacy settings. \"Keep your account private. Only accept friend requests from real friends.\"\n\nFinally, Mother talks about screen time. \"You don't have to be online all the time. Take breaks. Play outside. Read books. Balance is important.\"\n\nMaryam creates her safety rules list:\n• Must keep password secret\n• Mustn't share personal info\n• Must tell parents about problems\n• Don't have to respond to strangers\n\n\"Now you're ready!\" Mother smiles. \"Enjoy your tablet safely!\"",
+              "image": "images/online_safety_lesson.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "Which is safe online behavior?",
+                "options": [
+                  "Sharing your password with friends",
+                  "Using strong passwords",
+                  "Sending personal info to strangers"
+                ],
+                "answer": "Using strong passwords"
+              },
+              {
+                "type": "mcq",
+                "prompt": "You ___ share personal information online.",
+                "options": ["must", "mustn't", "have to"],
+                "answer": "mustn't"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does 'screen time' mean?",
+                "options": [
+                  "Time spent watching movies",
+                  "Time spent on devices",
+                  "Time spent reading"
+                ],
+                "answer": "Time spent on devices"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What should Maryam do if someone is mean to her online?",
+                "options": [
+                  "Be mean back",
+                  "Tell her parents immediately",
+                  "Ignore it and feel sad"
+                ],
+                "answer": "Tell her parents immediately"
+              },
+              {
+                "type": "mcq",
+                "prompt": "'You don't have to answer every message' means...",
+                "options": [
+                  "It's not necessary to answer everything",
+                  "You must answer everything",
+                  "You can't answer messages"
+                ],
+                "answer": "It's not necessary to answer everything"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each safety rule with its explanation:",
+                "left": ["Keep password secret", "Don't share personal info", "Tell an adult", "Take screen breaks"],
+                "right": ["Protects your account", "Keeps you safe online", "Get help when needed", "Protects your health"],
+                "answers": {
+                  "Keep password secret": "Protects your account",
+                  "Don't share personal info": "Keeps you safe online",
+                  "Tell an adult": "Get help when needed",
+                  "Take screen breaks": "Protects your health"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You ___ keep your password safe. (must/mustn't)",
+                "answer": "must",
+                "acceptableAnswers": ["must"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You ___ share personal information online. (must/mustn't)",
+                "answer": "mustn't",
+                "acceptableAnswers": ["mustn't"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: You ___ have to show your photos to everyone. (do/don't)",
+                "answer": "don't",
+                "acceptableAnswers": ["don't", "do not"]
+              },
+              {
+                "type": "write",
+                "prompt": "Create a 'Tech Safety Rules' paragraph with 4-5 sentences. Use must, mustn't, and don't have to. Example: 'I must keep my password secret and never share it. I mustn't give personal information to strangers online. I must tell my parents if someone makes me uncomfortable. I don't have to answer messages from people I don't know. I will use technology safely!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I know cyber safety rules (passwords, privacy, kind behavior)",
+                "☑ I can use must/mustn't for strong rules",
+                "☑ I can use have to/don't have to for obligations",
+                "☑ I understand the importance of screen time balance"
+              ],
+              "homework": "Create a poster or digital slide about Online Safety Rules. Include: 3 things you MUST do, 3 things you MUSTN'T do, and 2 things you DON'T HAVE TO do. Use pictures and English sentences."
+            }
+          }
+        },
+        {
+          "id": "g6u4l4",
+          "title": "Technology for a Better World",
+          "image": "images/tech_better_world.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "🌍 Technology for a Better World",
+              "intro": "Technology doesn't just make life easier—it can change the world! Let's explore how technology helps people and imagine the future.",
+              "points": [
+                "**🎯 Learning Goals**",
+                "",
+                "By the end of this lesson, you will be able to:",
+                "✅ Explore how technology improves life",
+                "✅ Discuss future uses of technology",
+                "✅ Use Future tense: will / won't in context",
+                "",
+                "**🏥 Technology for Health:**",
+                "",
+                "**Medical Technology:**",
+                "• Robots help doctors perform surgery",
+                "• X-ray machines see inside the body",
+                "• Heart monitors track patient health",
+                "• Apps remind people to take medicine",
+                "",
+                "**In Oman:**",
+                "🏥 Royal Hospital Muscat uses advanced medical robots",
+                "🚁 Air ambulances reach remote areas quickly",
+                "📱 Apps help patients book appointments",
+                "",
+                "**♿ Technology for Accessibility:**",
+                "",
+                "**Helping Everyone:**",
+                "• Hearing aids help people hear better",
+                "• Wheelchairs help people move independently",
+                "• Screen readers help blind people use computers",
+                "• Speech apps help people who can't talk",
+                "",
+                "**Quote:**",
+                "\"Technology should help everyone, regardless of ability.\"",
+                "",
+                "**📚 Technology for Learning:**",
+                "",
+                "**Educational Technology:**",
+                "• Apps teach languages and math",
+                "• Videos explain difficult topics",
+                "• Online classes connect students worldwide",
+                "• E-books are cheaper and portable",
+                "",
+                "**Future of Learning:**",
+                "• Virtual reality **will** make lessons immersive",
+                "• AI tutors **will** help students 24/7",
+                "• Tablets **will** replace heavy textbooks",
+                "• Students **will** learn at their own pace",
+                "",
+                "**🤖 Technology for Daily Life:**",
+                "",
+                "**Robots and Automation:**",
+                "• Robot vacuums clean floors automatically",
+                "• Farming robots plant and harvest crops",
+                "• Delivery drones bring packages quickly",
+                "• Smart homes adjust temperature automatically",
+                "",
+                "**⚡ Technology for the Environment:**",
+                "",
+                "**Renewable Energy:**",
+                "• Solar panels generate clean electricity",
+                "• Wind turbines create power from wind",
+                "• Electric cars reduce pollution",
+                "• Smart meters save energy",
+                "",
+                "**In Oman:**",
+                "☀️ Oman invests in solar energy projects",
+                "🌊 Desalination technology provides fresh water",
+                "♻️ Recycling programs use technology to sort waste",
+                "",
+                "**🔮 Predictions for the Future:**",
+                "",
+                "**What will happen?**",
+                "• Robots **will** help farmers grow more food",
+                "• Apps **will** make learning easier for everyone",
+                "• Doctors **will** use AI to diagnose illnesses faster",
+                "• Cars **will** drive themselves safely",
+                "• Solar energy **will** power entire cities",
+                "",
+                "**What won't happen?**",
+                "• This app **won't** replace teachers (humans are important!)",
+                "• Robots **won't** replace human creativity",
+                "• Technology **won't** solve all problems alone",
+                "",
+                "**🧑‍🏫 Using Will / Won't:**",
+                "",
+                "**Positive predictions:**",
+                "• Robots **will** help doctors in the future.",
+                "• Solar panels **will** power more homes.",
+                "• Apps **will** make learning fun.",
+                "",
+                "**Negative predictions:**",
+                "• This app **won't** replace teachers.",
+                "• Robots **won't** replace human kindness.",
+                "",
+                "**Questions:**",
+                "• **Will** robots do all the work?",
+                "• **Will** technology solve climate change?",
+                "• How **will** technology help your community?"
+              ],
+              "image": "images/tech_better_world.jpg",
+              "vocab": {
+                "table": {
+                  "columns": ["Word", "Meaning"],
+                  "rows": [
+                    ["Accessibility", "Making things easy to use for everyone"],
+                    ["Learning", "Using technology to study and gain knowledge"],
+                    ["Health", "Technology helping medical care"],
+                    ["Robotics", "Machines that do tasks automatically"],
+                    ["Renewable energy", "Energy from sustainable sources (sun, wind)"],
+                    ["Environment", "The natural world around us"],
+                    ["Prediction", "Saying what will happen in the future"],
+                    ["Innovation", "New and creative ideas"]
+                  ]
+                }
+              },
+              "grammar": {
+                "explanation": "We use 'will' and 'won't' to make predictions about the future. Will = something will happen. Won't (will not) = something will not happen.",
+                "table": {
+                  "columns": ["Form", "Structure", "Example"],
+                  "rows": [
+                    ["Positive", "Subject + will + base verb", "Robots will help doctors in the future."],
+                    ["Negative", "Subject + won't + base verb", "This app won't replace teachers."],
+                    ["Question", "Will + subject + base verb?", "Will technology solve all problems?"]
+                  ]
+                },
+                "questions": [
+                  "Robots will help farmers grow food faster.",
+                  "This app won't replace human teachers.",
+                  "Will solar energy power entire cities?"
+                ]
+              },
+              "culture": {
+                "oman": [
+                  "🏥 Royal Hospital - Advanced robotics and medical technology",
+                  "☀️ Solar Projects - Renewable energy development",
+                  "🌊 Desalination - Technology providing fresh water",
+                  "📱 Smart Muscat - City technology initiatives"
+                ],
+                "world": [
+                  "🇯🇵 Japan - Robots helping elderly people",
+                  "🇰🇪 Kenya - Mobile banking helping farmers",
+                  "🇳🇱 Netherlands - Wind turbines for clean energy",
+                  "🇮🇳 India - Apps improving education in villages"
+                ]
+              }
+            },
+            "read": {
+              "title": "📖 Ahmed's Dream: Technology Helping Oman",
+              "passage": "Ahmed is writing an essay for school about \"Technology for a Better Oman.\"\n\nHe begins: \"In the future, technology will make Oman even better. I have many ideas!\"\n\n**Healthcare:**\n\"Robots will help doctors at Royal Hospital Muscat,\" Ahmed writes. \"They will perform surgeries more precisely. Apps will remind elderly people to take their medicine. Air ambulances will reach remote villages faster.\"\n\n**Education:**\n\"Technology will improve learning,\" he continues. \"Students in mountain villages will attend online classes. Virtual reality will let us visit historical sites without leaving school. AI tutors will help students who need extra support. But teachers won't be replaced—they will always be important!\"\n\n**Environment:**\n\"Solar panels will power more homes and schools,\" Ahmed predicts. \"Electric cars will reduce pollution in Muscat. Smart systems will save water in the desert. Oman will become a leader in renewable energy.\"\n\n**Daily Life:**\n\"Robots will help farmers plant dates and harvest crops,\" he imagines. \"Delivery drones will bring medicine to remote areas. Smart traffic systems will reduce traffic jams.\"\n\nHis teacher reads the essay and smiles. \"Excellent work, Ahmed! But remember—technology won't solve everything alone. We need creative, kind people like you to use it wisely.\"\n\nAhmed nods. \"I will study hard. Maybe I'll become an engineer and help make these ideas real!\"\n\n\"I believe you will,\" his teacher says proudly.",
+              "image": "images/ahmed_tech_dream.jpg"
+            },
+            "practice": [
+              {
+                "type": "mcq",
+                "prompt": "What does 'accessibility' mean?",
+                "options": [
+                  "Making things expensive",
+                  "Making things easy to use for everyone",
+                  "Making things complicated"
+                ],
+                "answer": "Making things easy to use for everyone"
+              },
+              {
+                "type": "mcq",
+                "prompt": "Which sentence uses 'will' correctly?",
+                "options": [
+                  "Robots will helps doctors.",
+                  "Robots will help doctors.",
+                  "Robots will helping doctors."
+                ],
+                "answer": "Robots will help doctors."
+              },
+              {
+                "type": "mcq",
+                "prompt": "What does Ahmed predict about teachers?",
+                "options": [
+                  "They will be replaced by robots",
+                  "They won't be replaced—they're important",
+                  "They will disappear"
+                ],
+                "answer": "They won't be replaced—they're important"
+              },
+              {
+                "type": "mcq",
+                "prompt": "What is renewable energy?",
+                "options": [
+                  "Energy from oil and gas",
+                  "Energy from sustainable sources like sun and wind",
+                  "Energy that runs out quickly"
+                ],
+                "answer": "Energy from sustainable sources like sun and wind"
+              },
+              {
+                "type": "mcq",
+                "prompt": "How will technology help healthcare in Oman?",
+                "options": [
+                  "Robots will help doctors perform surgery",
+                  "Hospitals will close",
+                  "Doctors won't be needed"
+                ],
+                "answer": "Robots will help doctors perform surgery"
+              },
+              {
+                "type": "drag",
+                "prompt": "Match each sentence with its tense:",
+                "left": ["Robots help doctors now", "Robots helped doctors yesterday", "Robots will help doctors tomorrow"],
+                "right": ["Present", "Past", "Future"],
+                "answers": {
+                  "Robots help doctors now": "Present",
+                  "Robots helped doctors yesterday": "Past",
+                  "Robots will help doctors tomorrow": "Future"
+                }
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Apps ___ make learning easier. (will/won't - positive)",
+                "answer": "will",
+                "acceptableAnswers": ["will"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: Technology ___ replace human kindness. (will/won't - negative)",
+                "answer": "won't",
+                "acceptableAnswers": ["won't", "will not"]
+              },
+              {
+                "type": "fill",
+                "prompt": "Complete: ___ robots do all the work? (question form)",
+                "answer": "Will",
+                "acceptableAnswers": ["Will"]
+              },
+              {
+                "type": "write",
+                "prompt": "Write 4-5 sentences about how technology will help your community in the future. Use 'will' and 'won't'. Example: 'In the future, robots will help farmers in my village grow more food. Apps will make it easier for students to learn. Solar panels will provide clean energy. Electric cars will reduce pollution. But technology won't replace human creativity and kindness!'",
+                "minChars": 100
+              }
+            ],
+            "review": {
+              "title": "📝 Review Checklist",
+              "tip": "Make sure you can do all of these before moving on!",
+              "checklist": [
+                "☑ I can explain how technology helps health, learning, and accessibility",
+                "☑ I can use 'will' and 'won't' to make predictions",
+                "☑ I can discuss technology's role in renewable energy",
+                "☑ I understand technology should help everyone"
+              ],
+              "homework": "Imagine technology in 20 years. Write 6-8 sentences predicting how technology will improve: 1) Schools, 2) Hospitals, 3) Environment, 4) Daily life in Oman. Use 'will' and 'won't' in your predictions."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

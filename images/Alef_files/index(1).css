@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-Black.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-Bold.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-ExtraLight.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-Light.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-Regular.ttf) format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: 100%;
+  src: url(./SourceSansPro-SemiBold.ttf) format('truetype');
+  font-display: swap;
+}

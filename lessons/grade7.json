@@ -1,0 +1,1266 @@
+{
+  "grade": 7,
+  "units": [
+    {
+      "unit": 1,
+      "title": "Fun and Free Time in Oman",
+      "lessons": [
+        {
+          "id": "g7u1l1",
+          "title": "Fun and Free Time in Oman",
+          "image": "images/entertainment_oman.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Welcome to Entertainment!",
+              "intro": "We all love spending time doing things that make us happy. Entertainment means activities that help us relax, learn, or have fun. In Oman, people enjoy everything from traditional shows at the Muscat Festival to modern fun at the Mall of Oman cinema, or bowling and ice skating at Avenues Mall. There are many jobs in entertainment that make these events possible!",
+              "points": [
+                "🎭 Vocabulary Focus: Jobs in Entertainment",
+                "Job | What They Do | Example",
+                "Presenter | Introduces TV or radio shows | ‘The presenter smiled and said, \"Welcome to Kids’ Corner!\"’",
+                "Performer | Acts, sings, or dances on stage | ‘The performers at the National Day show were amazing.’",
+                "Clown | Makes people laugh with jokes and tricks | ‘The clown made balloons at the circus.’",
+                "Camera operator | Records films and videos | ‘The camera operator filmed the school play.’",
+                "Make-up artist | Prepares actors for the stage | ‘She became a make-up artist for Omani TV.’",
+                "💡 TIP: Entertainment is not only about fun — it’s also a big part of Omani culture, like storytelling, music, and traditional dance (razha and al-bar’aa).",
+                "⚖️ Grammar Review — Present perfect with ‘since’ and ‘for’",
+                "We use it to talk about actions that started in the past and continue now.",
+                "I’ve been a performer for 3 years.",
+                "She’s worked at the cinema since 2022.",
+                "For = duration (for 2 years, for a long time)",
+                "Since = starting point (since 2019, since last week)",
+                "💬 Pronunciation — The schwa sound (ə)",
+                "Very common in English words like teacher, actor, performer. It’s the ‘lazy’ vowel sound — not long, not short.",
+                "Try saying: performer → puh-FOR-muh ; camera → KAM-ruh"
+              ],
+              "image": "images/entertainment_stage.jpg"
+            },
+            "read": {
+              "title": "Reading: A Weekend of Entertainment",
+              "passage": "Amal and her friends love weekends in Muscat. On Thursday evening, they watch a new movie at the Mall of Oman cinema. On Friday, Amal visits the Muscat Festival with her family. She sees Omani performers dancing razha and al-bar’aa on stage. Her cousin Salim has been a performer for three years, and he still practices every week. Amal’s brother has worked at the cinema since 2022, so he knows all about films and cameras!",
+              "image": "images/entertainment_oman.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "A person who introduces a TV show is called a:", "options": ["Performer", "Presenter", "Writer"], "answer": "Presenter" },
+              { "type": "mcq", "prompt": "The word ‘since’ is used with:", "options": ["Duration", "Starting point", "Time of day"], "answer": "Starting point" },
+              { "type": "mcq", "prompt": "‘She’s worked at the bowling alley ___ 2021.’", "options": ["for", "since", "from"], "answer": "since" },
+              { "type": "mcq", "prompt": "What job films actors and performers?", "options": ["Camera operator", "Puppeteer", "Clown"], "answer": "Camera operator" },
+              { "type": "drag", "prompt": "Drag the job to match each sentence.", "left": ["He made everyone laugh at the circus.", "She uses brushes and colors for TV stars.", "He holds a microphone and speaks on camera.", "She dances beautifully on stage.", "He films people for TV."], "right": ["performer", "presenter", "clown", "make-up artist", "camera operator"], "answers": { "He made everyone laugh at the circus.": "clown", "She uses brushes and colors for TV stars.": "make-up artist", "He holds a microphone and speaks on camera.": "presenter", "She dances beautifully on stage.": "performer", "He films people for TV.": "camera operator" } },
+              { "type": "write", "prompt": "Write 3 sentences about your favorite type of entertainment. Try to use ‘since’ or ‘for’ in one sentence.", "minChars": 60 }
+            ],
+            "review": {
+              "title": "Review / Reflection",
+              "tip": "✅ Name at least 5 entertainment jobs. ✅ Use ‘since’ for a starting point and ‘for’ for a duration. ✅ Describe entertainment in Oman (festivals, cinema, bowling, ice skating). Optional: link a short behind-the-scenes video from Oman TV to inspire students."
+            }
+          }
+        },
+        {
+          "id": "g7u1l2",
+          "title": "Performers Around the World",
+          "image": "images/performers_world.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Performers Around the World",
+              "intro": "Entertainment connects people everywhere — no matter their language or country. In Oman, performers often mix traditional arts with modern creativity, keeping culture alive while sharing it globally.",
+              "points": [
+                "🔹 Performer Types by Country (Table)",
+                "Country | Performer Type | Description",
+                "Oman 🇴🇲 | Traditional dancer | Performs razha and al-bar’aa during National Day celebrations",
+                "UK 🇬🇧 | Street comedian | Makes people laugh on city streets with short funny acts",
+                "Japan 🇯🇵 | Puppeteer | Uses hand-crafted dolls to tell stories",
+                "India 🇮🇳 | Music performer | Plays traditional instruments like tabla and sitar",
+                "USA 🇺🇸 | Stunt performer | Does action scenes in movies and TV shows",
+                "🎭 Performers tell stories in many ways — through movement, words, sound, or even silence.",
+                "⚖️ Grammar Focus — Present Perfect (Experience)",
+                "We use the present perfect to talk about life experiences (without saying when they happened).",
+                "Form: have/has + past participle",
+                "Examples:",
+                "I’ve seen a circus before.",
+                "She’s never met a famous performer.",
+                "We’ve watched many school shows.",
+                "🟢 Remember: Don’t use a specific time word (❌ yesterday, ❌ last week) with present perfect.",
+                "💡 Pronunciation – Stressed syllables in performer words",
+                "perFORMer, muSIcian, comeDIan, pupPEteer",
+                "Say them slowly, then with rhythm: 👏 ‘per-FORM-er, mu-SI-cian, come-DI-an!’"
+              ],
+              "image": "images/performer_types.jpg"
+            },
+            "read": {
+              "title": "Reading: Performers Everywhere",
+              "passage": "Performers make people smile, think, and dream. In Oman, traditional dancers perform razha and al-bar’aa during national celebrations. In Japan, puppeteers use hand-crafted dolls to tell stories. In the UK, street comedians make crowds laugh. Some performers take big risks: stunt performers in the USA do action scenes for films. Musicians in India play instruments like the tabla and sitar. Around the world, performers share culture in creative ways.",
+              "image": "images/performers_world.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "‘She’s been a traditional dancer for 5 years.’ means:", "options": ["She stopped dancing.", "She started dancing 5 years ago and still does it.", "She will start soon."], "answer": "She started dancing 5 years ago and still does it." },
+              { "type": "mcq", "prompt": "Which sentence is NOT in the present perfect?", "options": ["I’ve met a puppeteer.", "We’ve gone to a circus.", "I go to the circus every week."], "answer": "I go to the circus every week." },
+              { "type": "mcq", "prompt": "‘He’s never seen a clown show.’ means:", "options": ["He hates clowns.", "He hasn’t seen one in his life.", "He saw one yesterday."], "answer": "He hasn’t seen one in his life." },
+              { "type": "mcq", "prompt": "A person who makes jokes on stage is a:", "options": ["Magician", "Comedian", "Clown"], "answer": "Comedian" },
+              { "type": "drag", "prompt": "Match the performer to the country.", "left": ["Oman", "Japan", "India", "USA", "UK"], "right": ["dancer", "puppeteer", "musician", "stunt performer", "comedian"], "answers": { "Oman": "dancer", "Japan": "puppeteer", "India": "musician", "USA": "stunt performer", "UK": "comedian" } },
+              { "type": "write", "prompt": "Write about a performer you admire — from Oman or another country. Try to use the present perfect once (e.g., ‘He’s performed in many events.’).", "minChars": 80 }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "✅ I can name performers from 5 countries.\n✅ I can use the present perfect for experiences (have/has + past participle; no specific time words).\n✅ I can pronounce performer words with correct stress: perFORMer, muSIcian, comeDIan, pupPEteer."
+            }
+          }
+        },
+        {
+          "id": "g7u1l3",
+          "title": "The School Show",
+          "image": "images/school_show.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "The School Show",
+              "intro": "Every school has moments of fun — festivals, performances, and creative shows. A school show is where students show their talents: acting, singing, dancing, storytelling, or even sound and lighting control. In Oman, many schools hold annual National Day performances — a mix of traditional songs, poetry, and short plays celebrating Omani pride.",
+              "points": [
+                "🎬 VOCABULARY",
+                "Word | Meaning | Example",
+                "Stage | The area where actors perform | The dancers stood on the stage.",
+                "Audience | People who watch a show | The audience clapped loudly.",
+                "Rehearse | Practice before the real show | We rehearsed the dance three times.",
+                "Script | The words of the play | The teacher gave us the script.",
+                "Performance | Acting, singing, or dancing for others | The performance was amazing!",
+                "Costume | Clothes for a show | The clown wore a funny costume.",
+                "⚖️ Grammar Focus — Present Continuous for Future Arrangements",
+                "We use the present continuous (am/is/are + -ing) to talk about plans in the near future.",
+                "Examples:",
+                "We’re having a school show next week.",
+                "I’m acting in a play tomorrow.",
+                "She’s not singing in the concert this year.",
+                "🟢 Use time words like ‘tomorrow,’ ‘next week,’ or ‘on Friday.’",
+                "💡 Pronunciation Practice — Stress in Questions",
+                "‘What are you DO-ing to-MOR-row?’",
+                "‘Who’s PLAY-ing in the SHOW?’",
+                "Say them with a rising tone and rhythm! 🎤"
+              ],
+              "image": "images/school_stage.jpg"
+            },
+            "read": {
+              "title": "Reading Practice",
+              "passage": "Our school is having a big show on Thursday. It’s called The World of Smiles. I’m acting as a reporter, and my friend Hamad is the sound editor. We’ve been rehearsing for two weeks. The teachers are helping with the costumes and stage design. Everyone is so excited — especially the audience, who are our parents!",
+              "image": "images/school_show.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "When is the school show?", "options": ["On Monday", "On Thursday", "On Sunday"], "answer": "On Thursday" },
+              { "type": "mcq", "prompt": "What is Hamad’s job in the show?", "options": ["Reporter", "Sound editor", "Clown"], "answer": "Sound editor" },
+              { "type": "mcq", "prompt": "How long have they been rehearsing?", "options": ["For two days", "For two weeks", "For two months"], "answer": "For two weeks" },
+              { "type": "mcq", "prompt": "Who is the audience?", "options": ["Teachers", "Parents", "Friends"], "answer": "Parents" },
+              { "type": "drag", "prompt": "Match the word to its meaning.", "left": ["Stage", "Audience", "Costume", "Rehearse"], "right": ["Place where performers act", "People watching the show", "Clothes for a play", "Practice before the real event"], "answers": { "Stage": "Place where performers act", "Audience": "People watching the show", "Costume": "Clothes for a play", "Rehearse": "Practice before the real event" } },
+              { "type": "write", "prompt": "Write about your own school performance (real or imagined). Try to use the present continuous for future plans.", "minChars": 80 }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "✅ I can use present continuous to talk about future plans.\n✅ I can describe a school show (stage, audience, costume, script, rehearse).\n✅ I can read and understand a short passage about performances."
+            }
+          }
+        },
+        {
+          "id": "g7u1l4",
+          "title": "Buying Tickets",
+          "image": "images/tickets_cinema.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Buying Tickets Politely",
+              "intro": "When we want to go to a cinema, concert, or theme park, we often need to buy tickets — in person, on the phone, or online. This lesson helps you ask for information and buy tickets politely. In Oman, you can buy tickets for places like VOX Cinemas, Oman Across Ages Museum, or Muscat Festival shows — and using polite English is always appreciated!",
+              "points": [
+                "💬 USEFUL PHRASES",
+                "Situation | Expression | Example",
+                "Asking for information | ‘Could I have some information about the show, please?’ | ‘Could I have some information about the Muscat Festival concert, please?’",
+                "Asking for tickets | ‘Can I have two tickets, please?’ | ‘Can I have two tickets for Aladdin, please?’",
+                "Asking about price | ‘How much is it?’ | ‘How much is a child ticket?’",
+                "Paying | ‘Here you go.’ / ‘Do you take cards?’ | ‘Here you go. I’ll pay by card.’",
+                "Thanking | ‘Thank you very much.’ / ‘Have a nice day.’ | ‘Thank you! Have a nice day.’",
+                "💡 Always smile and use a polite tone — it makes communication friendlier and more respectful.",
+                "💬 Pronunciation — Intonation in polite requests (soft and rising tone)",
+                "‘Can I have two tickets, please?’",
+                "‘Could I have some information, please?’",
+                "Say it warmly, not like a robot 😄",
+                "💬 Dialogue Practice — At the cinema counter 🎬",
+                "Sara: Hello! Could I have two tickets for The Desert Adventure, please?",
+                "Cashier: Of course! Would you like child or adult tickets?",
+                "Sara: One adult and one child, please. How much is that?",
+                "Cashier: That’s 5 rials in total.",
+                "Sara: Great, here you go.",
+                "Cashier: Thank you! Enjoy the movie."
+              ],
+              "image": "images/ticket_counter.jpg"
+            },
+            "read": {
+              "title": "Reading: At the Cinema Counter",
+              "passage": "Sara: Hello! Could I have two tickets for The Desert Adventure, please?\nCashier: Of course! Would you like child or adult tickets?\nSara: One adult and one child, please. How much is that?\nCashier: That’s 5 rials in total.\nSara: Great, here you go.\nCashier: Thank you! Enjoy the movie.",
+              "image": "images/tickets_cinema.jpg"
+            },
+            "practice": [
+              { "type": "mcq", "prompt": "Where are Sara and the cashier?", "options": ["At a restaurant", "At the cinema", "At the park"], "answer": "At the cinema" },
+              { "type": "mcq", "prompt": "How many tickets does Sara buy?", "options": ["Two", "One", "Three"], "answer": "Two" },
+              { "type": "mcq", "prompt": "How much do the tickets cost?", "options": ["3 rials", "5 rials", "10 rials"], "answer": "5 rials" },
+              { "type": "mcq", "prompt": "What does Sara say when she pays?", "options": ["‘Keep the change.’", "‘Here you go.’", "‘Goodbye.’"], "answer": "‘Here you go.’" },
+              { "type": "drag", "prompt": "Match the situation to the phrase.", "left": ["Asking for the price", "Buying tickets", "Asking for info", "Paying politely"], "right": ["‘How much is it?’", "‘Can I have two tickets, please?’", "‘Could I have some information, please?’", "‘Here you go.’"], "answers": { "Asking for the price": "‘How much is it?’", "Buying tickets": "‘Can I have two tickets, please?’", "Asking for info": "‘Could I have some information, please?’", "Paying politely": "‘Here you go.’" } },
+              { "type": "write", "prompt": "Write a short conversation between a customer and a ticket seller. Use at least 3 polite expressions (e.g., Could I…, Can I…, How much…, Here you go.).", "minChars": 90 }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "✅ I can ask for information politely.\n✅ I can ask about prices and buy tickets.\n✅ I can use polite tone in English conversations."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u1l5",
+          "title": "Project – A Poster for a Performance",
+          "image": "images/poster_project.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Design an Event Poster",
+              "intro": "It’s time to use everything from Unit 1 — describing events, entertainment, and buying tickets — to create your own event poster.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Write information about an event clearly.",
+                "✅ Use correct spelling, time, and place expressions.",
+                "✅ Describe what people can see or do at the event.",
+                "💬 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example",
+                "performance | a show or play | “The performance starts at 6 p.m.”",
+                "poster | a large printed picture or sign | “Let’s make a colorful poster for our event!”",
+                "entrance | the place where you go in | “The entrance is next to the food stalls.”",
+                "special guest | a famous or invited person | “Our special guest is a local singer.”",
+                "ticket | a paper or digital pass to enter | “Tickets are 2 rials each.”",
+                "🧠 GRAMMAR FOCUS — Future with “will”",
+                "We use “will” to talk about future plans or events.",
+                "Examples:",
+                "The show will start at 6 o’clock.",
+                "We will have music and food.",
+                "Visitors will enjoy the magic show.",
+                "🎨 PROJECT BRIEF — Include these 5 elements",
+                "🎭 Event Title (e.g., The Great School Show)",
+                "📅 Date and Time (e.g., Friday, 22 November – 6:00 p.m.)",
+                "📍 Place (e.g., Sultan Qaboos Auditorium)",
+                "💬 Activities (e.g., singing, dancing, comedy)",
+                "🎟️ Ticket information (e.g., Tickets: 1 rial – available at school office)",
+                "💡 Decorate with Omani elements: flags, lights, khanjars, halwa, palm trees.",
+                "🎤 SPEAKING TIP",
+                "Use phrases like: “Our event will take place at…”, “You will see amazing performances!”, “Don’t miss it!”"
+              ],
+              "image": "images/poster_elements.jpg"
+            },
+            "read": {
+              "title": "Project Inspiration",
+              "passage": "Think of Omani cultural festivals, school plays, or concerts. Your poster can be inspired by events like “Oman National Day Celebration” or “School Talent Show Night.” Include a clear title, date and time, place, activities, and ticket information. Use will to describe what will happen.",
+              "image": "images/poster_project.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the event detail to its description.", "left": ["The name of your event → [ _______ ]", "When it happens → [ _______ ]", "Where people go → [ _______ ]", "What people will see → [ _______ ]", "How to get in → [ _______ ]"], "right": ["Event Title", "Date and Time", "Place", "Activities", "Ticket Info"], "answers": { "The name of your event → [ _______ ]": "Event Title", "When it happens → [ _______ ]": "Date and Time", "Where people go → [ _______ ]": "Place", "What people will see → [ _______ ]": "Activities", "How to get in → [ _______ ]": "Ticket Info" } },
+              { "type": "write", "prompt": "Write 4–6 sentences to describe your event. Use will and future time expressions.", "minChars": 120 }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I can write event details clearly.\n☑ I can describe future events using “will.”\n☑ I can make my writing creative and colorful."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "title": "Meet the Animal Kingdom",
+      "lessons": [
+        {
+          "id": "g7u2l1",
+          "title": "Meet the Animal Kingdom",
+          "image": "images/animals_oman.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Meet the Animal Kingdom",
+              "intro": "Welcome to the wild side! In this unit, we explore amazing animals — their body parts, habitats, and actions. We’ll learn how to describe animals, talk about what they do, and use new grammar to make smart guesses about them. Think about animals found in Oman — the Arabian leopard, camels, turtles in Ras Al Jinz, and dolphins in Muscat!",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Describe animals using body parts and actions.",
+                "✅ Identify animals by their features.",
+                "✅ Use ‘may,’ ‘might,’ ‘could,’ and ‘must’ to guess what animals are.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example",
+                "beak | the hard mouth of a bird | “An eagle has a sharp beak.”",
+                "scales | small hard pieces on fish/reptiles | “A fish has shiny scales.”",
+                "claws | sharp nails on animals | “Cats use claws to climb.”",
+                "fin | part that helps fish swim | “Sharks move fast with their fins.”",
+                "whiskers | long hairs near an animal’s nose | “A cat’s whiskers help it feel around.”",
+                "💡 Tip: Bring pictures or real animal toys to class — it helps students connect words to real creatures!",
+                "🧩 GRAMMAR FOCUS — Modals of Deduction",
+                "We use: may / might / could → when we’re not sure; must → when we’re almost certain; can’t → when we’re sure something is false.",
+                "Examples:",
+                "It might be a bird.",
+                "It could have fur.",
+                "It must be a camel — look at the hump!",
+                "It can’t be a fish — it has legs!",
+                "🎮 INTERACTIVE GAME IDEA — ‘Guess the Animal!’ (Optional)",
+                "Show a blurred or emoji-covered animal and give clues like: ‘It has a long neck and eats leaves.’ → (🦒 Giraffe)",
+                "🗣️ SPEAKING PRACTICE",
+                "Teacher: ‘It has claws and whiskers. What do you think it is?’ Student: ‘It might be a cat.’",
+                "Student: ‘It can’t be a fish. It has fur.’ Partner: ‘It must be a lion!’"
+              ],
+              "image": "images/animal_body_parts.jpg"
+            },
+            "read": {
+              "title": "Reading: Animals in Oman",
+              "passage": "In Oman, you may see dolphins swimming near Muscat — their fins appear above the water. On beaches in Ras Al Jinz, there might be turtles laying eggs at night. A large animal with a hump must be a camel. In the mountains, a fast and quiet animal could be the Arabian leopard. It can’t be a fish — it has legs and whiskers!",
+              "image": "images/animals_oman.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the body part to its function.", "left": ["Beak", "Fin", "Claws", "Whiskers", "Scales"], "right": ["Helps birds eat or pick food", "Helps fish swim", "Helps animals climb or catch prey", "Helps sense surroundings", "Protects the animal’s body"], "answers": { "Beak": "Helps birds eat or pick food", "Fin": "Helps fish swim", "Claws": "Helps animals climb or catch prey", "Whiskers": "Helps sense surroundings", "Scales": "Protects the animal’s body" } },
+              { "type": "write", "prompt": "Write 5 sentences describing a mystery animal without naming it. Use may, might, could, must, and can’t.", "minChars": 120 }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I know animal body parts.\n☑ I can use modals to make guesses.\n☑ I can describe animals clearly and creatively.\n🎥 Video recommendation: National Geographic Kids – ‘Amazing Animals Compilation’."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u2l2",
+          "title": "Animal Actions & Sounds",
+          "image": "images/animals_actions.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Animal Actions & Sounds",
+              "intro": "Today we explore how animals move and communicate — through actions and sounds. We’ll also learn how to describe what animals can do and use action verbs properly. In Oman, think of camels walking, falcons flying high, and turtles swimming in Ras Al Jinz!",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Use animal action verbs correctly.",
+                "✅ Describe what animals are doing.",
+                "✅ Write sentences using action verbs in the present tense.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Verb | Meaning | Example Sentence",
+                "roar | loud sound lions make | “Lions roar to show power.”",
+                "sting | use a sharp part to hurt | “Bees sting when they feel danger.”",
+                "dive | go down into water | “Turtles dive deep in the sea.”",
+                "dig | make a hole in the ground | “Camels dig for roots in dry sand.”",
+                "hide | stay out of sight | “Lizards hide under rocks.”",
+                "fly away | move through air | “Falcons fly away fast.”",
+                "lay eggs | produce eggs | “Birds lay eggs in nests.”",
+                "🧩 GRAMMAR FOCUS — Present Continuous for Actions",
+                "We use is/are + verb-ing to show what’s happening now.",
+                "Examples:",
+                "The lion is roaring loudly.",
+                "The camel is walking slowly.",
+                "The fish is swimming near the coral.",
+                "The owl is flying at night.",
+                "🎮 GAME IDEA — ‘Act Like the Animal!’ (Optional)",
+                "Show or play a sound. Students guess: ‘It’s roaring! It must be a lion!’ Add ‘Guess Again’ buttons for extra tries.",
+                "🗣️ SPEAKING PRACTICE",
+                "Teacher: ‘What’s the cat doing?’ Student: ‘It’s hiding under the chair.’",
+                "Teacher: ‘What’s the turtle doing?’ Student: ‘It’s diving into the sea!’"
+              ],
+              "image": "images/animal_actions_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Animals in Action",
+              "passage": "On the beach, the turtles are diving into the water. In the sky, a falcon is flying away fast. Near the rocks, some lizards are hiding quietly. A lion in the reserve is roaring loudly, and the fish are swimming near the coral. Animals move and communicate in amazing ways!",
+              "image": "images/animals_actions.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the Animal to Its Action.", "left": ["Lion", "Bee", "Fish", "Cat", "Turtle"], "right": ["Roars loudly", "Stings with its tail", "Swims underwater", "Hides quietly", "Dives slowly"], "answers": { "Lion": "Roars loudly", "Bee": "Stings with its tail", "Fish": "Swims underwater", "Cat": "Hides quietly", "Turtle": "Dives slowly" } },
+              { "type": "write", "prompt": "Write 5 sentences about what animals are doing right now (present continuous).", "minChars": 120 },
+              { "type": "mcq", "prompt": "Which animal can fly?", "options": ["Camel", "Dog", "Falcon", "Turtle"], "answer": "Falcon" },
+              { "type": "mcq", "prompt": "What does a lion do?", "options": ["Swim", "Roar", "Fly", "Sting"], "answer": "Roar" },
+              { "type": "mcq", "prompt": "The fish ______ in the sea.", "options": ["walks", "roars", "dives", "eats leaves"], "answer": "dives" },
+              { "type": "mcq", "prompt": "The bee can ______ you if you touch it.", "options": ["roar", "sting", "run", "dig"], "answer": "sting" },
+              { "type": "mcq", "prompt": "‘The camel is walking.’ — This sentence is in the:", "options": ["Past simple", "Present continuous", "Future tense", "Conditional"], "answer": "Present continuous" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I know action verbs for animals.\n☑ I can describe what animals are doing.\n☑ I can use the present continuous tense.\n🎥 Video recommendation: BBC Earth Kids – ‘Animals in Action’."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u2l3",
+          "title": "Animal Homes & Habitats",
+          "image": "images/animal_habitats.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Animal Homes & Habitats",
+              "intro": "Every animal needs a home — a safe place to sleep, eat, and protect its babies. That home is called a habitat. Different animals live in different habitats — deserts, forests, oceans, or mountains — depending on their body and what they need to survive. In Oman, you can find animals in every kind of home: camels in the desert, turtles near Ras Al Jinz beach, and mountain goats climbing Jabal Akhdar!",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Name common animal habitats.",
+                "✅ Describe where animals live and why.",
+                "✅ Use ‘live(s) in’ and ‘can / can’t’ correctly.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example Sentence",
+                "Desert | dry, sandy area | “Camels live in the desert.”",
+                "Forest | full of trees | “Monkeys live in the forest.”",
+                "Ocean | very large sea | “Whales live in the ocean.”",
+                "Mountain | high rocky land | “Goats climb mountains.”",
+                "Cave | dark hole in a mountain | “Bats sleep in caves.”",
+                "Nest | a bird’s home | “Eagles build nests on cliffs.”",
+                "Burrow | tunnel home in the ground | “Foxes live in burrows.”",
+                "📘 GRAMMAR FOCUS — Using ‘Live(s)’ + Place",
+                "We say:",
+                "Lions live in Africa.",
+                "The turtle lives in the sea.",
+                "Camels live in hot, dry deserts.",
+                "💡 Remember:",
+                "Add -s for he / she / it.",
+                "No -s for they / we / you / I.",
+                "🌿 TEACHING EXAMPLE (Table)",
+                "Animal | Habitat | Why?",
+                "Camel | Desert | It can live without water for many days.",
+                "Turtle | Beach | It lays eggs in the sand.",
+                "Eagle | Mountains | It can see far and fly high.",
+                "Dolphin | Ocean | It needs water to breathe and play.",
+                "Fox | Forest | It hides easily and finds food there."
+              ],
+              "image": "images/habitats_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Homes Around the World",
+              "passage": "Camels live in deserts where it is hot and dry. Turtles live near beaches and lay eggs in the sand. Eagles live on high mountains and build nests on cliffs. Dolphins live in the ocean and play in groups. Foxes live in forests and hide in burrows. Each animal lives where it can find food, water, and safety.",
+              "image": "images/animal_habitats.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the Animal to Its Home.", "left": ["Camel", "Fish", "Fox", "Bat", "Eagle"], "right": ["Desert", "Ocean", "Forest", "Cave", "Mountains"], "answers": { "Camel": "Desert", "Fish": "Ocean", "Fox": "Forest", "Bat": "Cave", "Eagle": "Mountains" } },
+              { "type": "write", "prompt": "Write 5 sentences using ‘live(s) in’ about animals in Oman.", "minChars": 120 },
+              { "type": "mcq", "prompt": "Where do camels live?", "options": ["Forest", "Desert", "Ocean", "Cave"], "answer": "Desert" },
+              { "type": "mcq", "prompt": "What animal lives in a cave?", "options": ["Fox", "Bat", "Bird", "Goat"], "answer": "Bat" },
+              { "type": "mcq", "prompt": "‘It lives in the mountains.’ — The subject ‘it’ refers to:", "options": ["Camels", "Goats", "Fish", "Dolphins"], "answer": "Goats" },
+              { "type": "mcq", "prompt": "Which animal builds a nest?", "options": ["Fox", "Cat", "Eagle", "Turtle"], "answer": "Eagle" },
+              { "type": "mcq", "prompt": "The turtle _______ eggs in the sand.", "options": ["lays", "flies", "digs", "barks"], "answer": "lays" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I can name animal habitats.\n☑ I can describe where animals live.\n☑ I can use ‘live(s) in’ correctly.\n🎥 Video recommendation: National Geographic Kids – ‘Animal Homes Around the World’."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u2l4",
+          "title": "Animal Features & Body Parts",
+          "image": "images/animal_body_features.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Animal Features & Body Parts",
+              "intro": "Every animal has special body parts that help it survive in its habitat. Some animals are made to run fast, others to fly high, swim deep, or hide safely. In Oman, look closely: the Arabian oryx has long, curved horns for protection, and hawks have sharp eyes to spot food from far away. Nature designs every creature for its home.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Name and describe animal body parts.",
+                "✅ Explain what they are used for.",
+                "✅ Use ‘It uses…’ / ‘They use…’ correctly.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example Sentence",
+                "Beak | hard mouth of a bird | “The eagle uses its beak to eat meat.”",
+                "Claws | sharp nails | “Cats use claws to climb trees.”",
+                "Fur | soft hair on animals | “The rabbit’s fur keeps it warm.”",
+                "Spines | sharp points on the back | “Hedgehogs have spines for protection.”",
+                "Whiskers | long hairs on the face | “Cats use whiskers to feel things.”",
+                "Antennae | feelers on insects | “Bees use antennae to smell flowers.”",
+                "Fins | flat parts for swimming | “Fish use fins to move in water.”",
+                "Horns | hard pointed bones | “Goats use horns to fight.”",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Animal | Body Part | Function",
+                "Bird | Beak | To eat seeds or meat",
+                "Fish | Fins | To swim",
+                "Cat | Whiskers | To feel around",
+                "Hedgehog | Spines | To stay safe",
+                "Oryx | Horns | To fight and protect itself",
+                "⚙️ GRAMMAR FOCUS — ‘It uses…’ / ‘They use…’",
+                "We say:",
+                "‘The camel uses its hump to store fat.’",
+                "‘Birds use their wings to fly.’",
+                "🧩 Remember:",
+                "It uses → for one animal",
+                "They use → for more than one animal"
+              ],
+              "image": "images/body_parts_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Designed to Survive",
+              "passage": "The Arabian oryx uses its long horns to protect itself from danger. Cats use whiskers to feel small spaces before they pass through. Fish use fins to move and balance in the water. Birds use sharp beaks to eat different kinds of food. Every body part has a job — and it helps the animal survive.",
+              "image": "images/animal_body_features.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the Animal to Its Body Part.", "left": ["Bird", "Cat", "Fish", "Hedgehog", "Goat"], "right": ["Beak", "Whiskers", "Fins", "Spines", "Horns"], "answers": { "Bird": "Beak", "Cat": "Whiskers", "Fish": "Fins", "Hedgehog": "Spines", "Goat": "Horns" } },
+              { "type": "write", "prompt": "Write 5 sentences describing animals and their special body parts. Use ‘It uses…’ / ‘They use…’.", "minChars": 120 },
+              { "type": "mcq", "prompt": "What does a bird use to eat?", "options": ["Fins", "Beak", "Whiskers", "Antennae"], "answer": "Beak" },
+              { "type": "mcq", "prompt": "Which animal uses its horns for protection?", "options": ["Cat", "Oryx", "Fish", "Bird"], "answer": "Oryx" },
+              { "type": "mcq", "prompt": "Fish move in water using…", "options": ["Fins", "Wings", "Spines", "Claws"], "answer": "Fins" },
+              { "type": "mcq", "prompt": "Hedgehogs use their spines to…", "options": ["Fly", "Protect themselves", "Eat", "Swim"], "answer": "Protect themselves" },
+              { "type": "mcq", "prompt": "Bees use their antennae to…", "options": ["Hear music", "Smell and feel", "Jump high", "Sleep"], "answer": "Smell and feel" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I can name animal body parts.\n☑ I can describe how animals use them.\n☑ I can write sentences using ‘It uses…’ / ‘They use…’.\n🎥 Video recommendation: BBC Earth Kids – ‘How Animals Use Their Body Parts to Survive’."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u2l5",
+          "title": "Animal Actions – What Animals Do",
+          "image": "images/animal_actions_verbs.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Animal Actions – What Animals Do",
+              "intro": "Animals move, eat, and protect themselves in amazing ways. They jump, swim, dig, roar, and even sting! In Oman, you might hear camels groaning softly in the desert, or see dolphins jumping in the sea near Quriyat. Each animal has its own special way of living!",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Identify verbs that describe animal actions.",
+                "✅ Use these verbs correctly in sentences.",
+                "✅ Write and speak about what animals do.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Verb | Meaning | Example Sentence",
+                "Bite | use teeth | “Snakes bite when they feel scared.”",
+                "Sting | hurt with a sharp point | “Bees sting when you touch them.”",
+                "Roar | make a loud sound | “Lions roar in the jungle.”",
+                "Hide | stay out of sight | “Rabbits hide in their holes.”",
+                "Dive | go down into water | “Dolphins dive into the sea.”",
+                "Run | move fast on land | “Cheetahs run very fast.”",
+                "Dig | make a hole | “Dogs dig in the sand.”",
+                "Fly away | move in the air | “Birds fly away when it rains.”",
+                "Lay eggs | put eggs in a nest | “Turtles lay eggs on the beach.”",
+                "💬 GRAMMAR FOCUS — Simple Present Tense (Animal Actions)",
+                "We use the present simple to describe what animals usually do.",
+                "Examples:",
+                "‘Cats run and jump.’",
+                "‘The lion roars loudly.’",
+                "‘The turtle lays eggs.’",
+                "‘Bees sting to protect themselves.’",
+                "💡 -s rule for he/she/it:",
+                "‘The bird flies.’ ‘The dolphin swims.’",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Animal | Action | Sentence",
+                "Snake | Bite | “The snake bites to eat.”",
+                "Lion | Roar | “The lion roars loudly.”",
+                "Turtle | Lay eggs | “The turtle lays eggs in the sand.”",
+                "Dog | Dig | “The dog digs a hole.”",
+                "Dolphin | Dive | “The dolphin dives into the water.”"
+              ],
+              "image": "images/animal_actions_board2.jpg"
+            },
+            "read": {
+              "title": "Reading: What Animals Do",
+              "passage": "Lions roar to show their power. Turtles lay eggs on quiet beaches. Bees sting to protect their homes. Dolphins dive and play together in the waves. Dogs dig holes and hide their toys. Each animal has actions that help it live and stay safe.",
+              "image": "images/animal_actions_verbs.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the Animal to Its Action.", "left": ["Lion", "Bee", "Dog", "Turtle", "Dolphin"], "right": ["Roar", "Sting", "Dig", "Lay eggs", "Dive"], "answers": { "Lion": "Roar", "Bee": "Sting", "Dog": "Dig", "Turtle": "Lay eggs", "Dolphin": "Dive" } },
+              { "type": "write", "prompt": "Write 5 sentences about what animals do (present simple).", "minChars": 120 },
+              { "type": "mcq", "prompt": "What does a lion do?", "options": ["Dives", "Roars", "Flies", "Bites"], "answer": "Roars" },
+              { "type": "mcq", "prompt": "Turtles lay eggs on the _______.", "options": ["Tree", "Beach", "Mountain", "River"], "answer": "Beach" },
+              { "type": "mcq", "prompt": "Which animal stings?", "options": ["Snake", "Bee", "Dog", "Cat"], "answer": "Bee" },
+              { "type": "mcq", "prompt": "Dolphins can…", "options": ["Run", "Dig", "Dive", "Bite"], "answer": "Dive" },
+              { "type": "mcq", "prompt": "Rabbits hide to…", "options": ["Eat food", "Stay safe", "Find water", "Sleep"], "answer": "Stay safe" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I can name animal actions.\n☑ I can describe what animals do.\n☑ I can write sentences in the present simple tense.\n🎥 Video recommendation: BBC Earth Kids – ‘How Animals Move and Protect Themselves’."
+            }
+          }
+        }
+        ,
+        {
+          "id": "g7u2l6",
+          "title": "How Animals Communicate",
+          "image": "images/animal_communicate.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "How Animals Communicate",
+              "intro": "Animals don’t use words like humans — but they still talk in their own ways! They use sounds, movements, and even colors to send messages. Every ‘roar,’ ‘chirp,’ or ‘tail wag’ means something. In Oman, goats bleat to call their babies, and dolphins jump and click in the sea. Let’s discover how animals communicate and what their sounds mean.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "By the end of this lesson, you can:",
+                "✅ Identify how animals communicate.",
+                "✅ Match animals to their sounds or signals.",
+                "✅ Write simple sentences about animal communication.",
+                "🐾 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example Sentence",
+                "Roar | loud sound of a lion | “The lion roars to scare other animals.”",
+                "Chirp | short high sound (bird) | “The birds chirp early in the morning.”",
+                "Hiss | snake’s warning sound | “The snake hisses when it feels danger.”",
+                "Bark | dog’s sound | “The dog barks at strangers.”",
+                "Meow | cat’s sound | “The cat meows when it’s hungry.”",
+                "Bleat | goat or sheep sound | “Goats bleat when they want food.”",
+                "Click | dolphin sound | “Dolphins make clicks to talk to each other.”",
+                "Buzz | sound of bees | “Bees buzz around the flowers.”",
+                "💬 GRAMMAR FOCUS — Using ‘can’ for animal abilities",
+                "We use can to talk about what animals are able to do:",
+                "‘Birds can chirp and fly.’",
+                "‘Dolphins can click and whistle.’",
+                "‘Lions can roar loudly.’",
+                "Negative form:",
+                "‘Turtles can’t bark.’",
+                "‘Cats can’t roar.’",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Animal | How it Communicates | Example",
+                "Dog | Bark | “Dogs bark to warn their owners.”",
+                "Cat | Meow | “Cats meow when they want milk.”",
+                "Lion | Roar | “Lions roar to show power.”",
+                "Bird | Chirp | “Birds chirp to find friends.”",
+                "Bee | Buzz | “Bees buzz when flying.”",
+                "Dolphin | Click | “Dolphins click under the water.”"
+              ],
+              "image": "images/animal_comm_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Talking Without Words",
+              "passage": "Animals communicate in many ways. Lions roar to scare other animals and protect their group. Birds chirp to find friends. Snakes hiss to warn enemies. Dolphins use clicks to talk and to find their way in the water. Goats bleat when they are hungry or calling their babies. Each sound has a message!",
+              "image": "images/animal_communicate.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the Animal to Its Sound.", "left": ["Lion", "Cat", "Bee", "Dog", "Bird", "Dolphin"], "right": ["Roar", "Meow", "Buzz", "Bark", "Chirp", "Click"], "answers": { "Lion": "Roar", "Cat": "Meow", "Bee": "Buzz", "Dog": "Bark", "Bird": "Chirp", "Dolphin": "Click" } },
+              { "type": "write", "prompt": "Write 4–5 sentences about animal communication using ‘can’ and ‘can’t’.", "minChars": 100 },
+              { "type": "mcq", "prompt": "What sound does a bee make?", "options": ["Bark", "Buzz", "Chirp", "Click"], "answer": "Buzz" },
+              { "type": "mcq", "prompt": "Dolphins click to…", "options": ["Sleep", "Play games", "Communicate", "Eat fish"], "answer": "Communicate" },
+              { "type": "mcq", "prompt": "Which animal bleats?", "options": ["Dog", "Goat", "Lion", "Cat"], "answer": "Goat" },
+              { "type": "mcq", "prompt": "Birds use chirping to…", "options": ["Scare others", "Find friends", "Sleep", "Roar"], "answer": "Find friends" },
+              { "type": "mcq", "prompt": "A cat can…", "options": ["Roar", "Chirp", "Meow", "Buzz"], "answer": "Meow" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "☑ I can name different animal sounds.\n☑ I can use ‘can’ to talk about animal abilities.\n☑ I can describe how animals communicate.\n🎥 Video recommendation: BBC Earth Kids – ‘How Animals Talk’."
+            }
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "unit": 3,
+      "title": "Let’s Go on a Trip!",
+      "lessons": [
+        {
+          "id": "g7u3l1",
+          "title": "Let’s Go on a Trip!",
+          "image": "images/travel_trip.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Let’s Go on a Trip!",
+              "intro": "Traveling helps us see the world — new people, new foods, new places! In Oman, you can camp in Jabal Shams, swim in Wadi Shab, or visit Salalah for cool weather. When we talk about travel in English, we need to describe our plans using ‘going to’ and travel verbs.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "Talk about future travel plans.",
+                "Use ‘going to’ correctly.",
+                "Identify and use travel vocabulary.",
+                "✈️ VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example Sentence",
+                "Suitcase | a bag for clothes when traveling | ‘I packed my suitcase last night.’",
+                "Journey | a trip from one place to another | ‘The journey to Muscat took 3 hours.’",
+                "Passport | travel document | ‘Don’t forget your passport!’",
+                "Guidebook | book with travel information | ‘We bought a guidebook for Oman.’",
+                "Explore | to go around and discover | ‘Let’s explore the old fort in Nizwa.’",
+                "Arrive | to reach a place | ‘We arrived in Salalah at night.’",
+                "Leave | to go away | ‘The train leaves at 7 a.m.’",
+                "Take off | when a plane starts flying | ‘The plane takes off soon.’",
+                "⚖️ GRAMMAR FOCUS — ‘Going to’ for Future Plans",
+                "We use ‘going to’ to talk about plans and intentions in the future.",
+                "Examples:",
+                "I’m going to visit Salalah next week.",
+                "We’re going to stay in a hotel.",
+                "She’s going to pack her suitcase tonight.",
+                "Negative form:",
+                "I’m not going to forget my passport.",
+                "They’re not going to take the bus.",
+                "Question form:",
+                "Are you going to travel this summer?",
+                "What are you going to pack?",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Picture | Sentence",
+                "images/travel_suitcase.png | I’m going to pack my suitcase.",
+                "images/travel_plane.png | We’re going to fly to Dubai.",
+                "images/travel_map_desert.png | They’re going to explore the desert.",
+                "images/travel_car.png | He’s going to drive to Nizwa.",
+                "💬 SPEAKING PRACTICE",
+                "Teacher: ‘Where are you going to travel next holiday?’ Student: ‘I’m going to visit Musandam!’",
+                "Teacher: ‘What are you going to pack?’ Student: ‘I’m going to pack clothes and my guidebook.’"
+              ],
+              "image": "images/travel_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Planning a Trip",
+              "passage": "Fatma and her family are going to visit Salalah next month. They are going to travel by car and stay in a small hotel near the mountains. Fatma is going to pack her suitcase and bring a guidebook. Her brother is going to take photos. They are going to explore waterfalls and try local food. It’s going to be an exciting journey!",
+              "image": "images/travel_trip.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Drag the travel word to the matching picture.", "left": ["🏜️ desert", "🧳 bag", "🏨 hotel", "🚌 station"], "right": ["explore", "pack", "arrive", "leave"], "answers": { "🏜️ desert": "explore", "🧳 bag": "pack", "🏨 hotel": "arrive", "🚌 station": "leave" } },
+              { "type": "write", "prompt": "Write 5 sentences about your next trip using ‘going to’.", "minChars": 120 },
+              { "type": "mcq", "prompt": "We use ‘going to’ for…", "options": ["The past", "The present", "Future plans"], "answer": "Future plans" },
+              { "type": "mcq", "prompt": "What do you need for international travel?", "options": ["A phone", "A passport", "A pen"], "answer": "A passport" },
+              { "type": "mcq", "prompt": "‘The plane takes off’ means…", "options": ["It lands", "It starts flying", "It stops"], "answer": "It starts flying" },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["I going to travel next week.", "I’m going travel next week.", "I’m going to travel next week."], "answer": "I’m going to travel next week." },
+              { "type": "mcq", "prompt": "What does ‘explore’ mean?", "options": ["To clean something", "To visit and discover", "To sleep"], "answer": "To visit and discover" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can talk about my travel plans.\n- I can use 'going to' for the future.\n- I know basic travel vocabulary.\n🎥 Video recommendation: BBC Learning English – 'Going to: Future Plans Explained'."
+            }
+          }
+        },
+        {
+          "id": "g7u3l2",
+          "title": "At the Station",
+          "image": "images/station_travel.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "At the Station",
+              "intro": "Traveling isn't just about where you go — it's also how you get there! In Oman, people travel by car, by bus, or even by plane to faraway cities like Salalah or Musandam. When we talk about transport schedules — like bus times, flight departures, or train arrivals — we use the Present Simple for future events that are fixed and timetabled.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "Use the Present Simple for future schedules.",
+                "Identify transport verbs correctly.",
+                "Ask and answer questions about departure and arrival times.",
+                "🧳 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example",
+                "Depart | leave a place | 'The bus departs at 10 o'clock.'",
+                "Arrive | come to a place | 'The train arrives in Muscat at 3 p.m.'",
+                "Platform | area where you wait for a train | 'The train leaves from platform 5.'",
+                "Ticket | paper that allows travel | 'I bought a ticket to Nizwa.'",
+                "Schedule | list of travel times | 'Check the bus schedule.'",
+                "Get on | enter a vehicle | 'We get on the bus at the station.'",
+                "Get off | leave a vehicle | 'They get off at the next stop.'",
+                "Take off | plane starts flying | 'The plane takes off at 8 a.m.'",
+                "Land | plane touches the ground | 'It lands in Salalah at 9:30 a.m.'",
+                "⚖️ GRAMMAR FOCUS — Present Simple for Future Schedules",
+                "We use Present Simple to talk about timetables and scheduled events in the future.",
+                "These events are fixed — like school times, TV programs, or transport schedules.",
+                "Examples:",
+                "The bus leaves at 7:15.",
+                "The train arrives at 8:30.",
+                "The flight lands at 6:00 p.m.",
+                "What time does the ferry leave?",
+                "Note: Even though it's about the future, we use Present Simple verbs because the schedule is official or set.",
+                "🗣️ PRONUNCIATION PRACTICE",
+                "Focus on stressed syllables in travel verbs:",
+                "'AR-rive', 'DE-part', 'LEAV-es', 'LAND-s', 'TAKE off'",
+                "💬 SPEAKING PRACTICE",
+                "Teacher: 'What time does the bus leave?' Student: 'It leaves at 9 o'clock.'",
+                "Teacher: 'When does your flight land?' Student: 'It lands at 7:45 p.m.'",
+                "Teacher: 'Where does the train go?' Student: 'It goes to Sohar.'",
+                "🧩 DRAG & DROP EXAMPLES (Table)",
+                "Word | Picture",
+                "images/station_bus_leaving.png | Depart",
+                "images/station_train_arriving.png | Arrive",
+                "images/station_plane_takeoff.png | Take off",
+                "images/station_plane_landing.png | Land",
+                "images/station_get_off.png | Get off"
+              ],
+              "image": "images/station_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Travel Schedule",
+              "passage": "Ali checks the bus schedule at the station. The bus to Nizwa departs at 7:30 a.m. and arrives at 10:00 a.m. His friend Sara takes a flight to Salalah. Her plane takes off at 8:00 a.m. and lands at 9:30 a.m. Ali's cousin rides the ferry to Musandam — it leaves at 6:00 p.m. They all travel using official schedules!",
+              "image": "images/station_travel.jpg"
+            },
+            "practice": [
+              { "type": "fill", "prompt": "The flight __________ (leave) at 6:30 a.m.", "answer": "leaves", "hint": "Use Present Simple for schedules." },
+              { "type": "fill", "prompt": "The bus __________ (arrive) at 10 o'clock.", "answer": "arrives", "hint": "Remember: he/she/it + s" },
+              { "type": "fill", "prompt": "What time __________ the ferry (depart)?", "answer": "does the ferry depart", "acceptableAnswers": ["does the ferry depart", "does it depart"], "hint": "Question form: does + base verb" },
+              { "type": "fill", "prompt": "The train __________ (stop) at Nizwa.", "answer": "stops", "hint": "Present Simple with 's'" },
+              { "type": "fill", "prompt": "The plane __________ (land) in Muscat at noon.", "answer": "lands", "hint": "Fixed schedule = Present Simple" },
+              { "type": "drag", "prompt": "Match the transport verb to the picture.", "left": ["🚌 Bus leaving station", "🚆 Train reaching platform", "✈️ Plane in sky", "🛬 Plane on runway", "🚏 Passengers leaving bus"], "right": ["Depart", "Arrive", "Take off", "Land", "Get off"], "answers": { "🚌 Bus leaving station": "Depart", "🚆 Train reaching platform": "Arrive", "✈️ Plane in sky": "Take off", "🛬 Plane on runway": "Land", "🚏 Passengers leaving bus": "Get off" } },
+              { "type": "write", "prompt": "Write 4 sentences about a travel schedule using Present Simple (e.g., The bus leaves at..., The plane arrives at...).", "minChars": 100 },
+              { "type": "mcq", "prompt": "We use the Present Simple for…", "options": ["Things happening now", "Fixed schedules and timetables", "Past actions"], "answer": "Fixed schedules and timetables" },
+              { "type": "mcq", "prompt": "The train _______ at 5:00.", "options": ["leave", "leaving", "leaves"], "answer": "leaves" },
+              { "type": "mcq", "prompt": "'Take off' means…", "options": ["The plane starts flying", "The plane stops flying", "The plane lands"], "answer": "The plane starts flying" },
+              { "type": "mcq", "prompt": "What's the opposite of 'get on'?", "options": ["Leave", "Get off", "Exit"], "answer": "Get off" },
+              { "type": "mcq", "prompt": "Choose the correct sentence:", "options": ["The bus leave at 8:30.", "The bus leaves at 8:30.", "The bus leaving at 8:30."], "answer": "The bus leaves at 8:30." }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can ask and answer questions about travel times.\n- I can use Present Simple for schedules.\n- I can understand travel verbs like 'arrive', 'depart', 'get on', and 'get off'.\n🎥 Video recommendation: BBC Learning English – 'Talking about Timetables and Schedules'."
+            }
+          }
+        },
+        {
+          "id": "g7u3l3",
+          "title": "Packing for the Journey",
+          "image": "images/packing_journey.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Packing for the Journey",
+              "intro": "When traveling, packing smartly is key. You need the right things for your trip, but not everything you own! In Oman, you might pack for: a beach trip in Salalah (swimsuit, flip-flops, sunscreen), a desert camp in Wahiba Sands (hat, water bottle), or a city tour in Muscat (guidebook, passport, camera). We use 'need / doesn't need' to say what's necessary or unnecessary.",
+              "points": [
+                "🎯 OBJECTIVES",
+                "Identify travel essentials.",
+                "Use need / doesn't need / needs correctly.",
+                "Write sentences about what to pack for a trip.",
+                "🧳 VOCABULARY BOOST (Table)",
+                "Word | Meaning | Example Sentence",
+                "Passport | Travel document | 'I need my passport for the flight.'",
+                "Guidebook | Book about places | 'She needs a guidebook for Muscat.'",
+                "Charger | Device for phone/camera | 'I don't need a charger for my watch.'",
+                "Umbrella | Protection from rain | 'We need an umbrella in the rainy season.'",
+                "Flip-flops | Beach shoes | 'You don't need flip-flops for the desert.'",
+                "Toothbrush | For cleaning teeth | 'He needs a toothbrush for the hotel stay.'",
+                "Water bottle | For drinking | 'I need a water bottle in the desert.'",
+                "⚖️ GRAMMAR FOCUS — need / doesn't need / needs",
+                "Rules:",
+                "I / You / We / They → need / don't need",
+                "Examples: 'I need sunscreen.' 'We don't need heavy jackets.'",
+                "He / She / It → needs / doesn't need",
+                "Examples: 'She needs a guidebook.' 'He doesn't need an umbrella.'",
+                "Question form:",
+                "'Do you need a hat for the desert?'",
+                "'Does she need a camera for the trip?'",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Person | Item | Sentence",
+                "I | Passport | I need my passport.",
+                "He | Umbrella | He doesn't need an umbrella.",
+                "They | Flip-flops | They need flip-flops for the beach.",
+                "She | Guidebook | She needs a guidebook.",
+                "We | Water bottle | We don't need heavy jackets.",
+                "🗣️ SPEAKING PRACTICE",
+                "Teacher: 'Do you need flip-flops for the desert?' Student: 'No, I don't need flip-flops for the desert.'",
+                "Teacher: 'Does she need a passport?' Student: 'Yes, she needs a passport.'"
+              ],
+              "image": "images/packing_board.jpg"
+            },
+            "read": {
+              "title": "Reading: Smart Packing",
+              "passage": "Layla is going to Salalah for a beach holiday. She needs flip-flops, sunscreen, and a swimsuit. Her brother Ahmad is camping in Wahiba Sands. He needs a water bottle, a hat, and a sleeping bag. He doesn't need flip-flops in the desert! Their cousin Fatma is visiting Muscat city. She needs a guidebook, a camera, and her passport. Everyone packs differently — it depends on the trip!",
+              "image": "images/packing_journey.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the sentence to the correct item.", "left": ["I need a passport", "She doesn't need flip-flops", "We need water bottles", "He needs a guidebook", "They don't need umbrellas"], "right": ["🛂 Passport", "🩴 Flip-flops", "🥤 Water bottle", "📖 Guidebook", "☂️ Umbrella"], "answers": { "I need a passport": "🛂 Passport", "She doesn't need flip-flops": "🩴 Flip-flops", "We need water bottles": "🥤 Water bottle", "He needs a guidebook": "📖 Guidebook", "They don't need umbrellas": "☂️ Umbrella" } },
+              { "type": "write", "prompt": "Write 5 sentences about what you need and don't need for your next trip. Use 'need', 'doesn't need', and 'needs'.", "minChars": 120 },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["He need a guidebook.", "He needs a guidebook.", "He needing a guidebook."], "answer": "He needs a guidebook." },
+              { "type": "mcq", "prompt": "You don't need _______ in the desert.", "options": ["Hat", "Flip-flops", "Water bottle"], "answer": "Flip-flops" },
+              { "type": "mcq", "prompt": "I _______ a passport for international travel.", "options": ["need", "needs", "don't need"], "answer": "need" },
+              { "type": "mcq", "prompt": "'Does she need an umbrella?' – answer:", "options": ["Yes, she need it.", "Yes, she needs it.", "No, she needs it."], "answer": "Yes, she needs it." },
+              { "type": "mcq", "prompt": "We _______ heavy jackets in Salalah during summer.", "options": ["need", "don't need", "needs"], "answer": "don't need" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I know travel essentials.\n- I can use need / doesn't need / needs correctly.\n- I can write sentences about what to pack for trips.\n🎥 Video recommendation: BBC Learning English – 'Travel Essentials & Need/Needn't'."
+            }
+          }
+        },
+        {
+          "id": "g7u3l4",
+          "title": "Asking for Information & Tickets",
+          "image": "images/tickets_info.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Asking for Information & Tickets",
+              "intro": "When you travel, you often need information — about tickets, schedules, or places to visit. In Oman, you might ask at Muscat airport, Salalah bus station, or a museum ticket counter. Being polite and clear is important when asking questions. We use phrases like 'I'd like some information about…', 'Can I have…?', and 'How much is…?'",
+              "points": [
+                "🎯 OBJECTIVES",
+                "Ask for information politely.",
+                "Ask and answer questions about prices and tickets.",
+                "Use can / could to make polite requests.",
+                "🗣️ VOCABULARY BOOST (Table)",
+                "Word/Phrase | Meaning | Example",
+                "Ticket | Paper allowing entry or travel | 'Can I have a ticket to Nizwa, please?'",
+                "Information | Facts or details | 'I'd like some information about the museum.'",
+                "Adult | Grown-up ticket | 'One adult ticket, please.'",
+                "Child | Child ticket | 'Two children tickets, please.'",
+                "Price | Cost of an item | 'How much is a ticket to the planetarium?'",
+                "Guidebook | Book with information about a place | 'We bought a guidebook for Oman.'",
+                "⚖️ GRAMMAR FOCUS — Polite Questions with Can / Could",
+                "Can I have…?",
+                "Example: 'Can I have four tickets, please?'",
+                "Could you tell me…?",
+                "Example: 'Could you tell me where the aquarium is?'",
+                "How much is…?",
+                "Example: 'How much is one adult ticket?'",
+                "Tip: Always add 'please' for politeness.",
+                "🧩 TEACHING EXAMPLES (Table)",
+                "Dialogue | Explanation",
+                "'Can I have two tickets for the cinema?' – 'Yes, that's ten rials.' | Asking for tickets politely.",
+                "'Could you tell me where the soft play centre is?' – 'Sure, it's near the ice rink.' | Asking for information politely.",
+                "'How much is an adult ticket?' – 'It's 5 rials.' | Asking about prices.",
+                "🗣️ SPEAKING PRACTICE",
+                "Teacher: 'Can I have a ticket to Salalah?' Student: 'Yes, that's 15 rials.'",
+                "Teacher: 'Could you tell me where the aquarium is?' Student: 'It's next to the planetarium.'"
+              ],
+              "image": "images/tickets_info_board.jpg"
+            },
+            "read": {
+              "title": "Reading: At the Ticket Counter",
+              "passage": "Khalid goes to the museum ticket counter in Muscat. 'Can I have two adult tickets, please?' he asks politely. 'Yes, that's 10 rials,' the clerk says. 'Could you tell me where the planetarium is?' Khalid asks. 'It's on the second floor, next to the aquarium,' she replies. Khalid thanks her and buys a guidebook too. Being polite makes everything easier!",
+              "image": "images/tickets_info.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match the question to the correct answer.", "left": ["Can I have one adult ticket, please?", "Could you tell me where the museum is?", "How much is a child ticket?", "Can I have four tickets, please?"], "right": ["5 rials", "It's next to the theatre.", "3 rials", "Sure, here you go."], "answers": { "Can I have one adult ticket, please?": "5 rials", "Could you tell me where the museum is?": "It's next to the theatre.", "How much is a child ticket?": "3 rials", "Can I have four tickets, please?": "Sure, here you go." } },
+              { "type": "write", "prompt": "Write 4–5 polite questions you could ask at a station or museum. Use 'Can I have...?', 'Could you tell me...?', and 'How much is...?'", "minChars": 120 },
+              { "type": "mcq", "prompt": "Which is a polite way to ask for tickets?", "options": ["Give me tickets", "Can I have tickets, please?", "I want tickets now"], "answer": "Can I have tickets, please?" },
+              { "type": "mcq", "prompt": "'How much is an adult ticket?' asks for…", "options": ["Directions", "Price", "Time"], "answer": "Price" },
+              { "type": "mcq", "prompt": "Choose the correct question:", "options": ["Could you tell me where the museum is?", "Can you tell me where museum is?", "Tell me museum?"], "answer": "Could you tell me where the museum is?" },
+              { "type": "mcq", "prompt": "What does 'could' show in questions?", "options": ["Politeness", "Time", "Past tense"], "answer": "Politeness" },
+              { "type": "fill", "prompt": "Make this sentence polite: 'Give me four tickets.' → ____________", "answer": "Can I have four tickets, please?", "acceptableAnswers": ["Can I have four tickets, please?", "Could I have four tickets, please?", "Can I have four tickets please?", "Could I have four tickets please?"], "hint": "Use 'Can I have' and 'please'" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can ask polite questions about tickets.\n- I can ask for prices and information.\n- I can answer simple travel-related questions.\n🎥 Video recommendation: BBC Learning English – 'Asking for Information & Tickets'."
+            }
+          }
+        },
+        {
+          "id": "g7u3l5",
+          "title": "Travel Essentials & Packing Checklist",
+          "image": "images/packing_suitcase.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Travel Essentials & Packing Checklist",
+              "intro": "Before any trip, it's smart to check what you need and pack carefully. In Oman, whether you're visiting Muscat, Salalah, or Nizwa, you need different things for different trips:\n\n🏖️ Beach trip: sunscreen, swimwear, flip-flops.\n🏜️ Desert trip: water bottle, hat, light clothing.\n🏙️ City tour: guidebook, camera, passport.\n\nWe'll use need / doesn't need again, plus a packing checklist to practice writing and speaking.",
+              "points": [
+                "🧳 Vocabulary Boost",
+                "Word | Meaning | Example",
+                "Sunscreen | Protects skin from sun | \"I need sunscreen at the beach.\"",
+                "Hat | Protects head | \"We need hats in the desert.\"",
+                "Flip-flops | Beach shoes | \"You don't need flip-flops for the city tour.\"",
+                "Water bottle | For drinking | \"I need a water bottle in Wahiba Sands.\"",
+                "Camera | For photos | \"She needs a camera in Muscat.\"",
+                "Passport | Travel document | \"I need my passport for the flight.\"",
+                "Guidebook | Book with travel info | \"We need a guidebook for Salalah.\"",
+                "💬 Grammar Focus – need / doesn't need / needs",
+                "Affirmative:",
+                "• I / You / We / They need … → \"I need sunscreen.\"",
+                "• He / She / It needs … → \"She needs a camera.\"",
+                "",
+                "Negative:",
+                "• I / You / We / They don't need …",
+                "• He / She / It doesn't need …",
+                "",
+                "Questions:",
+                "• \"Do you need a hat?\"",
+                "• \"Does he need a guidebook?\"",
+                "🧩 Teaching Examples",
+                "Person | Item | Sentence",
+                "I | Sunscreen | I need sunscreen.",
+                "He | Camera | He needs a camera.",
+                "We | Water bottle | We don't need heavy jackets.",
+                "She | Guidebook | She needs a guidebook.",
+                "They | Flip-flops | They don't need flip-flops for the city tour."
+              ],
+              "image": "images/travel_packing.jpg"
+            },
+            "read": {
+              "title": "Reading: Packing for Oman",
+              "passage": "Ahmed is going to Salalah for a beach trip. He needs sunscreen, flip-flops, and a water bottle. His sister Maryam is visiting Nizwa for a city tour. She needs a guidebook, a camera, and her passport. Their friend Omar is going to the desert in Wahiba Sands. He needs a hat, sunscreen, and a water bottle. Everyone packs carefully before their trip!",
+              "image": "images/oman_destinations.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Pack Your Bag! Drag items to the correct travel bag.", "left": ["Sunscreen", "Hat", "Flip-flops", "Camera", "Water Bottle", "Guidebook", "Passport"], "right": ["Beach Bag", "Desert Bag", "City Tour Bag"], "answers": { "Sunscreen": "Beach Bag", "Flip-flops": "Beach Bag", "Water Bottle": "Beach Bag", "Hat": "Desert Bag", "Camera": "City Tour Bag", "Guidebook": "City Tour Bag", "Passport": "City Tour Bag" } },
+              { "type": "write", "prompt": "Create your own packing checklist for a trip in Oman. Write 5–6 sentences using need / doesn't need / needs.", "minChars": 120 },
+              { "type": "mcq", "prompt": "Which is correct?", "options": ["He need a hat.", "He needs a hat.", "He needing a hat."], "answer": "He needs a hat." },
+              { "type": "mcq", "prompt": "What do you need for a desert trip?", "options": ["Flip-flops", "Hat and water bottle", "Camera only"], "answer": "Hat and water bottle" },
+              { "type": "mcq", "prompt": "'Do you need sunscreen?' – answer:", "options": ["Yes, I needs it.", "Yes, I need it.", "Yes, I don't need it."], "answer": "Yes, I need it." },
+              { "type": "mcq", "prompt": "Which items are for a beach trip?", "options": ["Camera, guidebook", "Sunscreen, flip-flops", "Hat, passport"], "answer": "Sunscreen, flip-flops" },
+              { "type": "fill", "prompt": "'They ______ flip-flops for the city tour.' (negative)", "answer": "don't need", "acceptableAnswers": ["don't need", "do not need"], "hint": "Use 'don't need'" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can make a travel packing checklist.\n- I can use need / doesn't need / needs correctly.\n- I can identify what to take for beach, desert, or city trips in Oman.\n🎥 Video recommendation: BBC Learning English – 'Travel Essentials & Packing Checklist'."
+            }
+          }
+        },
+        {
+          "id": "g7u3l6",
+          "title": "Travel Diaries & Sharing Experiences",
+          "image": "images/travel_diary.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Travel Diaries & Sharing Experiences",
+              "intro": "Traveling isn't just about getting from place to place — it's also about sharing your experiences!\n\nIn Oman, you might visit:\n🏰 Nizwa Fort\n🏞️ Wadi Shab\n🕌 Sultan Qaboos Grand Mosque\n\nWriting a travel diary helps you remember details, describe feelings, and practice grammar and vocabulary.\n\nWe'll also use expressions of feelings:\n• \"I can't wait to go…\"\n• \"I'm excited about visiting…\"\n• \"I don't mind walking…\"\n• \"I can't stand waiting in lines…\"",
+              "points": [
+                "🌍 Vocabulary Boost",
+                "Word/Phrase | Meaning | Example",
+                "Excited | Very happy or eager | \"I'm excited about visiting Nizwa.\"",
+                "Can't wait | Very eager | \"I can't wait to go to Salalah.\"",
+                "Don't mind | It's okay with me | \"I don't mind walking in the mountains.\"",
+                "Can't stand | Hate something | \"I can't stand waiting in lines.\"",
+                "Visited | Went to a place in the past | \"We visited Wadi Shab last summer.\"",
+                "Went | Past tense of go | \"I went to Muscat last weekend.\"",
+                "Stayed | Past tense of stay | \"We stayed in a hotel near the beach.\"",
+                "💬 Grammar Focus – Past & Future in Travel Diaries",
+                "Past trips:",
+                "• I visited Nizwa Fort last year.",
+                "• We went to the beach yesterday.",
+                "• They stayed in a hotel in Muscat.",
+                "",
+                "Future trips / plans:",
+                "• I can't wait to explore Salalah.",
+                "• I'm excited about visiting the desert.",
+                "🧩 Teaching Examples",
+                "Sentence | Usage",
+                "I visited Wadi Shab last summer. | Past trip",
+                "I can't wait to go to the beach. | Future excitement",
+                "She stayed in a hotel in Muscat. | Past trip",
+                "We don't mind walking in the mountains. | Expressing feelings"
+              ],
+              "image": "images/oman_travel.jpg"
+            },
+            "read": {
+              "title": "Reading: My Travel Diary",
+              "passage": "Last summer, my family and I visited Nizwa Fort. We stayed in a small hotel near the souq. I loved exploring the old market and trying traditional Omani sweets. My sister was excited about climbing the fort's tower. We took many photos! Next year, I can't wait to visit Salalah. I'm excited about swimming at the beaches and seeing the waterfalls during Khareef season. I don't mind the long drive — it will be worth it!",
+              "image": "images/nizwa_fort.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Past or Future? Drag each sentence to the correct category.", "left": ["I visited Nizwa Fort.", "I'm excited about Salalah.", "We stayed in a hotel.", "I can't wait to explore the desert.", "I don't mind walking."], "right": ["Past", "Future/Feeling"], "answers": { "I visited Nizwa Fort.": "Past", "I'm excited about Salalah.": "Future/Feeling", "We stayed in a hotel.": "Past", "I can't wait to explore the desert.": "Future/Feeling", "I don't mind walking.": "Future/Feeling" } },
+              { "type": "write", "prompt": "Write a short travel diary about a trip you have taken or plan to take in Oman. Include: where you went/will go, what you did/will do, and how you felt/are feeling.", "minChars": 150 },
+              { "type": "mcq", "prompt": "Which sentence is in the past?", "options": ["I'm excited about visiting Salalah.", "I visited Wadi Shab last summer.", "I can't wait to go to the desert."], "answer": "I visited Wadi Shab last summer." },
+              { "type": "mcq", "prompt": "'I can't wait to go to Muscat' expresses…", "options": ["Past action", "Future excitement", "Present habit"], "answer": "Future excitement" },
+              { "type": "mcq", "prompt": "Choose the correct past form:", "options": ["We go to the beach yesterday.", "We went to the beach yesterday.", "We going to the beach yesterday."], "answer": "We went to the beach yesterday." },
+              { "type": "mcq", "prompt": "Which expression shows dislike?", "options": ["I can't wait", "I don't mind", "I can't stand"], "answer": "I can't stand" },
+              { "type": "mcq", "prompt": "Travel diary is useful for…", "options": ["Remembering details", "Practicing grammar", "Expressing feelings", "All of the above"], "answer": "All of the above" },
+              { "type": "fill", "prompt": "Complete: 'Last summer, I ______ Nizwa Fort.' (past tense of visit)", "answer": "visited", "acceptableAnswers": ["visited"], "hint": "Use past tense" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can write a travel diary.\n- I can use past and future tense correctly.\n- I can express feelings about trips.\n- I can include Omani travel experiences in my writing.\n🎥 Video recommendation: BBC Learning English – 'Travel Diary & Sharing Experiences'."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "title": "WOW! Learning Club / Science & Fun Corners",
+      "lessons": [
+        {
+          "id": "g7u4l1",
+          "title": "Classifying Types of Energy",
+          "image": "images/energy_types.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Classifying Types of Energy",
+              "intro": "Energy is all around us! In Oman, we see energy in:\n☀️ Sunlight powering solar panels\n🌬️ Wind turning turbines in Dhofar\n💧 Moving water in dams\n⚽ Food giving us energy to play football\n\nThere are different types of energy:\n• Kinetic – energy of movement (a rolling ball)\n• Potential – stored energy (water behind a dam)\n• Thermal / Heat – warmth from the sun or a stove\n• Light – from the sun, lamps, or fireworks\n• Sound – music, talking, or calling across the souq\n• Electrical – powers lights, fans, and TVs",
+              "points": [
+                "🌟 Vocabulary Boost",
+                "Word | Meaning | Example",
+                "Kinetic energy | Energy in motion | \"The rolling car has kinetic energy.\"",
+                "Potential energy | Stored energy | \"Water behind a dam has potential energy.\"",
+                "Thermal energy | Heat energy | \"The sun gives us thermal energy.\"",
+                "Light energy | Energy from light | \"Solar panels capture light energy.\"",
+                "Sound energy | Energy from sound | \"The drum produces sound energy.\"",
+                "Electrical energy | Energy powering devices | \"Electrical energy powers the fan.\"",
+                "🧩 Classifying Energy Activity",
+                "Item | Correct Energy Type",
+                "Rolling ball | Kinetic",
+                "Water behind a dam | Potential",
+                "Sunlight | Light",
+                "Stove | Thermal",
+                "Drum | Sound",
+                "Lamp | Electrical"
+              ],
+              "image": "images/energy_examples.jpg"
+            },
+            "read": {
+              "title": "Reading: Energy in Oman",
+              "passage": "In Oman, we see many types of energy every day. The sun gives us light energy and thermal energy. Solar panels in the desert capture this energy. Wind turbines in Dhofar use kinetic energy from moving air. Water behind dams has potential energy that can turn into electrical energy. At home, electrical energy powers our fans, lights, and TVs. When we play drums or listen to music, we experience sound energy. Energy is everywhere!",
+              "image": "images/oman_energy.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Classify each item into the correct energy type.", "left": ["Rolling ball", "Water behind a dam", "Sunlight", "Stove", "Drum", "Lamp"], "right": ["Kinetic", "Potential", "Thermal", "Light", "Sound", "Electrical"], "answers": { "Rolling ball": "Kinetic", "Water behind a dam": "Potential", "Sunlight": "Light", "Stove": "Thermal", "Drum": "Sound", "Lamp": "Electrical" } },
+              { "type": "write", "prompt": "Write 5 sentences describing energy you see around your home or school in Oman. Use the vocabulary from this lesson.", "minChars": 120 },
+              { "type": "mcq", "prompt": "Kinetic energy is…", "options": ["Stored energy", "Energy of movement", "Energy from sound"], "answer": "Energy of movement" },
+              { "type": "mcq", "prompt": "Which is an example of potential energy?", "options": ["Ball rolling down a hill", "Water behind a dam", "Sunlight"], "answer": "Water behind a dam" },
+              { "type": "mcq", "prompt": "Thermal energy comes from…", "options": ["Heat", "Movement", "Electricity"], "answer": "Heat" },
+              { "type": "mcq", "prompt": "Electrical energy powers…", "options": ["A lamp", "A running river", "A drum"], "answer": "A lamp" },
+              { "type": "mcq", "prompt": "Sound energy is…", "options": ["Energy in motion", "Energy from noise or music", "Stored energy"], "answer": "Energy from noise or music" },
+              { "type": "fill", "prompt": "The rolling car has ______ energy. (type of energy for movement)", "answer": "kinetic", "acceptableAnswers": ["kinetic", "kinetic energy"], "hint": "Energy of movement" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can identify different types of energy.\n- I can classify examples into Kinetic, Potential, Thermal, Light, Sound, Electrical.\n- I can explain energy types in simple sentences.\n🎥 Video recommendation: BBC Bitesize – 'Types of Energy'."
+            }
+          }
+        },
+        {
+          "id": "g7u4l2",
+          "title": "Fun Experiments – Seeing Energy in Action",
+          "image": "images/science_experiments.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Fun Experiments – Seeing Energy in Action",
+              "intro": "Energy isn't just theory — you can see it in action!\n\nSome simple experiments you can try at home or in class:\n\n🎾 Rolling Ball (Kinetic Energy)\nRoll a ball down a slope. Observe how speed increases — that's kinetic energy!\n\n🔴 Rubber Band Stretch (Potential Energy)\nStretch a rubber band and let it go. The stored energy becomes movement energy.\n\n🥄 Solar Heat (Thermal Energy)\nPlace a metal spoon in the sun. Feel how it warms up — thermal energy in action.\n\n🥁 Sound Waves (Sound Energy)\nTap a drum or tap a spoon on a cup. Hear the vibrations — sound energy is created.\n\n💡 Circuit Light (Electrical Energy)\nConnect a battery to a small bulb. The bulb lights up — electrical energy powers it.",
+              "points": [
+                "🌟 Vocabulary Boost",
+                "Word | Meaning | Example",
+                "Experiment | Scientific test | \"We did an experiment with a rolling ball.\"",
+                "Observation | What you notice | \"My observation: the ball rolled faster down the slope.\"",
+                "Transform | Change from one form to another | \"Potential energy transforms into kinetic energy.\"",
+                "Vibration | Movement back and forth | \"The drum makes vibrations that produce sound.\"",
+                "Circuit | Path for electricity | \"The battery and bulb form a simple circuit.\"",
+                "🧩 Classify Energy in Experiments",
+                "Experiment | Energy Type",
+                "Rolling ball | Kinetic",
+                "Rubber band stretch | Potential → Kinetic",
+                "Metal spoon in sun | Thermal",
+                "Drum tapping | Sound",
+                "Battery + bulb | Electrical → Light"
+              ],
+              "image": "images/energy_experiments.jpg"
+            },
+            "read": {
+              "title": "Reading: My Science Journal",
+              "passage": "Today in science class, we did five energy experiments! First, we rolled a ball down a ramp to see kinetic energy. The ball moved faster and faster. Then we stretched rubber bands — they stored potential energy that transformed into kinetic energy when we let go. We put a metal spoon in the sun and it got hot from thermal energy. We tapped drums to create sound energy from vibrations. Finally, we connected a battery to a bulb and watched electrical energy turn into light energy. Energy is amazing!",
+              "image": "images/classroom_experiments.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match each experiment with the correct energy type.", "left": ["Rolling ball", "Rubber band stretch", "Metal spoon in sun", "Drum tapping", "Battery + bulb"], "right": ["Kinetic", "Potential → Kinetic", "Thermal", "Sound", "Electrical → Light"], "answers": { "Rolling ball": "Kinetic", "Rubber band stretch": "Potential → Kinetic", "Metal spoon in sun": "Thermal", "Drum tapping": "Sound", "Battery + bulb": "Electrical → Light" } },
+              { "type": "write", "prompt": "Record 3 mini-experiments you can try at home. For each, write: the experiment name, what you observe, and what type of energy is involved.", "minChars": 150 },
+              { "type": "mcq", "prompt": "Rolling a ball down a slope shows…", "options": ["Thermal energy", "Kinetic energy", "Electrical energy"], "answer": "Kinetic energy" },
+              { "type": "mcq", "prompt": "Stretching a rubber band stores…", "options": ["Kinetic energy", "Potential energy", "Sound energy"], "answer": "Potential energy" },
+              { "type": "mcq", "prompt": "Light bulb powered by battery demonstrates…", "options": ["Electrical → Light energy", "Thermal → Kinetic energy", "Sound → Kinetic energy"], "answer": "Electrical → Light energy" },
+              { "type": "mcq", "prompt": "Hitting a drum produces…", "options": ["Sound energy", "Potential energy", "Electrical energy"], "answer": "Sound energy" },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["Potential energy can transform into kinetic energy.", "Kinetic energy can't change.", "Sound energy is stored in the drum."], "answer": "Potential energy can transform into kinetic energy." },
+              { "type": "fill", "prompt": "Potential energy ______ into kinetic energy. (verb for change)", "answer": "transforms", "acceptableAnswers": ["transforms", "changes", "converts"], "hint": "What happens when energy changes form?" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can see different energy types in experiments.\n- I can explain how energy transforms.\n- I can record observations like a young scientist.\n🎥 Video recommendation: BBC Bitesize – 'Energy Experiments for Kids'."
+            }
+          }
+        },
+        {
+          "id": "g7u4l3",
+          "title": "Classifying Energy in Diagrams & Fun Projects",
+          "image": "images/energy_diagrams.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Classifying Energy in Diagrams & Fun Projects",
+              "intro": "Now that we've seen energy types in real life, it's time to classify them in diagrams.\n\nScientists often draw diagrams to show how energy moves or changes.\n\nIn Oman, you might see diagrams for:\n☀️ Solar panels in Masirah – converting sunlight → electricity\n🌬️ Wind turbines in Dhofar – wind → kinetic → electrical energy\n💧 Water dams – potential → kinetic → mechanical energy\n\nWe'll also do a fun project: make your own energy diagram poster!",
+              "points": [
+                "🌟 Vocabulary Boost",
+                "Word | Meaning | Example",
+                "Diagram | Picture showing information | \"We drew a diagram of a solar panel.\"",
+                "Transform | Change from one type to another | \"Potential energy transforms into kinetic energy.\"",
+                "Mechanical energy | Energy of machines/moving parts | \"The water wheel uses mechanical energy.\"",
+                "Solar panel | Device that turns sunlight into electricity | \"The solar panel produces electrical energy.\"",
+                "Wind turbine | Device converting wind into electricity | \"Wind turbines in Dhofar produce energy.\"",
+                "🧩 Classify Energy in Diagrams",
+                "Diagram | Energy Type / Transformation",
+                "Solar panel diagram | Light → Electrical",
+                "Water dam diagram | Potential → Kinetic → Mechanical",
+                "Wind turbine | Kinetic (wind) → Mechanical → Electrical",
+                "Drum being hit | Kinetic → Sound",
+                "Electric fan | Electrical → Kinetic + Sound"
+              ],
+              "image": "images/energy_transformations.jpg"
+            },
+            "read": {
+              "title": "Reading: Energy in Oman",
+              "passage": "Oman uses many types of energy technology. In Masirah, solar panels capture light energy from the sun and transform it into electrical energy. In Dhofar, wind turbines use kinetic energy from moving air. The wind turns the blades (mechanical energy), which then produces electrical energy. Water dams store potential energy. When water flows down, potential energy becomes kinetic energy, then mechanical energy to power generators. Understanding these diagrams helps us see how energy transforms!",
+              "image": "images/oman_renewable_energy.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match each diagram with the correct energy transformation.", "left": ["Solar panel diagram", "Water dam diagram", "Wind turbine", "Drum being hit", "Electric fan"], "right": ["Light → Electrical", "Potential → Kinetic → Mechanical", "Kinetic → Mechanical → Electrical", "Kinetic → Sound", "Electrical → Kinetic + Sound"], "answers": { "Solar panel diagram": "Light → Electrical", "Water dam diagram": "Potential → Kinetic → Mechanical", "Wind turbine": "Kinetic → Mechanical → Electrical", "Drum being hit": "Kinetic → Sound", "Electric fan": "Electrical → Kinetic + Sound" } },
+              { "type": "write", "prompt": "Create your own energy diagram description. Pick 2–3 examples from Oman or your daily life and describe the energy types and transformations.", "minChars": 120 },
+              { "type": "mcq", "prompt": "Solar panels transform…", "options": ["Electrical → Light", "Light → Electrical", "Kinetic → Potential"], "answer": "Light → Electrical" },
+              { "type": "mcq", "prompt": "Wind turbine energy flow:", "options": ["Mechanical → Electrical → Kinetic", "Kinetic → Mechanical → Electrical", "Electrical → Kinetic → Light"], "answer": "Kinetic → Mechanical → Electrical" },
+              { "type": "mcq", "prompt": "Which is an example of mechanical energy?", "options": ["Fan moving", "Drum sound", "Sunlight"], "answer": "Fan moving" },
+              { "type": "mcq", "prompt": "Potential energy is stored where?", "options": ["Moving car", "Water behind a dam", "Lamp bulb"], "answer": "Water behind a dam" },
+              { "type": "mcq", "prompt": "Diagrams help us…", "options": ["Draw nice pictures only", "Show how energy transforms", "Ignore energy types"], "answer": "Show how energy transforms" },
+              { "type": "fill", "prompt": "Light energy ______ into electrical energy in solar panels. (verb for change)", "answer": "transforms", "acceptableAnswers": ["transforms", "changes", "converts"], "hint": "What happens when energy changes?" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can classify energy in diagrams.\n- I can explain energy transformations.\n- I can create a poster project showing energy types.\n🎥 Video recommendation: BBC Bitesize – 'Energy Transformations & Diagrams'."
+            }
+          }
+        },
+        {
+          "id": "g7u4l4",
+          "title": "Fun Corners & Creative Activities",
+          "image": "images/creative_activities.jpg",
+          "stars": 3,
+          "status": "unlocked",
+          "sections": {
+            "teach": {
+              "title": "Fun Corners & Creative Activities",
+              "intro": "Time to have fun while reviewing everything we've learned this year!\n\nIn this lesson, we'll combine:\n🎭 Travel & culture – Omani landmarks, trips, and festivals\n⚡ Science & energy – types of energy and transformations\n📚 English skills – speaking, writing, reading, grammar\n\nSome Omani tie-ins:\n• Make a mini-guide to Nizwa Fort or Wadi Shab\n• Create an energy diagram of solar panels in Masirah\n• Write a travel diary for Salalah or Muscat\n• Make a poster about Omani animals (from Unit 2)",
+              "points": [
+                "🌟 Vocabulary & Grammar Review",
+                "Key Vocabulary:",
+                "• Entertainment: comedian, performer, circus, aquarium",
+                "• Travel: suitcase, guidebook, ticket, passport",
+                "• Animals: whiskers, antennae, fins, claws",
+                "• Energy: kinetic, potential, thermal, electrical, sound, light",
+                "",
+                "Grammar:",
+                "• Present simple / continuous for the future",
+                "• Past simple / present perfect",
+                "• First conditional: \"If you visit, you'll enjoy it.\"",
+                "• Need / doesn't need / needs",
+                "🧩 Review Table – Vocabulary by Unit",
+                "Unit | Key Words | Example",
+                "Entertainment | Performer, circus | \"The performer danced on stage.\"",
+                "Animals | Whiskers, fins, claws | \"The cat has whiskers.\"",
+                "Travel | Passport, guidebook | \"I need a passport for the trip.\"",
+                "Energy | Kinetic, thermal | \"The rolling ball has kinetic energy.\""
+              ],
+              "image": "images/review_activities.jpg"
+            },
+            "read": {
+              "title": "Reading: My Year in English Class",
+              "passage": "This year in English class, we learned so much! We explored entertainment jobs like performers and comedians. We studied Omani animals and learned about whiskers, fins, and claws. We practiced travel vocabulary and wrote about trips to Salalah and Nizwa. We discovered energy types — kinetic, potential, thermal, and electrical. We used grammar like present perfect, first conditional, and need/doesn't need. Now we can describe Oman confidently in English. What a fun year!",
+              "image": "images/year_review.jpg"
+            },
+            "practice": [
+              { "type": "drag", "prompt": "Match each word to the correct unit topic.", "left": ["Performer", "Whiskers", "Passport", "Kinetic energy", "Guidebook", "Thermal energy"], "right": ["Entertainment", "Animals", "Travel", "Energy"], "answers": { "Performer": "Entertainment", "Whiskers": "Animals", "Passport": "Travel", "Kinetic energy": "Energy", "Guidebook": "Travel", "Thermal energy": "Energy" } },
+              { "type": "write", "prompt": "Write a short paragraph combining at least 2 topics we studied this year (e.g., travel + energy, animals + Omani culture). Be creative!", "minChars": 120 },
+              { "type": "mcq", "prompt": "Which sentence is correct?", "options": ["I need passport for Masirah.", "I need a passport for Masirah.", "I needing a passport."], "answer": "I need a passport for Masirah." },
+              { "type": "mcq", "prompt": "'We went to Salalah last year' is…", "options": ["Past simple", "Present perfect", "Future tense"], "answer": "Past simple" },
+              { "type": "mcq", "prompt": "First conditional example:", "options": ["If I visit the aquarium, I'll see fish.", "If I visit the aquarium, I saw fish.", "If I visit the aquarium, I see fish yesterday."], "answer": "If I visit the aquarium, I'll see fish." },
+              { "type": "mcq", "prompt": "Kinetic energy example:", "options": ["Rubber band stretched", "Ball rolling", "Sunlight"], "answer": "Ball rolling" },
+              { "type": "mcq", "prompt": "Which Omani animal has fins?", "options": ["Falcon", "Fish", "Camel"], "answer": "Fish" },
+              { "type": "fill", "prompt": "Complete the sentence: 'If you visit Nizwa Fort, you ______ love it!' (future form of 'will')", "answer": "will", "acceptableAnswers": ["will", "'ll"], "hint": "First conditional uses 'will'" }
+            ],
+            "review": {
+              "title": "Review Checklist",
+              "tip": "- I can use vocabulary from all units.\n- I can apply grammar correctly in sentences.\n- I can describe Omani places, animals, and energy examples.\n- I can complete fun interactive activities confidently.\n🎥 Video recommendation: BBC Learning English – 'Review & Fun Activities for Kids'."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+/* Beautiful Omani English Tutor - Speaking Practice */
+/* Clean, Modern, Professional Design */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header Section */
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-icon {
+    font-size: 2.5em !important;
+    color: #667eea;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.home-icon:hover {
+    color: #764ba2;
+    transform: scale(1.1) rotate(5deg);
+}
+
+.main-title {
+    font-size: 2em;
+    font-weight: 700;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.score-display {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #667eea;
+    padding: 10px 20px;
+    background: #f0f4ff;
+    border-radius: 15px;
+}
+
+/* Controls Section */
+.controls-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-label {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Dropdown Styling - CLEAN AND READABLE */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    padding: 12px 24px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    min-width: 140px;
+    text-align: left;
+}
+
+.dropbtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+}
+
+.dropbtn:active {
+    transform: translateY(0);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding: 8px;
+    border: 2px solid #e0e7ff;
+}
+
+.dropdown-content a {
+    color: #333 !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    border-radius: 10px;
+    margin: 2px 0;
+}
+
+.dropdown-content a:hover {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white !important;
+    transform: translateX(5px);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Main Practice Card */
+.practice-card {
+    background: white;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+    min-height: 400px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* Action Buttons Section */
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.action-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.action-btn:hover:not(.disabled) {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.6);
+}
+
+.action-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.action-btn i {
+    font-size: 28px;
+}
+
+/* Pronunciation Score */
+.pronunciation-score {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pronunciation-score p {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.score-value {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.score-green {
+    color: #10b981;
+}
+
+.score-orange {
+    color: #f59e0b;
+}
+
+.score-red {
+    color: #ef4444;
+}
+
+/* Text Display Area */
+.text-display {
+    margin-bottom: 30px;
+}
+
+.sentence-text {
+    font-size: 1.8em;
+    line-height: 1.6;
+    color: #1f2937;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 100%);
+    border-radius: 20px;
+    border-left: 5px solid #667eea;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.ipa-text {
+    font-size: 1.2em;
+    color: #6b7280;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Next Button - BIG GREEN ARROW */
+.next-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80px;
+    height: 100%;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: -5px 0 20px rgba(16, 185, 129, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.next-button:hover:not(.disabled) {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    width: 90px;
+    box-shadow: -8px 0 30px rgba(16, 185, 129, 0.5);
+}
+
+.next-button::before {
+    content: '→';
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+.next-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Microphone Button - CENTERED AT BOTTOM */
+.mic-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.mic-button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mic-button:hover:not(.disabled) {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(16, 185, 129, 0.6);
+}
+
+.mic-button.recording {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+.mic-button.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.mic-button i {
+    font-size: 40px;
+}
+
+/* Status Message */
+.status-message {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f4ff;
+    border-radius: 15px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-message p {
+    font-size: 1.1em;
+    color: #667eea;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .controls-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .practice-card {
+        padding: 20px;
+    }
+    
+    .sentence-text {
+        font-size: 1.3em;
+        padding: 20px;
+    }
+    
+    .next-button {
+        width: 60px;
+    }
+    
+    .main-title {
+        font-size: 1.5em;
+    }
+}
+
+/* Material Icons Fix */
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+}

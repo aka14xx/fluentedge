@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fluent Edge Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Cache-bust v=4 to force reload -->
+  <link rel="stylesheet" href="dashboard.css?v=4" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    .page-loader {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+    
+    .page-loader.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .loader-spinner {
+      width: 80px;
+      height: 80px;
+      border: 8px solid rgba(99, 102, 241, 0.2);
+      border-top: 8px solid #6366f1;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    .loader-text {
+      margin-top: 24px;
+      font-size: 1.3em;
+      font-weight: 700;
+      color: #4338ca;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    .loader-icon {
+      font-size: 4em;
+      margin-bottom: 20px;
+      animation: bounce 1s ease-in-out infinite;
+    }
+    
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+</head>
+<body data-build="v3">
+  <!-- Loading Overlay -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-icon">🎓</div>
+    <div class="loader-spinner"></div>
+    <div class="loader-text">Loading Dashboard...</div>
+  </div>
+  <header class="dashboard-header">
+    <div class="logo-area">
+      <img src="images/fluent-oman-logo.png" alt="Fluent Edge" class="big-logo" />
+      <span class="logo-text">Fluent Edge</span>
+    </div>
+    <div class="header-controls">
+      <button class="set-weekly-goals-btn" id="weekly-goals-btn">Set Weekly Goals</button>
+      <button class="star-btn">
+        <span class="star-icon">⭐</span>
+        <span class="star-count" id="star-count">102</span>
+      </button>
+      <div class="avatar-wrap">
+        <img src="images/boys_avatar2.jpg" alt="Avatar" class="avatar" id="avatar-btn" />
+      </div>
+    </div>
+  </header>
+
+  <div class="dashboard-greeting">
+    <img src="images/boys_avatar2.jpg" class="greet-avatar" id="greet-avatar" alt="Avatar" />
+    <div class="greet-name-wrapper">
+      <span class="greet" id="greet-name">Hi there! 👋</span>
+      <button class="edit-name-btn" id="edit-name-btn" title="Change Name">✏️</button>
+    </div>
+  </div>
+
+  <main class="dashboard-main">
+    <nav class="dashboard-grades">
+      <!-- Plain links, relative paths -->
+      <a href="grades/grade5.html" class="grade-box grade5">
+        <div class="grade-content"><span class="grade-num">5</span><span class="grade-label">Grade 5<br />Curriculum</span></div>
+      </a>
+      <a href="grades/grade6.html" class="grade-box grade6">
+        <div class="grade-content"><span class="grade-num">6</span><span class="grade-label">Grade 6<br />Curriculum</span></div>
+      </a>
+      <a href="grades/grade7.html" class="grade-box grade7">
+        <div class="grade-content"><span class="grade-num">7</span><span class="grade-label">Grade 7<br />Curriculum</span></div>
+      </a>
+      <a href="grades/grade8.html" class="grade-box grade8">
+        <div class="grade-content"><span class="grade-num">8</span><span class="grade-label">Grade 8<br />Curriculum</span></div>
+      </a>
+    </nav>
+
+    <div class="dashboard-below-grades">
+      <button class="below-btn" id="practice-speaking-btn">🎤 Practice Speaking</button>
+      <button class="below-btn" id="ebooks-btn">📚 E-books</button>
+    </div>
+  </main>
+
+  <!-- Modals (hidden by CSS) -->
+  <div class="modal avatar-modal" id="avatar-modal">
+    <div class="modal-content avatar-modal-content">
+      <div class="modal-icon">👤</div>
+      <h2>Choose Your Avatar</h2>
+      <p class="modal-subtitle">Pick an avatar that represents you!</p>
+      <div class="avatar-options">
+        <img src="images/boys_avatar1.JPG" class="avatar-select" alt="Boy 1" />
+        <img src="images/boys_avatar2.jpg" class="avatar-select" alt="Boy 2" />
+        <img src="images/boys_avatar3.jpg" class="avatar-select" alt="Boy 3" />
+        <img src="images/boys_avatar4.jpg" class="avatar-select" alt="Boy 4" />
+        <img src="images/girls_avatar1.jpg" class="avatar-select" alt="Girl 1" />
+        <img src="images/girls_avatar2.jpg" class="avatar-select" alt="Girl 2" />
+        <img src="images/girls_avatar3.jpg" class="avatar-select" alt="Girl 3" />
+        <img src="images/girls_avatar4.jpg" class="avatar-select" alt="Girl 4" />
+      </div>
+      <button class="close-modal-btn" data-close="avatar-modal">✕ Close</button>
+    </div>
+  </div>
+
+  <div class="modal goals-modal" id="goals-modal">
+    <div class="modal-content goals-modal-content">
+      <div class="modal-icon">🎯</div>
+      <h2>Set Your Weekly Goals</h2>
+      <p class="modal-subtitle">Challenge yourself to complete more lessons!</p>
+      <div class="goal-input-wrap">
+        <label for="goal-input">Lessons this week</label>
+        <input type="number" min="1" max="30" id="goal-input" value="5" />
+      </div>
+      <div class="modal-actions">
+        <button class="save-goal-btn">💾 Save Goal</button>
+        <button class="close-modal-btn secondary" data-close="goals-modal">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal name-modal" id="name-modal">
+    <div class="modal-content name-modal-content">
+      <div class="modal-icon">👋</div>
+      <h2>Welcome to Fluent Edge!</h2>
+      <p class="modal-subtitle">Let's get to know you better</p>
+      <div class="name-input-wrap">
+        <label for="name-input">What's your name?</label>
+        <input type="text" id="name-input" placeholder="Enter your name" />
+      </div>
+      <button class="save-name-btn">Get Started 🚀</button>
+    </div>
+  </div>
+
+  <script src="dashboard.js?v=4"></script>
+  <script>
+    // Hide loader when page is fully loaded
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('pageLoader').classList.add('hidden');
+      }, 500);
+    });
+    
+    // Fallback: hide loader after 3 seconds
+    setTimeout(() => {
+      document.getElementById('pageLoader').classList.add('hidden');
+    }, 3000);
+  </script>
+</body>
+</html>

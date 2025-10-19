@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Speaking - Omani English Tutor</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Beautiful CSS -->
+    <link rel="stylesheet" href="/static/css/speaking-beautiful.css">
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <div class="header-section">
+        <div class="header-left">
+            <i class="material-icons home-icon" onclick="window.location.href='/dashboard.html'">home</i>
+            <h1 class="main-title">🎤 Practice Speaking</h1>
+        </div>
+        <div class="score-display" id="scoreDisplay">
+            Score: <span id="totalScore">0</span>
+        </div>
+    </div>
+
+    <!-- Controls Section -->
+    <div class="controls-section">
+        <div class="control-group">
+            <span class="control-label">Grade:</span>
+            <div class="dropdown">
+                <button class="dropbtn" id="gradeBtn">Grade 5</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="changeGrade('5'); return false;">Grade 5</a>
+                    <a href="#" onclick="changeGrade('6'); return false;">Grade 6</a>
+                    <a href="#" onclick="changeGrade('7'); return false;">Grade 7</a>
+                    <a href="#" onclick="changeGrade('8'); return false;">Grade 8</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <span class="control-label">Unit:</span>
+            <div class="dropdown">
+                <button class="dropbtn" id="unitBtn">All Units</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="changeUnit('all'); return false;">All Units</a>
+                    <a href="#" onclick="changeUnit('1'); return false;">Unit 1</a>
+                    <a href="#" onclick="changeUnit('2'); return false;">Unit 2</a>
+                    <a href="#" onclick="changeUnit('3'); return false;">Unit 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Practice Card -->
+    <div class="practice-card">
+        
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn" id="playBtn" onclick="playAudio()" title="Play Audio">
+                <i class="material-icons">play_arrow</i>
+            </button>
+            <button class="action-btn disabled" id="playRecordingBtn" onclick="playRecording()" title="Play Recording">
+                <i class="material-icons">record_voice_over</i>
+            </button>
+        </div>
+
+        <!-- Pronunciation Score -->
+        <div class="pronunciation-score">
+            <p>Pronunciation Accuracy</p>
+            <div class="score-value" id="pronunciationScore">-</div>
+        </div>
+
+        <!-- Text Display -->
+        <div class="text-display">
+            <div class="sentence-text" id="sentenceText">
+                Click the green arrow button → to load a sentence from your lessons!
+            </div>
+            <p class="ipa-text" id="ipaText">
+                Select your grade and unit, then click the arrow to begin practice.
+            </p>
+        </div>
+
+        <!-- Next Button (Green Arrow) -->
+        <button class="next-button" id="nextBtn" onclick="getNextSample()"></button>
+    </div>
+
+    <!-- Microphone Button -->
+    <div class="mic-container">
+        <button class="mic-button disabled" id="micBtn" onclick="recordSample()">
+            <i class="material-icons">mic</i>
+        </button>
+    </div>
+
+    <!-- Status Message -->
+    <div class="status-message">
+        <p id="statusText">Ready to practice! Click the green arrow to start.</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/speaking-beautiful.js"></script>
+</body>
+</html>
