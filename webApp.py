@@ -15,19 +15,26 @@ except Exception as e:
 def _ensure_static_assets():
     """
     Ensure required assets exist under static/ so Render (gunicorn) can serve them:
-    - Copy images/ -> static/images/ (non-destructive)
+    - Copy ONLY essential images (avatars, logos) -> static/images/
     - Copy lessons/*.json -> static/lessons/
     - Copy gradeX-lessons.js -> static/
-    This runs at import time as well so it works under gunicorn (no __main__ needed).
+    This runs at import time so it works on Render/gunicorn.
     """
-    base_dir = os.path.dirname(__file__)
+    base_dir = os.path.dirname(__file__) or '.'
 
-    # Images
+    # Only copy essential images (avatars and logos) to avoid timeout
+    essential_images = [
+        'boys_avatar1.JPG', 'boys_avatar2.jpg', 'boys_avatar3.jpg', 'boys_avatar4.jpg',
+        'girls_avatar1.jpg', 'girls_avatar2.jpg', 'girls_avatar3.jpg', 'girls_avatar4.jpg',
+        'grade5_icon.jpg', 'grade6_icon.jpg', 'grade7_icon.jpg', 'grade8_icon.jpg',
+        'fluent-oman-logo.png', 'fluentoman_logo.jpg'
+    ]
+    
     src_images = os.path.join(base_dir, 'images')
     dst_images = os.path.join(base_dir, 'static', 'images')
     if os.path.isdir(src_images):
         os.makedirs(dst_images, exist_ok=True)
-        for name in os.listdir(src_images):
+        for name in essential_images:
             src = os.path.join(src_images, name)
             dst = os.path.join(dst_images, name)
             if os.path.isfile(src) and not os.path.exists(dst):
@@ -180,7 +187,12 @@ def lessons_alias(filename):
 
 
 # Run asset preparation at import time so it works on Render/gunicorn
-_ensure_static_assets()
+try:
+    _ensure_static_assets()
+    print("✓ Static assets prepared successfully")
+except Exception as e:
+    print(f"⚠ Warning: Could not prepare all static assets: {e}")
+    # Continue anyway - static files might already be in place
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
