@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <title>Fluent Edge Dashboard</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- Cache-bust v=4 to force reload -->
-  <link rel="stylesheet" href="dashboard.css?v=4" />
+  <!-- Use static assets to avoid loading the stale relative file -->
+  <link rel="stylesheet" href="/static/dashboard.css?v=5" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <style>
     .page-loader {
@@ -73,7 +73,7 @@
   </div>
   <header class="dashboard-header">
     <div class="logo-area">
-      <img src="images/fluent-oman-logo.png" alt="Fluent Edge" class="big-logo" />
+    <img src="/static/images/fluent-oman-logo.png" alt="Fluent Oman" class="big-logo" />
       <span class="logo-text">Fluent Edge</span>
     </div>
     <div class="header-controls">
@@ -83,13 +83,13 @@
         <span class="star-count" id="star-count">102</span>
       </button>
       <div class="avatar-wrap">
-        <img src="images/boys_avatar2.jpg" alt="Avatar" class="avatar" id="avatar-btn" />
+      <img src="/static/images/boys_avatar2.jpg" alt="Avatar" class="avatar" id="avatar-btn" />
       </div>
     </div>
   </header>
 
   <div class="dashboard-greeting">
-    <img src="images/boys_avatar2.jpg" class="greet-avatar" id="greet-avatar" alt="Avatar" />
+  <img src="/static/images/boys_avatar2.jpg" class="greet-avatar" id="greet-avatar" alt="Avatar" />
     <div class="greet-name-wrapper">
       <span class="greet" id="greet-name">Hi there! 👋</span>
       <button class="edit-name-btn" id="edit-name-btn" title="Change Name">✏️</button>
@@ -168,7 +168,7 @@
     </div>
   </div>
 
-  <script src="dashboard.js?v=4"></script>
+  <script src="/static/dashboard.js?v=4"></script>
   <script>
     // Hide loader when page is fully loaded
     window.addEventListener('load', () => {
