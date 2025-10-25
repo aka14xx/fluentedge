@@ -8,10 +8,11 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='grade-styles.css') }}?v=1" />
 </head>
 <body>
-  <!-- Loading Overlay (no text) -->
-  <div class="page-loader" id="pageLoader">
+  <!-- Loading Overlay (restored per-grade loader) -->
+  <div class="page-loader grade5" id="pageLoader">
     <div class="loader-icon">📚</div>
     <div class="loader-spinner"></div>
+    <div class="loader-text">Loading Grade 5...</div>
   </div>
 
   <!-- Sidebar + Main Content (structure kept from original) -->

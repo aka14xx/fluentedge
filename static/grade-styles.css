@@ -64,6 +64,44 @@ body {
   50% { transform: translateY(-20px); }
 }
 
+/* Per-grade loader visuals (restore original colors) */
+.page-loader.grade5 {
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+}
+.page-loader.grade5 .loader-spinner {
+  border: 8px solid rgba(16,185,129,0.2);
+  border-top: 8px solid #10b981;
+}
+.page-loader.grade5 .loader-text { color: #065f46; }
+
+.page-loader.grade6 {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+}
+.page-loader.grade6 .loader-spinner {
+  border: 8px solid rgba(245,158,11,0.2);
+  border-top: 8px solid #f59e0b;
+}
+.page-loader.grade6 .loader-text { color: #78350f; }
+
+.page-loader.grade7 {
+  background: linear-gradient(135deg, #e0e7ff 0%, #ddd6fe 100%);
+}
+.page-loader.grade7 .loader-spinner {
+  border: 8px solid rgba(139,92,246,0.18);
+  border-top: 8px solid #8b5cf6;
+}
+.page-loader.grade7 .loader-text { color: #4c1d95; }
+
+.page-loader.grade8 {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+}
+.page-loader.grade8 .loader-spinner {
+  border: 8px solid rgba(59,130,246,0.18);
+  border-top: 8px solid #3b82f6;
+}
+.page-loader.grade8 .loader-text { color: #1e3a8a; }
+
+
 /* Sidebar */
 .sidebar {
   width: 280px;
