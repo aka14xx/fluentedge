@@ -506,6 +506,25 @@
         `;
       }
 
+      // Auto-convert long lists into tables when items look like key - value pairs
+      if(slide.type === 'list' && Array.isArray(slide.items) && slide.items.length >= 6){
+        const pairCount = slide.items.filter(it => /\s[-–—:]\s/.test((it||""))).length;
+        if(pairCount / slide.items.length >= 0.45){
+          // Convert to simple 2-column table rows
+          const rows = slide.items.map(it => {
+            const parts = (it||"").toString().split(/[-–—:]/).map(s=>s.trim()).filter(Boolean);
+            // ensure at least 2 columns
+            if(parts.length===1) return [parts[0], ''];
+            return parts;
+          });
+          slide.type = 'table';
+          slide.rows = rows;
+          slide.columns = ['Item','Detail'];
+          // regenerate inner as table
+          inner = `\n          <h2>${safe(teach.title || 'Learn it')}</h2>\n          <h3>${safe(slide.title)}</h3>\n          ${vocabTableHTML(slide.rows, slide.columns)}\n        `;
+        }
+      }
+
       // Note on last slide
       if(idx === explicitSlides.length-1 && teach.note){
         inner += `<p class="note">${safe(teach.note)}</p>`;
@@ -526,11 +545,17 @@
         </div>
         <div class="teach-content">${inner}${nav}</div>`;
 
+      // Decide whether to hide the media automatically for long slides or narrow viewports
+      const shouldHideMedia = (window.innerWidth && window.innerWidth < 900) ||
+                              (slide.type === 'list' && Array.isArray(slide.items) && slide.items.length > 12) ||
+                              (slide.type === 'block' && Array.isArray(slide.lines) && slide.lines.join(' ').length > 1400) ||
+                              false;
+
       stepContainer.appendChild(wrap);
 
-      // Media/layout adjustments
+      // Media/layout adjustments: collapse to single-column on small screens or when we decided to hide
       const tm = wrap.querySelector('.teach-media');
-      if(tm && getComputedStyle(tm).display === 'none'){
+      if((tm && getComputedStyle(tm).display === 'none') || shouldHideMedia){
         wrap.classList.add('no-media');
       }
 
