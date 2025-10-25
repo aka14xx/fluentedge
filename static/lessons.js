@@ -33,6 +33,12 @@
   const savedAvatar = localStorage.getItem('userAvatar');
   if(savedAvatar) headerAvatar.src = savedAvatar;
 
+  // Feedback sounds (place your WAV files in static/audio/)
+  const audioGood = new Audio('/static/audio/ASR_good.wav');
+  const audioBad = new Audio('/static/audio/ASR_okay.wav');
+  audioGood.preload = 'auto';
+  audioBad.preload = 'auto';
+
   backLink.href = `grades/grade${gradeNum}.html`;
 
   fetch(gradeJsonPath)
@@ -848,11 +854,11 @@
         if(btn.dataset.locked) return;
         $$('.mcq-option', optionsBox).forEach(b=>b.dataset.locked="1");
         const isCorrect = (origIdx === correctIndex);
-        if(isCorrect){ btn.classList.add('correct'); toast('Correct! ✅'); }
+        if(isCorrect){ btn.classList.add('correct'); toast('Correct! ✅'); try{ audioGood.play(); }catch(e){} }
         else{
           btn.classList.add('wrong');
           $$('.mcq-option', optionsBox).forEach(b=>{ if(b.textContent===q.answer) b.classList.add('correct'); });
-          toast('Not quite.');
+          toast('Not quite.'); try{ audioBad.play(); }catch(e){}
         }
         state.practiceAnswers[idx] = { type:'mcq', answered:true, correct:isCorrect, selectedIndex:origIdx, order };
         saveProgress();
@@ -908,12 +914,12 @@
         btn.disabled = true;
         btn.textContent = 'Correct';
         hint.style.display = 'none';
-        toast('Nice! ✅');
+        toast('Nice! ✅'); try{ audioGood.play(); }catch(e){}
       }else{
         input.style.borderColor = '#f66';
         hint.style.display = 'block';
         hint.textContent = q.hint || 'Check spelling/case.';
-        toast('Try again.');
+        toast('Try again.'); try{ audioBad.play(); }catch(e){}
       }
       state.practiceAnswers[idx] = { type:'fill', answered:true, correct:isCorrect, value: input.value, hint: hint.style.display==='block' ? hint.textContent : '' };
       saveProgress();
@@ -963,6 +969,7 @@
       state.practiceAnswers[idx] = { type:'drag', answered: true, correct: ok, map, orderRight };
       saveProgress();
       toast(ok ? 'All matched! ✅' : 'Some matches are incorrect.');
+      try{ if(ok) audioGood.play(); else audioBad.play(); }catch(e){}
       // Mark correctness styles
       // We’ll simply highlight incorrect slots
       $$('.drop-slot', card).forEach(slot=>{
