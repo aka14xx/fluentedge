@@ -364,6 +364,125 @@
       box-shadow: 0 2px 8px rgba(139,92,246,0.2);
     }
     
+    /* Search Container */
+    .search-container {
+      margin-bottom: 30px;
+      animation: slideDown 0.4s ease;
+    }
+    
+    @keyframes slideDown {
+      from { 
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to { 
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .search-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      background: white;
+      border-radius: 16px;
+      padding: 16px 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      border: 2px solid #e5e7eb;
+      transition: all 0.3s ease;
+    }
+    
+    .search-wrapper:focus-within {
+      border-color: #10b981;
+      box-shadow: 0 6px 25px rgba(16, 185, 129, 0.15);
+      transform: translateY(-2px);
+    }
+    
+    .search-icon {
+      font-size: 1.5em;
+      margin-right: 12px;
+      color: #10b981;
+      transition: transform 0.3s ease;
+    }
+    
+    .search-wrapper:focus-within .search-icon {
+      transform: scale(1.1);
+    }
+    
+    .search-input {
+      flex: 1;
+      border: none;
+      outline: none;
+      font-size: 1.1em;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      background: transparent;
+    }
+    
+    .search-input::placeholder {
+      color: #999;
+    }
+    
+    .search-clear {
+      background: #fee2e2;
+      color: #dc2626;
+      border: none;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      margin-left: 8px;
+    }
+    
+    .search-clear:hover {
+      background: #fecaca;
+      transform: rotate(90deg);
+    }
+    
+    .search-results-count {
+      margin-top: 12px;
+      text-align: center;
+      font-size: 0.95em;
+      color: #10b981;
+      font-weight: 600;
+      min-height: 20px;
+    }
+    
+    /* Lesson card filtering states */
+    .lesson-card.hidden-by-search {
+      display: none !important;
+    }
+    
+    .unit-section.hidden-by-search {
+      display: none !important;
+    }
+    
+    .no-results-message {
+      text-align: center;
+      padding: 60px 20px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+    }
+    
+    .no-results-message h3 {
+      font-size: 2em;
+      margin-bottom: 15px;
+      color: #666;
+    }
+    
+    .no-results-message p {
+      font-size: 1.1em;
+      color: #999;
+    }
+    
     /* Unit Sections */
     .unit-section {
       margin-bottom: 50px;
@@ -696,6 +815,22 @@
         </div>
         <img src="../images/boys_avatar2.jpg" class="user-avatar" id="userAvatar" alt="Avatar" />
       </div>
+    </div>
+    
+    <!-- Search Bar -->
+    <div class="search-container">
+      <div class="search-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="lessonSearch" 
+          class="search-input" 
+          placeholder="Search lessons by title or unit..."
+          autocomplete="off"
+        />
+        <button class="search-clear" id="searchClear" style="display:none;">✕</button>
+      </div>
+      <div class="search-results-count" id="searchResultsCount"></div>
     </div>
     
     <div id="unitsContainer"></div>

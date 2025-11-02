@@ -120,12 +120,158 @@
 
       // Update total stars display
       document.getElementById('totalStars').textContent = totalStarsEarned;
+      
+      // Initialize search functionality
+      initializeSearch();
     })
     .catch(err => {
       console.error("Error loading grade curriculum:", err);
       const el = document.getElementById('unitsContainer');
       if(el) el.innerHTML = `<p>Error loading lessons.</p>`;
     });
+
+  // Search functionality
+  function initializeSearch() {
+    const searchInput = document.getElementById('lessonSearch');
+    const searchClear = document.getElementById('searchClear');
+    const searchResultsCount = document.getElementById('searchResultsCount');
+    const unitsContainer = document.getElementById('unitsContainer');
+
+    if (!searchInput) return;
+
+    // Handle search input
+    searchInput.addEventListener('input', function() {
+      const query = this.value.toLowerCase().trim();
+      
+      // Show/hide clear button
+      searchClear.style.display = query ? 'flex' : 'none';
+      
+      if (!query) {
+        clearSearch();
+        return;
+      }
+      
+      performSearch(query);
+    });
+
+    // Handle clear button
+    searchClear.addEventListener('click', function() {
+      searchInput.value = '';
+      searchClear.style.display = 'none';
+      clearSearch();
+      searchInput.focus();
+    });
+
+    function performSearch(query) {
+      const unitSections = unitsContainer.querySelectorAll('.unit-section');
+      let totalMatches = 0;
+      let visibleUnits = 0;
+
+      unitSections.forEach(unitSection => {
+        const unitTitle = unitSection.querySelector('.unit-title').textContent.toLowerCase();
+        const lessonCards = unitSection.querySelectorAll('.lesson-card');
+        let unitHasMatch = false;
+
+        lessonCards.forEach(card => {
+          const lessonTitle = card.querySelector('.lesson-card-title').textContent.toLowerCase();
+          const matches = lessonTitle.includes(query) || unitTitle.includes(query);
+
+          if (matches) {
+            card.classList.remove('hidden-by-search');
+            card.style.animation = 'fadeInScale 0.3s ease';
+            totalMatches++;
+            unitHasMatch = true;
+          } else {
+            card.classList.add('hidden-by-search');
+          }
+        });
+
+        // Show/hide unit based on matches
+        if (unitHasMatch) {
+          unitSection.classList.remove('hidden-by-search');
+          visibleUnits++;
+        } else {
+          unitSection.classList.add('hidden-by-search');
+        }
+      });
+
+      // Update results count
+      updateResultsCount(totalMatches, query);
+      
+      // Show no results message if needed
+      showNoResultsMessage(totalMatches, query);
+    }
+
+    function clearSearch() {
+      const allCards = unitsContainer.querySelectorAll('.lesson-card');
+      const allUnits = unitsContainer.querySelectorAll('.unit-section');
+      
+      allCards.forEach(card => {
+        card.classList.remove('hidden-by-search');
+        card.style.animation = '';
+      });
+      
+      allUnits.forEach(unit => {
+        unit.classList.remove('hidden-by-search');
+      });
+
+      searchResultsCount.textContent = '';
+      
+      // Remove no results message if exists
+      const noResultsMsg = document.querySelector('.no-results-message');
+      if (noResultsMsg) noResultsMsg.remove();
+    }
+
+    function updateResultsCount(count, query) {
+      if (count === 0) {
+        searchResultsCount.innerHTML = `<span style="color: #ef4444;">No lessons found</span>`;
+      } else if (count === 1) {
+        searchResultsCount.innerHTML = `Found <strong>1</strong> lesson matching "<strong>${escapeHtml(query)}</strong>"`;
+      } else {
+        searchResultsCount.innerHTML = `Found <strong>${count}</strong> lessons matching "<strong>${escapeHtml(query)}</strong>"`;
+      }
+    }
+
+    function showNoResultsMessage(count, query) {
+      // Remove existing message
+      const existingMsg = document.querySelector('.no-results-message');
+      if (existingMsg) existingMsg.remove();
+
+      if (count === 0) {
+        const noResultsDiv = document.createElement('div');
+        noResultsDiv.className = 'no-results-message';
+        noResultsDiv.style.animation = 'fadeInScale 0.4s ease';
+        noResultsDiv.innerHTML = `
+          <h3>🔍 No Lessons Found</h3>
+          <p>Try searching with different keywords or check the spelling.</p>
+          <p style="margin-top: 12px; color: #8b5cf6; font-weight: 600;">Tip: Search by lesson title or unit name!</p>
+        `;
+        unitsContainer.appendChild(noResultsDiv);
+      }
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+  }
+
+  // Add CSS animation for search results
+  const style = document.createElement('style');
+  style.textContent = `
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  `;
+  document.head.appendChild(style);
 })();
 
 function scrollToUnit(unitNum) {
