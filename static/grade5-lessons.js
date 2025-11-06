@@ -118,11 +118,14 @@
         unitsContainer.appendChild(unitSection);
       });
 
-      // Update total stars display
-      document.getElementById('totalStars').textContent = totalStarsEarned;
+  // Update total stars display
+  document.getElementById('totalStars').textContent = totalStarsEarned;
       
-      // Initialize search functionality
-      initializeSearch();
+  // Render resume-last-lesson pill if available
+  renderResumeLastLesson();
+      
+  // Initialize search functionality
+  initializeSearch();
     })
     .catch(err => {
       console.error("Error loading grade curriculum:", err);
@@ -136,6 +139,7 @@
     const searchClear = document.getElementById('searchClear');
     const searchResultsCount = document.getElementById('searchResultsCount');
     const unitsContainer = document.getElementById('unitsContainer');
+    const searchKey = `grade${gradeNumber}:lessonSearch`;
 
     if (!searchInput) return;
 
@@ -145,6 +149,12 @@
       
       // Show/hide clear button
       searchClear.style.display = query ? 'flex' : 'none';
+      // Persist query per-grade
+      if (query) {
+        try { localStorage.setItem(searchKey, query); } catch (e) {}
+      } else {
+        try { localStorage.removeItem(searchKey); } catch (e) {}
+      }
       
       if (!query) {
         clearSearch();
@@ -158,9 +168,20 @@
     searchClear.addEventListener('click', function() {
       searchInput.value = '';
       searchClear.style.display = 'none';
+      try { localStorage.removeItem(searchKey); } catch (e) {}
       clearSearch();
       searchInput.focus();
     });
+
+    // Restore saved query if present
+    try {
+      const saved = localStorage.getItem(searchKey);
+      if (saved && typeof saved === 'string' && saved.trim()) {
+        searchInput.value = saved;
+        searchClear.style.display = 'flex';
+        performSearch(saved.toLowerCase());
+      }
+    } catch (e) {}
 
     function performSearch(query) {
       const unitSections = unitsContainer.querySelectorAll('.unit-section');
@@ -254,6 +275,85 @@
       const div = document.createElement('div');
       div.textContent = text;
       return div.innerHTML;
+    }
+  }
+
+  // Render "Resume last lesson" pill (if last opened lesson is from this grade)
+  function renderResumeLastLesson() {
+    let data;
+    try {
+      data = JSON.parse(localStorage.getItem('lastLesson') || 'null');
+    } catch (e) { data = null; }
+    if (!data || !data.id || data.grade !== gradeNumber) return;
+
+    // Respect a session-only dismissal
+    try {
+      if (sessionStorage.getItem(`hideResume:${gradeNumber}`) === '1') return;
+    } catch (e) {}
+
+    const main = document.querySelector('.main-content');
+    const beforeEl = document.querySelector('.search-container');
+    if (!main) return;
+
+    const pill = document.createElement('div');
+    pill.setAttribute('role', 'region');
+    pill.setAttribute('aria-label', 'Resume last lesson');
+    pill.style.cssText = `
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: #ffffff;
+      border: 2px solid #e5e7eb;
+      border-left: 6px solid #10b981;
+      border-radius: 14px;
+      padding: 14px 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+      margin-bottom: 16px;
+      animation: fadeInScale 0.25s ease;
+    `;
+
+    const text = document.createElement('div');
+    text.style.cssText = 'display:flex; align-items:center; gap:10px; flex:1; flex-wrap:wrap;';
+    const safeTitle = (() => { const d = document.createElement('div'); d.textContent = data.title || data.id; return d.innerHTML; })();
+    text.innerHTML = `<span style="font-size:1.25em">⏱️</span>
+      <span style="font-weight:700;color:#065f46">Resume last lesson:</span>
+      <span style="font-weight:700; color:#065f46">${safeTitle}</span>`;
+
+    const actions = document.createElement('div');
+    actions.style.cssText = 'display:flex; align-items:center; gap:8px;';
+
+    const resumeBtn = document.createElement('a');
+    resumeBtn.href = `../lessons.html?id=${encodeURIComponent(data.id)}`;
+    resumeBtn.textContent = 'Open';
+    resumeBtn.style.cssText = `
+      text-decoration:none; padding:8px 14px; border-radius:10px;
+      background:#10b981; color:white; font-weight:700;
+      box-shadow: 0 6px 14px rgba(16,185,129,0.3);
+    `;
+
+    const closeBtn = document.createElement('button');
+    closeBtn.type = 'button';
+    closeBtn.ariaLabel = 'Dismiss';
+    closeBtn.textContent = '✕';
+    closeBtn.style.cssText = `
+      width:32px;height:32px;border-radius:50%; border:none; cursor:pointer;
+      background:#f3f4f6; color:#374151; font-weight:700;
+    `;
+    closeBtn.addEventListener('click', () => {
+      pill.remove();
+      try { sessionStorage.setItem(`hideResume:${gradeNumber}`, '1'); } catch (e) {}
+    });
+
+    actions.appendChild(resumeBtn);
+    actions.appendChild(closeBtn);
+    pill.appendChild(text);
+    pill.appendChild(actions);
+
+    if (beforeEl && beforeEl.parentNode === main) {
+      main.insertBefore(pill, beforeEl);
+    } else {
+      main.prepend(pill);
     }
   }
 

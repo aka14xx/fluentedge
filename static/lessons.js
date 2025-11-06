@@ -100,6 +100,16 @@
       $('#lessonTitle').textContent = `${lesson.title}`;
       starsEarned.textContent = loadStars(lessonId);
 
+      // Save last opened lesson for quick resume in grade dashboards
+      try {
+        localStorage.setItem('lastLesson', JSON.stringify({
+          id: lessonId,
+          title: lesson.title || lessonId,
+          grade: parseInt(gradeNum, 10) || 0,
+          ts: Date.now()
+        }));
+      } catch (e) { /* ignore quota errors */ }
+
       // Hide Read tab if there's no read section
       const hasReadSection = lesson.sections && lesson.sections.read;
       const readTab = steps[1]; // Read is the 2nd tab (index 1)
