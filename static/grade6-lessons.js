@@ -148,13 +148,15 @@
 
     // Handle search input
     searchInput.addEventListener('input', function() {
-      const query = this.value.toLowerCase().trim();
+      const raw = this.value;
+      const query = raw.toLowerCase().trim();
       
       // Show/hide clear button
       searchClear.style.display = query ? 'flex' : 'none';
       // Persist query per-grade
-      if (query) {
-        try { localStorage.setItem(searchKey, query); } catch (e) {}
+      const rawTrimmed = raw.trim();
+      if (rawTrimmed) {
+        try { localStorage.setItem(searchKey, rawTrimmed); } catch (e) {}
       } else {
         try { localStorage.removeItem(searchKey); } catch (e) {}
       }
