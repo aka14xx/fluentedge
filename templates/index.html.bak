@@ -10,15 +10,6 @@
     // Fallback redirect if meta refresh is blocked
     window.location.replace('/dashboard');
   </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8ZKFXSFR6B"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-8ZKFXSFR6B');
-  </script>
 </head>
 <body>
   Redirecting to dashboard…
